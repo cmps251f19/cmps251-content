@@ -13,14 +13,14 @@ public class _7WhileLoop
         double scoreTotal = 0;
         int scoreCount = 0;
         int testScore = 0;
-        Scanner scanner = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // get a series of test scores from the user
         while (testScore >= 0)
         {
             // get the input from the user
             System.out.print("Enter score: ");
-            testScore = scanner.nextInt();
+            testScore = input.nextInt();
 
             // accumulate score count and score total
             if (testScore >= 0)
@@ -39,6 +39,6 @@ public class _7WhileLoop
         
         System.out.println(message);
         
-        scanner.close();
+        input.close();
     }
 }

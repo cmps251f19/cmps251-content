@@ -5,7 +5,7 @@ public class _8StringMethods
    public static void main(String[] args)
    {
 	  //Using var Java will implicitly derive the variable datatype
-      var message = "Java is Great Fun!";
+      var message  = "Java is Great Fun!";
       var upper = message.toUpperCase();
       var lower = message.toLowerCase();
       var letter = message.charAt(2);

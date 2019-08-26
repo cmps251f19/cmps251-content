@@ -14,19 +14,19 @@ public class _1Variables
       double pay;     // Gross pay
       
       // Create a Scanner object to read input.
-      Scanner keyboard = new Scanner(System.in);
+      Scanner input = new Scanner(System.in);
       
       // Get the user's name.
       System.out.print("What is your name? ");
-      name = keyboard.nextLine();
+      name = input.nextLine();
       
       // Get the number of hours worked this week.
       System.out.print("How many hours did you work this week? ");
-      hours = keyboard.nextInt();
+      hours = input.nextInt();
       
       // Get the user's hourly pay rate.
       System.out.print("What is your hourly pay rate? ");
-      payRate = keyboard.nextDouble();
+      payRate = input.nextDouble();
       
       // Calculate the pay.
       pay = hours * payRate;
