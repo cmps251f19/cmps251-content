@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Bank {
-
     private static List<Account> accounts = new ArrayList<>();
     private static int lastAccountNo = 0;
     
@@ -29,7 +28,7 @@ public class Bank {
     }
     
     public static Account getAccount(int accountNo) {
-        for (Account account : accounts) {
+        for (var account : accounts) {
             if (account.getAccountNo() == accountNo) {
                 return account;
             }

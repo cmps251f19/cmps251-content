@@ -19,6 +19,7 @@ public class BookStoreUI {
 			// get the input from the user
 			String productCode = DataEntryUtils.getString(scanner,
 					"Enter book code to order: ");
+			
 			int quantity = DataEntryUtils.getInt(scanner,
 					"Enter quantity:     ", 0, 1000);
 
@@ -56,6 +57,7 @@ public class BookStoreUI {
 					cartItem.getFormattedTotal());
 			System.out.println(lineText);
 		}
+		
 		System.out.printf("%85s\n",
 				"ShoppingCart total: " + shoppingCart.getFormattedTotal());
 	}

@@ -2,9 +2,9 @@ package QuBank;
 import java.util.Scanner;
 
 public class BankUI {
-
 	public static void main(String[] args) {
 		Bank.addTestAccounts();
+		
 		int accountNo, choice;
 		double amount;
 		String confirmationMessage;
@@ -47,5 +47,4 @@ public class BankUI {
 		
 		input.close(); 
 	}
-
 }
