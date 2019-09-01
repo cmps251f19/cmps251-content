@@ -5,8 +5,8 @@ public class Application {
 		// TODO Auto-generated method stub
 		Lamp lamp = new Lamp();
 		lamp.setBrand("Philips");
-		
-		System.out.println(lamp.getBrand());
+		lamp.turnOn();
+		System.out.println(lamp.getBrand() + " is on : " + lamp.isOn());
 	}
 
 }

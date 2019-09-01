@@ -1,5 +1,10 @@
 package QuBank;
 
+/** 
+*	Account class to demonstrate OOP encapsulation principle
+*   @author <a href="erradi@coding.com">Erradi</a>
+*/
+
 public class Account {
 	private int accountNo;
 	private String accountName;
@@ -39,6 +44,13 @@ public class Account {
 		return balance;
 	}
 	
+	/**
+	 * A method to deposit money in the account. 
+	 * @param amount
+	 *		The amount to deposit.
+	 * @return
+	 * 		A deposit confirmation message. 
+	*/
 	public String deposit(double amount) {
 		balance += amount;
 		return String.format("Deposit done. Your new balance is %.2f", balance);
