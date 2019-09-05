@@ -1,4 +1,4 @@
-package QuBookstore;
+package quBookstore;
 
 public class CartItem
 {

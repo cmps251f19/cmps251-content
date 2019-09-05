@@ -1,4 +1,4 @@
-package QuBookstore;
+package quBookstore;
 
 import java.util.Scanner;
 

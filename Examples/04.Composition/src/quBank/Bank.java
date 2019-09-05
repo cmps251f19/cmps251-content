@@ -1,4 +1,4 @@
-package QuBank;
+package quBank;
 
 
 import java.util.ArrayList;
@@ -12,14 +12,14 @@ public class Bank {
     	if (!accounts.isEmpty())
     		return;
     	
-        Account aliAcount = new Account(++lastAccountNo, "Ali Faleh", 500);
+        Account aliAcount = new Account(++lastAccountNo, "Ali Faleh", "Saving", 500);
         addAccount(aliAcount);
-        String msg = String.format("New Account #%d for %s. Its balance is QR%.2f", aliAcount.getAccountNo(), aliAcount.getAccountName(), aliAcount.getBalance());
+        String msg = String.format("New Account #%d for %s. Its balance is QR%.2f", aliAcount.getId(), aliAcount.getName(), aliAcount.getBalance());
         System.out.println(msg);
 
-        Account fatimaAcount = new Account(++lastAccountNo, "Fatima Saleh", 1000);
+        Account fatimaAcount = new Account(++lastAccountNo, "Fatima Saleh", "Current", 1000);
         addAccount(fatimaAcount);
-        msg = String.format("New Account #%d for %s. Its balance is QR%.2f\n", fatimaAcount.getAccountNo(), fatimaAcount.getAccountName(), fatimaAcount.getBalance());
+        msg = String.format("New Account #%d for %s. Its balance is QR%.2f\n", fatimaAcount.getId(), fatimaAcount.getName(), fatimaAcount.getBalance());
         System.out.println(msg);
     }
     
@@ -29,7 +29,7 @@ public class Bank {
     
     public static Account getAccount(int accountNo) {
         for (var account : accounts) {
-            if (account.getAccountNo() == accountNo) {
+            if (account.getId() == accountNo) {
                 return account;
             }
         }
@@ -63,7 +63,7 @@ public class Bank {
 	public static String getFormattedBalance(int accountNo) {
     	Account account = getAccount(accountNo);
     	if (account != null)
-    		return String.format("Welcome %s. Your account balance is QR%.2f\n", account.getAccountName(), account.getBalance());
+    		return String.format("Welcome %s. Your account balance is QR%.2f\n", account.getName(), account.getBalance());
     	else 
     		return "Account not found";
 	}

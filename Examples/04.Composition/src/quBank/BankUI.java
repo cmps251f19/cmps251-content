@@ -1,4 +1,4 @@
-package QuBank;
+package quBank;
 import java.util.Scanner;
 
 public class BankUI {
