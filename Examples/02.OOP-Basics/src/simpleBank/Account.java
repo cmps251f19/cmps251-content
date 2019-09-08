@@ -11,17 +11,17 @@ public class Account {
 	private String type;
 	private double balance;
 	
-	Account () {
+	public Account () {
 	}
 	
-	Account (int id, String name, String type) {
+	public Account (int id, String name, String type) {
 		this.id = id;
 		this.name = name;
 		this.type = type;
-		balance = 0;
+		//balance = 0;
 	}
 	
-	Account (int id, String name, String type, double balance) {
+	public Account (int id, String name, String type, double balance) {
 		this.id = id;
 		this.name = name;
 		this.type = type;
@@ -39,22 +39,22 @@ public class Account {
 	 * @return
 	 * 		A deposit confirmation message. 
 	*/
-	String deposit(double amount) {
+	public String deposit(double amount) {
 		balance += amount;
 		return String.format("%.2f deposited to your account. Your new balance is %.2f", amount, balance);
 	}
 
-	String withdraw(double amount) {
+	public String withdraw(double amount) {
 		balance -= amount;
 		return String.format("%.2f withdrawn from account acct. Your new balance is %.2f", amount, balance);
 	}
 	
-	void setId(int id) {
+	public void setId(int id) {
 		if (id > 0)
 			this.id = id;
 	}
 	
-	int getId() {
+	public int getId() {
 		return id;
 	}
 	
@@ -73,4 +73,10 @@ public class Account {
 	public void setType(String type) {
 		this.type = type;
 	}	
+	
+	public boolean equals(Account acct) {
+		return ( this.id == acct.getId() && this.name == acct.getName() &&
+				this.type == acct.getType() && this.balance == acct.getBalance() );
+	}
+	
 }
