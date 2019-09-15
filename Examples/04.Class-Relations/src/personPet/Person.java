@@ -6,7 +6,7 @@ import java.util.List;
 public class Person {
 	private String firstName;
 	private String lastName;
-	private List<Pet> pets = new ArrayList<Pet>();
+	private List<Pet> pets = new ArrayList<>();
 
 	public String getFirstName() {
 		return firstName;
