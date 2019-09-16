@@ -1,6 +1,5 @@
 package personPet;
 
-//Total - 8pts
 public class Pet {
 	
 	String name;
