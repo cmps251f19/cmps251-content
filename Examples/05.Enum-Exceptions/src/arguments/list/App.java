@@ -10,11 +10,10 @@ public class App {
 		}
 		return total / numbers.length;
 	}
-	
-	
+
 	public static void main(String[] args) {
 		double avg = average(4, 6, 2);
 		System.out.println(avg);
 	}
-
+	
 }

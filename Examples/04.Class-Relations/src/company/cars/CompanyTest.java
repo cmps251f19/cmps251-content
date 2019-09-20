@@ -22,13 +22,5 @@ public class CompanyTest {
 		//This line will output Toyota
 		System.out.println(company.getCar("T123"));
 		
-		try {
-			int nums[] = {3, 5, 9};
-			System.out.println(nums[3]);
-			System.out.println("nums array size: " + nums.length);
-		}
-		catch (IndexOutOfBoundsException ex){
-			System.out.println(ex.toString());
-		}
 	}
 }
