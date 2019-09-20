@@ -21,6 +21,10 @@ public class Company {
 		}
 		return null;
 	}
+	
+	public Car getCar(int index) {
+		return cars.get(index);
+	}
 
 	public String getName() {
 		return name;
