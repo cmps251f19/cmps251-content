@@ -1,6 +1,5 @@
 package qu.bank;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,41 +26,41 @@ public class Bank {
         accounts.add(account);
     }
     
-    public static Account getAccount(int accountNo) {
+    public static Account getAccount(int acctId) {
         for (var account : accounts) {
-            if (account.getId() == accountNo) {
+            if (account.getId() == acctId) {
                 return account;
             }
         }
         return null;
     }
     
-    public static double getBalance(int accountNo) {
-    	Account account = getAccount(accountNo);
+    public static double getBalance(int acctId) {
+    	Account account = getAccount(acctId);
     	if (account != null)
     		return account.getBalance();
     	else
     		return 0;
     }
     
-    public static String deposit(int accountNo, double amount) {
-    	Account account = getAccount(accountNo);
+    public static String deposit(int acctId, double amount) {
+    	Account account = getAccount(acctId);
     	if (account != null) 
     		return account.deposit(amount);
     	else 
     		return "Account not found";
     }
     
-    public static String withdraw(int accountNo, double amount) {
-    	Account account = getAccount(accountNo);
+    public static String withdraw(int acctId, double amount) {
+    	Account account = getAccount(acctId);
     	if (account != null) 
     		return account.withdraw(amount);
     	else 
     		return "Account not found";
     }
 
-	public static String getFormattedBalance(int accountNo) {
-    	Account account = getAccount(accountNo);
+	public static String getFormattedBalance(int acctId) {
+    	Account account = getAccount(acctId);
     	if (account != null)
     		return String.format("Welcome %s. Your account balance is QR%.2f\n", account.getName(), account.getBalance());
     	else 

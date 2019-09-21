@@ -6,13 +6,6 @@ public class Book
     private String description;
     private double price;
 
-    public Book()
-    {
-        code = "";
-        description = "";
-        price = 0;
-    }
-
     public Book(String code, String description, double price)
     {
         this.code = code;
@@ -48,10 +41,4 @@ public class Book
     {
         return price;
     }
-
-    public String getFormattedPrice()
-    {
-        return String.format("QR %.2f" , price);
-    }
-
 }

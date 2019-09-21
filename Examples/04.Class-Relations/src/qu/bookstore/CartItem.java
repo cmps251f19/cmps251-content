@@ -5,12 +5,6 @@ public class CartItem
     private Book book;
     private int quantity;
 
-    public CartItem()
-    {
-        this.book = new Book();
-        this.quantity = 0;
-    }
-
     public CartItem(Book book, int quantity)
     {
         this.book = book;
@@ -40,10 +34,5 @@ public class CartItem
     public double getTotal()
     {
         return quantity * book.getPrice();
-    }
-
-    public String getFormattedTotal()
-    {
-        return String.format("QR %4.2f" , getTotal());
     }
 }

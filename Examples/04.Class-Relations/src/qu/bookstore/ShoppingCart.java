@@ -30,9 +30,4 @@ public class ShoppingCart {
 		}
 		return shoppingCartTotal;
 	}
-
-	// a method that returns the shopping cart total in currency format
-	public String getFormattedTotal() {
-		return String.format("QR %.2f", this.getTotal());
-	}
 }

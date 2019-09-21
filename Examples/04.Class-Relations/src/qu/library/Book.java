@@ -27,4 +27,8 @@ class Book
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+	
+	public String toString() {
+		return String.format("Title : %s - Author : %s", getTitle(), getAuthor());
+	}
 } 

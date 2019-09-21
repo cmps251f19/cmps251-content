@@ -27,8 +27,7 @@ public class DataEntryUtils {
         return i;
     }
 
-    public static int getInt(Scanner scanner, String prompt,
-            int min, int max) {
+    public static int getInt(Scanner scanner, String prompt, int min, int max) {
         int i = 0;
         boolean isValid = false;
         while (isValid == false) {
@@ -62,18 +61,15 @@ public class DataEntryUtils {
         return d;
     }
 
-    public static double getDouble(Scanner scanner, String prompt,
-            double min, double max) {
+    public static double getDouble(Scanner scanner, String prompt, double min, double max) {
         double d = 0;
         boolean isValid = false;
         while (isValid == false) {
             d = getDouble(scanner, prompt);
             if (d <= min) {
-                System.out.println(
-                        "Error! Number must be greater than " + min + ".");
+                System.out.println("Error! Number must be greater than " + min + ".");
             } else if (d >= max) {
-                System.out.println(
-                        "Error! Number must be less than " + max + ".");
+                System.out.println("Error! Number must be less than " + max + ".");
             } else {
                 isValid = true;
             }

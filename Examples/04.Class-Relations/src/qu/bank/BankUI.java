@@ -5,7 +5,7 @@ public class BankUI {
 	public static void main(String[] args) {
 		Bank.addTestAccounts();
 		
-		int accountNo, choice;
+		int acctId, choice;
 		double amount;
 		String confirmationMessage;
 		Scanner input = new Scanner(System.in);
@@ -20,25 +20,25 @@ public class BankUI {
 			if (choice < 0) 
 				break;
 
-			System.out.print("Enter the AccountNo: ");
-			accountNo = input.nextInt();
+			System.out.print("Enter the Account Id: ");
+			acctId = input.nextInt();
 
 			switch (choice) {
 			case 1:
-				System.out.println(Bank.getFormattedBalance(accountNo));
+				System.out.println(Bank.getFormattedBalance(acctId));
 				break;
 				
 			case 2:
 				System.out.print("Enter the amount to deposit: ");
 				amount = input.nextDouble();
-				confirmationMessage = Bank.deposit(accountNo, amount);
+				confirmationMessage = Bank.deposit(acctId, amount);
 				System.out.println(confirmationMessage + "\n");
 				break;
 				
 			case 3:
 				System.out.print("Enter the amount to withdraw: ");
 				amount = input.nextDouble();
-				confirmationMessage = Bank.withdraw(accountNo, amount);
+				confirmationMessage = Bank.withdraw(acctId, amount);
 				System.out.println(confirmationMessage + "\n");
 				break;
 			}

@@ -1,16 +1,12 @@
 package qu.bank;
 
 public class Account {
-	// OOP Principle of Encapsulation: all attributes are private
 	private int id;
 	private String name;
 	private String type;
 	private double balance;
 
-	Account() {
-	}
-
-	Account(int id, String name, String type) {
+	public Account(int id, String name, String type) {
 		// Call the constructor below to avoid code repetition
 		this(id, name, type, 0);
 		/* 
@@ -21,7 +17,7 @@ public class Account {
 		*/
 	}
 
-	Account(int id, String name, String type, double balance) {
+	public Account(int id, String name, String type, double balance) {
 		this.id = id;
 		this.name = name;
 		this.type = type;
@@ -32,22 +28,21 @@ public class Account {
 		return balance;
 	}
 
-	String deposit(double amount) {
+	public String deposit(double amount) {
 		balance += amount;
 		return String.format("%.2f deposited to your account. Your new balance is %.2f", amount, balance);
 	}
 
-	String withdraw(double amount) {
+	public String withdraw(double amount) {
 		balance -= amount;
 		return String.format("%.2f withdrawn from account acct. Your new balance is %.2f", amount, balance);
 	}
 
-	void setId(int id) {
-		if (id > 0)
-			this.id = id;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	int getId() {
+	public int getId() {
 		return id;
 	}
 
@@ -66,5 +61,4 @@ public class Account {
 	public void setType(String type) {
 		this.type = type;
 	}
-
 }
