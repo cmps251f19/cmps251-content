@@ -15,5 +15,4 @@ public class App {
 		double avg = average(4, 6, 2);
 		System.out.println(avg);
 	}
-	
 }
