@@ -1,24 +1,7 @@
 package enums.lightstate;
 
 public class LightStateEnumTest {
-	public enum Gender {
-		FEMALE,
-		MALE
-	}
-	
 	public static void main(String[] args) {
-		Gender gender = Gender.FEMALE;
-		System.out.println("Gender Value:" + gender + " - Gender ToString:" + gender.toString());
-		
-		switch(gender) {
-			case FEMALE:
-				System.out.println("Female");
-				break;
-			case MALE:
-				System.out.println("Male");
-				break;
-		}
-		
 		LightState off = LightState.OFF;
 		LightState on = LightState.ON;
 		LightState dimmed = LightState.DIMMED;

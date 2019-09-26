@@ -1,4 +1,4 @@
-package exception.example;
+package exception.throwexample;
 
 class Date {
 	 int day, month;

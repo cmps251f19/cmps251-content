@@ -1,13 +1,21 @@
-package person.pet;
+package clinic.pets;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person {
+public class Customer {
 	private String firstName;
 	private String lastName;
-	private List<Pet> pets = new ArrayList<>();
-
+	private String mobile;
+	private List<Pet> pets;
+	
+	public Customer(String firstName, String lastName, String mobile) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.mobile = mobile;
+		pets = new ArrayList<>();
+	}
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -24,11 +32,14 @@ public class Person {
 		this.lastName = lastName;
 	}
 	
-	public Person(String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+	public String getMobile() {
+		return mobile;
 	}
-	
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
 	public Pet getPet(String petName) {
 		for(Pet pet : pets)
 		{
@@ -42,11 +53,15 @@ public class Person {
 		pets.add(pet);
 	}
 	
+	public List<Pet> getPets() {
+		return pets;
+	}
+
 	public String toString()
 	{
-		String toString = firstName + " has the following pets:\n";
+		String toString = String.format("%s %s has the following pets:\n", firstName, lastName);
 		for(Pet pet : pets)
-			toString += pet.getName() + "\n";
+			toString += String.format("%s (%s)\n", pet.getName(), pet.getType());
 		return toString;
 	}
 }

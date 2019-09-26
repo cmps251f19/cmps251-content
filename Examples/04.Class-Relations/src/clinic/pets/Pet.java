@@ -1,10 +1,9 @@
-package person.pet;
+package clinic.pets;
 
 public class Pet {
-	
-	String name;
-	String type;
-	Person owner;
+	private String name;
+	private String type;
+	private Customer owner;
 	
 	public String getName() {
 		return name;
@@ -22,15 +21,15 @@ public class Pet {
 		this.type = type;
 	}
 	
-	public Person getOwner() {
+	public Customer getOwner() {
 		return owner;
 	}
 	
-	public void setOwner(Person owner) {
+	public void setOwner(Customer owner) {
 		this.owner = owner;
 	}
 	
-	public Pet(String name, String type, Person owner) {
+	public Pet(String name, String type, Customer owner) {
 		this.name = name;
 		this.type = type;
 		this.owner = owner;

@@ -4,7 +4,7 @@ package simple.bank;
 *	Account class to demonstrate OOP encapsulation principle
 *   @author <a href="erradi@coding.com">Erradi</a>
 */
-public class Account {
+class Account {
 	private int id;
 	private String type;
 	private double balance; // by default the value will be 0

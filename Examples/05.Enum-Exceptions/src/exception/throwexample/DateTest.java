@@ -1,4 +1,4 @@
-package exception.example;
+package exception.throwexample;
 
 public class DateTest {
 	public static void main(String[] args) {
