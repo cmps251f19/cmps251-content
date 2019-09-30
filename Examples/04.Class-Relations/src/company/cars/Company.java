@@ -5,9 +5,10 @@ import java.util.List;
 
 public class Company {
 	private String name;
-	private List<Car> cars = new ArrayList<>();
+	private List<Car> cars;
 	public Company(String name) {
 		this.name = name;
+		cars = new ArrayList<>();
 	}
 
 	public void addCar(Car car) {

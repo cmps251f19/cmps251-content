@@ -12,12 +12,6 @@ public class CompanyTest {
 		company.addCar(car1);
 		company.addCar(car2);
 		
-		try {
-			System.out.println(company.getCar(3));
-		}
-		catch (IndexOutOfBoundsException ex){
-			System.out.println(ex.getMessage());
-		}
 		//Get the car with plate number T123
 		//This line will output Toyota
 		System.out.println(company.getCar("T123"));
