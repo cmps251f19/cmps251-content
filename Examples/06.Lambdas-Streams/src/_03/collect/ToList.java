@@ -9,7 +9,7 @@ public class ToList {
 
     //Double the even values and put that into a list.
     
-    //wrong way to do this.
+    //Not the best way to do this.
     List<Integer> doubleOfEven = new ArrayList<>();
 
     numbers.stream()
@@ -23,6 +23,7 @@ public class ToList {
       numbers.stream()
              .filter(e -> e % 2 == 0)
              .map(e -> e * 2)
+             .distinct()
              .collect(Collectors.toList());
     
     System.out.println(doubleOfEven2);

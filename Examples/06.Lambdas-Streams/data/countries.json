@@ -1,0 +1,1978 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "continent": "Asia",
+    "population": 26023100,
+    "flag": "https://cmps356s19.github.io/flags/af.png"
+  },
+  {
+    "code": "AX",
+    "name": "Åland Islands",
+    "capital": "Mariehamn",
+    "continent": "Europe",
+    "population": 28875,
+    "flag": "https://cmps356s19.github.io/flags/ax.png"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "capital": "Tirana",
+    "continent": "Europe",
+    "population": 2893005,
+    "flag": "https://cmps356s19.github.io/flags/al.png"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "population": 39500000,
+    "flag": "https://cmps356s19.github.io/flags/dz.png"
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "capital": "Pago Pago",
+    "continent": "Oceania",
+    "population": 55519,
+    "flag": "https://cmps356s19.github.io/flags/as.png"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "continent": "Europe",
+    "population": 76949,
+    "flag": "https://cmps356s19.github.io/flags/ad.png"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "population": 24383301,
+    "flag": "https://cmps356s19.github.io/flags/ao.png"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "capital": "The Valley",
+    "continent": "Americas",
+    "population": 13452,
+    "flag": "https://cmps356s19.github.io/flags/ai.png"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "continent": "Americas",
+    "population": 86295,
+    "flag": "https://cmps356s19.github.io/flags/ag.png"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "Americas",
+    "population": 43131966,
+    "flag": "https://cmps356s19.github.io/flags/ar.png"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "continent": "Asia",
+    "population": 3006800,
+    "flag": "https://cmps356s19.github.io/flags/am.png"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "capital": "Oranjestad",
+    "continent": "Americas",
+    "population": 107394,
+    "flag": "https://cmps356s19.github.io/flags/aw.png"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "population": 23868800,
+    "flag": "https://cmps356s19.github.io/flags/au.png"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "population": 8602112,
+    "flag": "https://cmps356s19.github.io/flags/at.png"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "continent": "Asia",
+    "population": 9636300,
+    "flag": "https://cmps356s19.github.io/flags/az.png"
+  },
+  {
+    "code": "BS",
+    "name": "The Bahamas",
+    "capital": "Nassau",
+    "continent": "Americas",
+    "population": 368390,
+    "flag": "https://cmps356s19.github.io/flags/bs.png"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "continent": "Asia",
+    "population": 1359800,
+    "flag": "https://cmps356s19.github.io/flags/bh.png"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "population": 158875000,
+    "flag": "https://cmps356s19.github.io/flags/bd.png"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "continent": "Americas",
+    "population": 285000,
+    "flag": "https://cmps356s19.github.io/flags/bb.png"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "continent": "Europe",
+    "population": 9485300,
+    "flag": "https://cmps356s19.github.io/flags/by.png"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "population": 11248330,
+    "flag": "https://cmps356s19.github.io/flags/be.png"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "continent": "Americas",
+    "population": 368310,
+    "flag": "https://cmps356s19.github.io/flags/bz.png"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "population": 10315244,
+    "flag": "https://cmps356s19.github.io/flags/bj.png"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "continent": "Americas",
+    "population": 64237,
+    "flag": "https://cmps356s19.github.io/flags/bm.png"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "continent": "Asia",
+    "population": 763920,
+    "flag": "https://cmps356s19.github.io/flags/bt.png"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "continent": "Americas",
+    "population": 11410651,
+    "flag": "https://cmps356s19.github.io/flags/bo.png"
+  },
+  {
+    "code": "BQ",
+    "name": "Bonaire",
+    "capital": "Kralendijk",
+    "continent": "Americas",
+    "population": 17408,
+    "flag": "https://cmps356s19.github.io/flags/bq.png"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "continent": "Europe",
+    "population": 3791622,
+    "flag": "https://cmps356s19.github.io/flags/ba.png"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "continent": "Africa",
+    "population": 2070984,
+    "flag": "https://cmps356s19.github.io/flags/bw.png"
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "capital": "",
+    "continent": "",
+    "population": 0,
+    "flag": "https://cmps356s19.github.io/flags/bv.png"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "Americas",
+    "population": 204772000,
+    "flag": "https://cmps356s19.github.io/flags/br.png"
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "continent": "Africa",
+    "population": 3000,
+    "flag": "https://cmps356s19.github.io/flags/io.png"
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "capital": "",
+    "continent": "Americas",
+    "population": 300,
+    "flag": "https://cmps356s19.github.io/flags/um.png"
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "capital": "Road Town",
+    "continent": "Americas",
+    "population": 28054,
+    "flag": "https://cmps356s19.github.io/flags/vg.png"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "Asia",
+    "population": 393372,
+    "flag": "https://cmps356s19.github.io/flags/bn.png"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "continent": "Europe",
+    "population": 7202198,
+    "flag": "https://cmps356s19.github.io/flags/bg.png"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "population": 18450494,
+    "flag": "https://cmps356s19.github.io/flags/bf.png"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "capital": "Bujumbura",
+    "continent": "Africa",
+    "population": 9823827,
+    "flag": "https://cmps356s19.github.io/flags/bi.png"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "population": 15405157,
+    "flag": "https://cmps356s19.github.io/flags/kh.png"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "continent": "Africa",
+    "population": 23344000,
+    "flag": "https://cmps356s19.github.io/flags/cm.png"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "Americas",
+    "population": 35749600,
+    "flag": "https://cmps356s19.github.io/flags/ca.png"
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "continent": "Africa",
+    "population": 524833,
+    "flag": "https://cmps356s19.github.io/flags/cv.png"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "capital": "George Town",
+    "continent": "Americas",
+    "population": 58238,
+    "flag": "https://cmps356s19.github.io/flags/ky.png"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "continent": "Africa",
+    "population": 4900000,
+    "flag": "https://cmps356s19.github.io/flags/cf.png"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "population": 14037000,
+    "flag": "https://cmps356s19.github.io/flags/td.png"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "Americas",
+    "population": 18006407,
+    "flag": "https://cmps356s19.github.io/flags/cl.png"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "population": 1371590000,
+    "flag": "https://cmps356s19.github.io/flags/cn.png"
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "continent": "Oceania",
+    "population": 2072,
+    "flag": "https://cmps356s19.github.io/flags/cx.png"
+  },
+  {
+    "code": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "continent": "Oceania",
+    "population": 550,
+    "flag": "https://cmps356s19.github.io/flags/cc.png"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "continent": "Americas",
+    "population": 48266600,
+    "flag": "https://cmps356s19.github.io/flags/co.png"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "continent": "Africa",
+    "population": 784745,
+    "flag": "https://cmps356s19.github.io/flags/km.png"
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "continent": "Africa",
+    "population": 4620000,
+    "flag": "https://cmps356s19.github.io/flags/cg.png"
+  },
+  {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "population": 77267000,
+    "flag": "https://cmps356s19.github.io/flags/cd.png"
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "capital": "Avarua",
+    "continent": "Oceania",
+    "population": 14974,
+    "flag": "https://cmps356s19.github.io/flags/ck.png"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "Americas",
+    "population": 4773130,
+    "flag": "https://cmps356s19.github.io/flags/cr.png"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "continent": "Europe",
+    "population": 4246800,
+    "flag": "https://cmps356s19.github.io/flags/hr.png"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "capital": "Havana",
+    "continent": "Americas",
+    "population": 11238317,
+    "flag": "https://cmps356s19.github.io/flags/cu.png"
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "capital": "Willemstad",
+    "continent": "Americas",
+    "population": 154843,
+    "flag": "https://cmps356s19.github.io/flags/cw.png"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "continent": "Europe",
+    "population": 858000,
+    "flag": "https://cmps356s19.github.io/flags/cy.png"
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "continent": "Europe",
+    "population": 10537818,
+    "flag": "https://cmps356s19.github.io/flags/cz.png"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "continent": "Europe",
+    "population": 5678348,
+    "flag": "https://cmps356s19.github.io/flags/dk.png"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "Africa",
+    "population": 888000,
+    "flag": "https://cmps356s19.github.io/flags/dj.png"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "continent": "Americas",
+    "population": 71293,
+    "flag": "https://cmps356s19.github.io/flags/dm.png"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "continent": "Americas",
+    "population": 10528000,
+    "flag": "https://cmps356s19.github.io/flags/do.png"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "continent": "Americas",
+    "population": 16027500,
+    "flag": "https://cmps356s19.github.io/flags/ec.png"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "population": 89335600,
+    "flag": "https://cmps356s19.github.io/flags/eg.png"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "continent": "Americas",
+    "population": 6401240,
+    "flag": "https://cmps356s19.github.io/flags/sv.png"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "continent": "Africa",
+    "population": 1430000,
+    "flag": "https://cmps356s19.github.io/flags/gq.png"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "continent": "Africa",
+    "population": 5228000,
+    "flag": "https://cmps356s19.github.io/flags/er.png"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "continent": "Europe",
+    "population": 1313271,
+    "flag": "https://cmps356s19.github.io/flags/ee.png"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "population": 90076012,
+    "flag": "https://cmps356s19.github.io/flags/et.png"
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "capital": "Stanley",
+    "continent": "Americas",
+    "population": 3000,
+    "flag": "https://cmps356s19.github.io/flags/fk.png"
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "continent": "Europe",
+    "population": 48846,
+    "flag": "https://cmps356s19.github.io/flags/fo.png"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "population": 859178,
+    "flag": "https://cmps356s19.github.io/flags/fj.png"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "continent": "Europe",
+    "population": 5485215,
+    "flag": "https://cmps356s19.github.io/flags/fi.png"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "population": 66186000,
+    "flag": "https://cmps356s19.github.io/flags/fr.png"
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "continent": "Americas",
+    "population": 239648,
+    "flag": "https://cmps356s19.github.io/flags/gf.png"
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "capital": "Papeetē",
+    "continent": "Oceania",
+    "population": 268270,
+    "flag": "https://cmps356s19.github.io/flags/pf.png"
+  },
+  {
+    "code": "TF",
+    "name": "French Southern and Antarctic Lands",
+    "capital": "Port-aux-Français",
+    "continent": "",
+    "population": 140,
+    "flag": "https://cmps356s19.github.io/flags/tf.png"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "continent": "Africa",
+    "population": 1725000,
+    "flag": "https://cmps356s19.github.io/flags/ga.png"
+  },
+  {
+    "code": "GM",
+    "name": "The Gambia",
+    "capital": "Banjul",
+    "continent": "Africa",
+    "population": 1882450,
+    "flag": "https://cmps356s19.github.io/flags/gm.png"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "continent": "Asia",
+    "population": 3729500,
+    "flag": "https://cmps356s19.github.io/flags/ge.png"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "population": 81083600,
+    "flag": "https://cmps356s19.github.io/flags/de.png"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "capital": "Accra",
+    "continent": "Africa",
+    "population": 27043093,
+    "flag": "https://cmps356s19.github.io/flags/gh.png"
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "continent": "Europe",
+    "population": 32734,
+    "flag": "https://cmps356s19.github.io/flags/gi.png"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "capital": "Athens",
+    "continent": "Europe",
+    "population": 10846979,
+    "flag": "https://cmps356s19.github.io/flags/gr.png"
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "continent": "Americas",
+    "population": 56114,
+    "flag": "https://cmps356s19.github.io/flags/gl.png"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "continent": "Americas",
+    "population": 103328,
+    "flag": "https://cmps356s19.github.io/flags/gd.png"
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "continent": "Americas",
+    "population": 403750,
+    "flag": "https://cmps356s19.github.io/flags/gp.png"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "capital": "Hagåtña",
+    "continent": "Oceania",
+    "population": 159358,
+    "flag": "https://cmps356s19.github.io/flags/gu.png"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "Americas",
+    "population": 16176133,
+    "flag": "https://cmps356s19.github.io/flags/gt.png"
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "capital": "St. Peter Port",
+    "continent": "Europe",
+    "population": 65150,
+    "flag": "https://cmps356s19.github.io/flags/gg.png"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "population": 10628972,
+    "flag": "https://cmps356s19.github.io/flags/gn.png"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "continent": "Africa",
+    "population": 1844000,
+    "flag": "https://cmps356s19.github.io/flags/gw.png"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "continent": "Americas",
+    "population": 746900,
+    "flag": "https://cmps356s19.github.io/flags/gy.png"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "continent": "Americas",
+    "population": 10911819,
+    "flag": "https://cmps356s19.github.io/flags/ht.png"
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "capital": "",
+    "continent": "",
+    "population": 0,
+    "flag": "https://cmps356s19.github.io/flags/hm.png"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "Americas",
+    "population": 8725111,
+    "flag": "https://cmps356s19.github.io/flags/hn.png"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "capital": "City of Victoria",
+    "continent": "Asia",
+    "population": 7298600,
+    "flag": "https://cmps356s19.github.io/flags/hk.png"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "population": 9849000,
+    "flag": "https://cmps356s19.github.io/flags/hu.png"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "continent": "Europe",
+    "population": 330610,
+    "flag": "https://cmps356s19.github.io/flags/is.png"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "population": 1275840000,
+    "flag": "https://cmps356s19.github.io/flags/in.png"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "population": 255461700,
+    "flag": "https://cmps356s19.github.io/flags/id.png"
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "population": 22671331,
+    "flag": "https://cmps356s19.github.io/flags/ci.png"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "population": 78572500,
+    "flag": "https://cmps356s19.github.io/flags/ir.png"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "population": 36004552,
+    "flag": "https://cmps356s19.github.io/flags/iq.png"
+  },
+  {
+    "code": "IE",
+    "name": "Republic of Ireland",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "population": 6378000,
+    "flag": "https://cmps356s19.github.io/flags/ie.png"
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "capital": "Douglas",
+    "continent": "Europe",
+    "population": 84497,
+    "flag": "https://cmps356s19.github.io/flags/im.png"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "population": 8371600,
+    "flag": "https://cmps356s19.github.io/flags/il.png"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "population": 60753794,
+    "flag": "https://cmps356s19.github.io/flags/it.png"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "continent": "Americas",
+    "population": 2717991,
+    "flag": "https://cmps356s19.github.io/flags/jm.png"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "population": 126865000,
+    "flag": "https://cmps356s19.github.io/flags/jp.png"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "continent": "Europe",
+    "population": 99000,
+    "flag": "https://cmps356s19.github.io/flags/je.png"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "capital": "Amman",
+    "continent": "Asia",
+    "population": 6767600,
+    "flag": "https://cmps356s19.github.io/flags/jo.png"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "Asia",
+    "population": 17541200,
+    "flag": "https://cmps356s19.github.io/flags/kz.png"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "population": 46050000,
+    "flag": "https://cmps356s19.github.io/flags/ke.png"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "continent": "Oceania",
+    "population": 106461,
+    "flag": "https://cmps356s19.github.io/flags/ki.png"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "continent": "Asia",
+    "population": 3268431,
+    "flag": "https://cmps356s19.github.io/flags/kw.png"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "continent": "Asia",
+    "population": 5944400,
+    "flag": "https://cmps356s19.github.io/flags/kg.png"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "continent": "Asia",
+    "population": 6802000,
+    "flag": "https://cmps356s19.github.io/flags/la.png"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "capital": "Riga",
+    "continent": "Europe",
+    "population": 1980700,
+    "flag": "https://cmps356s19.github.io/flags/lv.png"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "continent": "Asia",
+    "population": 4104000,
+    "flag": "https://cmps356s19.github.io/flags/lb.png"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "continent": "Africa",
+    "population": 2135000,
+    "flag": "https://cmps356s19.github.io/flags/ls.png"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "continent": "Africa",
+    "population": 4503000,
+    "flag": "https://cmps356s19.github.io/flags/lr.png"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "continent": "Africa",
+    "population": 6278000,
+    "flag": "https://cmps356s19.github.io/flags/ly.png"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "Europe",
+    "population": 37370,
+    "flag": "https://cmps356s19.github.io/flags/li.png"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "continent": "Europe",
+    "population": 2900787,
+    "flag": "https://cmps356s19.github.io/flags/lt.png"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "Europe",
+    "population": 562958,
+    "flag": "https://cmps356s19.github.io/flags/lu.png"
+  },
+  {
+    "code": "MO",
+    "name": "Macau",
+    "capital": "",
+    "continent": "Asia",
+    "population": 642900,
+    "flag": "https://cmps356s19.github.io/flags/mo.png"
+  },
+  {
+    "code": "MK",
+    "name": "Republic of Macedonia",
+    "capital": "Skopje",
+    "continent": "Europe",
+    "population": 2058539,
+    "flag": "https://cmps356s19.github.io/flags/mk.png"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "population": 22434363,
+    "flag": "https://cmps356s19.github.io/flags/mg.png"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "population": 16310431,
+    "flag": "https://cmps356s19.github.io/flags/mw.png"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "population": 30678800,
+    "flag": "https://cmps356s19.github.io/flags/my.png"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "capital": "Malé",
+    "continent": "Asia",
+    "population": 341256,
+    "flag": "https://cmps356s19.github.io/flags/mv.png"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "population": 17600000,
+    "flag": "https://cmps356s19.github.io/flags/ml.png"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "continent": "Europe",
+    "population": 445426,
+    "flag": "https://cmps356s19.github.io/flags/mt.png"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "continent": "Oceania",
+    "population": 56086,
+    "flag": "https://cmps356s19.github.io/flags/mh.png"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "capital": "Fort-de-France",
+    "continent": "Americas",
+    "population": 381326,
+    "flag": "https://cmps356s19.github.io/flags/mq.png"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "continent": "Africa",
+    "population": 3631775,
+    "flag": "https://cmps356s19.github.io/flags/mr.png"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "continent": "Africa",
+    "population": 1261208,
+    "flag": "https://cmps356s19.github.io/flags/mu.png"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "capital": "Mamoudzou",
+    "continent": "Africa",
+    "population": 212645,
+    "flag": "https://cmps356s19.github.io/flags/yt.png"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "Americas",
+    "population": 121740000,
+    "flag": "https://cmps356s19.github.io/flags/mx.png"
+  },
+  {
+    "code": "FM",
+    "name": "Federated States of Micronesia",
+    "capital": "Palikir",
+    "continent": "Oceania",
+    "population": 101351,
+    "flag": "https://cmps356s19.github.io/flags/fm.png"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "continent": "Europe",
+    "population": 3555200,
+    "flag": "https://cmps356s19.github.io/flags/md.png"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "continent": "Europe",
+    "population": 37800,
+    "flag": "https://cmps356s19.github.io/flags/mc.png"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "continent": "Asia",
+    "population": 3031099,
+    "flag": "https://cmps356s19.github.io/flags/mn.png"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "continent": "Europe",
+    "population": 621207,
+    "flag": "https://cmps356s19.github.io/flags/me.png"
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "capital": "Plymouth",
+    "continent": "Americas",
+    "population": 4922,
+    "flag": "https://cmps356s19.github.io/flags/ms.png"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "population": 33337529,
+    "flag": "https://cmps356s19.github.io/flags/ma.png"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "population": 25727911,
+    "flag": "https://cmps356s19.github.io/flags/mz.png"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "population": 53897000,
+    "flag": "https://cmps356s19.github.io/flags/mm.png"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "continent": "Africa",
+    "population": 2280700,
+    "flag": "https://cmps356s19.github.io/flags/na.png"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "continent": "Oceania",
+    "population": 10084,
+    "flag": "https://cmps356s19.github.io/flags/nr.png"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "population": 28037904,
+    "flag": "https://cmps356s19.github.io/flags/np.png"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "population": 16916000,
+    "flag": "https://cmps356s19.github.io/flags/nl.png"
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "capital": "Nouméa",
+    "continent": "Oceania",
+    "population": 268767,
+    "flag": "https://cmps356s19.github.io/flags/nc.png"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "population": 4609440,
+    "flag": "https://cmps356s19.github.io/flags/nz.png"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "continent": "Americas",
+    "population": 6198154,
+    "flag": "https://cmps356s19.github.io/flags/ni.png"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "population": 19899000,
+    "flag": "https://cmps356s19.github.io/flags/ne.png"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "population": 182202000,
+    "flag": "https://cmps356s19.github.io/flags/ng.png"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "capital": "Alofi",
+    "continent": "Oceania",
+    "population": 1613,
+    "flag": "https://cmps356s19.github.io/flags/nu.png"
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "capital": "Kingston",
+    "continent": "Oceania",
+    "population": 2302,
+    "flag": "https://cmps356s19.github.io/flags/nf.png"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "population": 25155000,
+    "flag": "https://cmps356s19.github.io/flags/kp.png"
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "continent": "Oceania",
+    "population": 53883,
+    "flag": "https://cmps356s19.github.io/flags/mp.png"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "population": 5176998,
+    "flag": "https://cmps356s19.github.io/flags/no.png"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "capital": "Muscat",
+    "continent": "Asia",
+    "population": 4185440,
+    "flag": "https://cmps356s19.github.io/flags/om.png"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "population": 190668000,
+    "flag": "https://cmps356s19.github.io/flags/pk.png"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "continent": "Oceania",
+    "population": 20901,
+    "flag": "https://cmps356s19.github.io/flags/pw.png"
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "continent": "Asia",
+    "population": 4682467,
+    "flag": "https://cmps356s19.github.io/flags/ps.png"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "capital": "Panama City",
+    "continent": "Americas",
+    "population": 3764166,
+    "flag": "https://cmps356s19.github.io/flags/pa.png"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "population": 7398500,
+    "flag": "https://cmps356s19.github.io/flags/pg.png"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "continent": "Americas",
+    "population": 7003406,
+    "flag": "https://cmps356s19.github.io/flags/py.png"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "capital": "Lima",
+    "continent": "Americas",
+    "population": 31151643,
+    "flag": "https://cmps356s19.github.io/flags/pe.png"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "capital": "Manila",
+    "continent": "Asia",
+    "population": 101920000,
+    "flag": "https://cmps356s19.github.io/flags/ph.png"
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "continent": "Oceania",
+    "population": 56,
+    "flag": "https://cmps356s19.github.io/flags/pn.png"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "population": 38484000,
+    "flag": "https://cmps356s19.github.io/flags/pl.png"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "population": 10374822,
+    "flag": "https://cmps356s19.github.io/flags/pt.png"
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "continent": "Americas",
+    "population": 3548397,
+    "flag": "https://cmps356s19.github.io/flags/pr.png"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "capital": "Doha",
+    "continent": "Asia",
+    "population": 2120129,
+    "flag": "https://cmps356s19.github.io/flags/qa.png"
+  },
+  {
+    "code": "XK",
+    "name": "Republic of Kosovo",
+    "capital": "Pristina",
+    "continent": "Europe",
+    "population": 1733842,
+    "flag": "https://cmps356s19.github.io/flags/xk.png"
+  },
+  {
+    "code": "RE",
+    "name": "Réunion",
+    "capital": "Saint-Denis",
+    "continent": "Africa",
+    "population": 840974,
+    "flag": "https://cmps356s19.github.io/flags/re.png"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "population": 19942642,
+    "flag": "https://cmps356s19.github.io/flags/ro.png"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "population": 146556330,
+    "flag": "https://cmps356s19.github.io/flags/ru.png"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "population": 11262564,
+    "flag": "https://cmps356s19.github.io/flags/rw.png"
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthélemy",
+    "capital": "Gustavia",
+    "continent": "Americas",
+    "population": 9269,
+    "flag": "https://cmps356s19.github.io/flags/bl.png"
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena",
+    "capital": "Jamestown",
+    "continent": "Africa",
+    "population": 4255,
+    "flag": "https://cmps356s19.github.io/flags/sh.png"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continent": "Americas",
+    "population": 56000,
+    "flag": "https://cmps356s19.github.io/flags/kn.png"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "continent": "Americas",
+    "population": 185000,
+    "flag": "https://cmps356s19.github.io/flags/lc.png"
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "capital": "Marigot",
+    "continent": "Americas",
+    "population": 36979,
+    "flag": "https://cmps356s19.github.io/flags/mf.png"
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "continent": "Americas",
+    "population": 6069,
+    "flag": "https://cmps356s19.github.io/flags/pm.png"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continent": "Americas",
+    "population": 109991,
+    "flag": "https://cmps356s19.github.io/flags/vc.png"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "capital": "Apia",
+    "continent": "Oceania",
+    "population": 187820,
+    "flag": "https://cmps356s19.github.io/flags/ws.png"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "continent": "Europe",
+    "population": 32831,
+    "flag": "https://cmps356s19.github.io/flags/sm.png"
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "continent": "Africa",
+    "population": 187356,
+    "flag": "https://cmps356s19.github.io/flags/st.png"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "population": 31521418,
+    "flag": "https://cmps356s19.github.io/flags/sa.png"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "population": 13508715,
+    "flag": "https://cmps356s19.github.io/flags/sn.png"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "population": 7114393,
+    "flag": "https://cmps356s19.github.io/flags/rs.png"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "continent": "Africa",
+    "population": 89949,
+    "flag": "https://cmps356s19.github.io/flags/sc.png"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "population": 6453000,
+    "flag": "https://cmps356s19.github.io/flags/sl.png"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "continent": "Asia",
+    "population": 5469700,
+    "flag": "https://cmps356s19.github.io/flags/sg.png"
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "capital": "Philipsburg",
+    "continent": "Americas",
+    "population": 37429,
+    "flag": "https://cmps356s19.github.io/flags/sx.png"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "continent": "Europe",
+    "population": 5421349,
+    "flag": "https://cmps356s19.github.io/flags/sk.png"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "continent": "Europe",
+    "population": 2067683,
+    "flag": "https://cmps356s19.github.io/flags/si.png"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "continent": "Oceania",
+    "population": 581344,
+    "flag": "https://cmps356s19.github.io/flags/sb.png"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "population": 10787000,
+    "flag": "https://cmps356s19.github.io/flags/so.png"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "population": 54956900,
+    "flag": "https://cmps356s19.github.io/flags/za.png"
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia",
+    "capital": "King Edward Point",
+    "continent": "Americas",
+    "population": 30,
+    "flag": "https://cmps356s19.github.io/flags/gs.png"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "population": 51448183,
+    "flag": "https://cmps356s19.github.io/flags/kr.png"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "continent": "Africa",
+    "population": 11892934,
+    "flag": "https://cmps356s19.github.io/flags/ss.png"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "population": 46439864,
+    "flag": "https://cmps356s19.github.io/flags/es.png"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "population": 20675000,
+    "flag": "https://cmps356s19.github.io/flags/lk.png"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "population": 38435252,
+    "flag": "https://cmps356s19.github.io/flags/sd.png"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "Americas",
+    "population": 534189,
+    "flag": "https://cmps356s19.github.io/flags/sr.png"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "continent": "Europe",
+    "population": 2562,
+    "flag": "https://cmps356s19.github.io/flags/sj.png"
+  },
+  {
+    "code": "SZ",
+    "name": "Swaziland",
+    "capital": "Lobamba",
+    "continent": "Africa",
+    "population": 1119375,
+    "flag": "https://cmps356s19.github.io/flags/sz.png"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "population": 9793172,
+    "flag": "https://cmps356s19.github.io/flags/se.png"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "continent": "Europe",
+    "population": 8256000,
+    "flag": "https://cmps356s19.github.io/flags/ch.png"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "population": 23339517,
+    "flag": "https://cmps356s19.github.io/flags/sy.png"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "continent": "Asia",
+    "population": 23461708,
+    "flag": "https://cmps356s19.github.io/flags/tw.png"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "population": 8354000,
+    "flag": "https://cmps356s19.github.io/flags/tj.png"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "population": 53470000,
+    "flag": "https://cmps356s19.github.io/flags/tz.png"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "population": 65104000,
+    "flag": "https://cmps356s19.github.io/flags/th.png"
+  },
+  {
+    "code": "TL",
+    "name": "East Timor",
+    "capital": "Dili",
+    "continent": "Asia",
+    "population": 1212107,
+    "flag": "https://cmps356s19.github.io/flags/tl.png"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "capital": "Lomé",
+    "continent": "Africa",
+    "population": 7305000,
+    "flag": "https://cmps356s19.github.io/flags/tg.png"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "capital": "Fakaofo",
+    "continent": "Oceania",
+    "population": 1411,
+    "flag": "https://cmps356s19.github.io/flags/tk.png"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "continent": "Oceania",
+    "population": 103252,
+    "flag": "https://cmps356s19.github.io/flags/to.png"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continent": "Americas",
+    "population": 1340557,
+    "flag": "https://cmps356s19.github.io/flags/tt.png"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "population": 10982754,
+    "flag": "https://cmps356s19.github.io/flags/tn.png"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "population": 77695904,
+    "flag": "https://cmps356s19.github.io/flags/tr.png"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "continent": "Asia",
+    "population": 4751120,
+    "flag": "https://cmps356s19.github.io/flags/tm.png"
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "continent": "Americas",
+    "population": 31458,
+    "flag": "https://cmps356s19.github.io/flags/tc.png"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "continent": "Oceania",
+    "population": 10640,
+    "flag": "https://cmps356s19.github.io/flags/tv.png"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "population": 34856813,
+    "flag": "https://cmps356s19.github.io/flags/ug.png"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "capital": "Kiev",
+    "continent": "Europe",
+    "population": 42836922,
+    "flag": "https://cmps356s19.github.io/flags/ua.png"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "population": 9157000,
+    "flag": "https://cmps356s19.github.io/flags/ae.png"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "Europe",
+    "population": 64800000,
+    "flag": "https://cmps356s19.github.io/flags/gb.png"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "capital": "Washington D.C.",
+    "continent": "Americas",
+    "population": 321645000,
+    "flag": "https://cmps356s19.github.io/flags/us.png"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "continent": "Americas",
+    "population": 3415866,
+    "flag": "https://cmps356s19.github.io/flags/uy.png"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "population": 31022500,
+    "flag": "https://cmps356s19.github.io/flags/uz.png"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "continent": "Oceania",
+    "population": 264652,
+    "flag": "https://cmps356s19.github.io/flags/vu.png"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "continent": "Americas",
+    "population": 30620404,
+    "flag": "https://cmps356s19.github.io/flags/ve.png"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "population": 91812000,
+    "flag": "https://cmps356s19.github.io/flags/vn.png"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
+    "continent": "Oceania",
+    "population": 13135,
+    "flag": "https://cmps356s19.github.io/flags/wf.png"
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "capital": "El Aaiún",
+    "continent": "Africa",
+    "population": 510713,
+    "flag": "https://cmps356s19.github.io/flags/eh.png"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "population": 25956000,
+    "flag": "https://cmps356s19.github.io/flags/ye.png"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "population": 15473905,
+    "flag": "https://cmps356s19.github.io/flags/zm.png"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "Africa",
+    "population": 13061239,
+    "flag": "https://cmps356s19.github.io/flags/zw.png"
+  }
+]

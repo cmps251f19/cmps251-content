@@ -21,9 +21,9 @@ public class TestToMap {
     List<Person> people = createPeople();
     
     //create a Map with name and age as key, and the person as value.
-    
     Map<String, Integer> peopleMap = people.stream()
-						             .collect(Collectors.toMap(
+    							.filter(p -> p.getAge() > 20)
+						        .collect(Collectors.toMap(
 						                person -> person.getName(),
 						                person -> person.getAge()));
     System.out.println(peopleMap);
