@@ -1,7 +1,6 @@
 package enums.book;
 
-//Testing enum type Book.
-public class EnumTest {
+public class BookEnumTest {
 	public static void main(String[] args) {
 		System.out.println("All books :");
 
@@ -10,7 +9,7 @@ public class EnumTest {
 		// When an enum constant is converted to a String, the constant’s identifier is used as the String representation 
 		// (e.g., Java for the first enum constant).
 		for (BookEnum book : BookEnum.values()) {
-			System.out.printf("%-10s%-45s%s%n", book, book.getTitle(), book.getCopyrightYear());
+			System.out.printf("%-10s%-45s%s%n", book, book.getTitle(), book.getPublicationYear());
 		}
 	}
 }

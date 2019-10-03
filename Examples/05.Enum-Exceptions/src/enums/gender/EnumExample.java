@@ -1,4 +1,4 @@
-package enums.book;
+package enums.gender;
 
 public class EnumExample {
 

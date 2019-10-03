@@ -12,20 +12,20 @@ public enum BookEnum {
 	CSHARP("Visual C# How to Program", "2017");
 	
 	//instance attributes
-	private final String title; // book title
-	private final String copyrightYear; // copyright year
+	private final String title;
+	private final String publicationYear; 
 	
 	//enum constructor
 	BookEnum(String title, String copyrightYear) {
 		this.title = title;
-		this.copyrightYear = copyrightYear;
+		this.publicationYear = copyrightYear;
 	}
 
 	public String getTitle() {
 		return title;
 	}
 
-	public String getCopyrightYear() {
-		return copyrightYear;
+	public String getPublicationYear() {
+		return publicationYear;
 	}
 }

@@ -1,9 +1,13 @@
 package _02.map.sum;
 import java.util.*;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class Sample {
   public static void main(String[] args) {
+	Stream<Integer> numsStream = Stream.of(10, 30, 40, 60);
+	numsStream.forEach(e -> System.out.println(e));
+	  
     List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
     //Given the values, double the even numbers and total.

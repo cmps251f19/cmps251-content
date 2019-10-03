@@ -1,11 +1,12 @@
 package exception.throwexample;
 
 class Date {
-	 int day, month;
+	 private int day, month, year;
 	 
-	 Date(int day, int month) {
+	 public Date(int day, int month, int year) {
 		 setDay(day);
 		 setMonth(month);
+		 setYear(year);
 	 }
 	 
 	//setDay assigns its argument to the private member day.
@@ -14,7 +15,7 @@ class Date {
 		if (day >= 1 && day <= 31)
 			this.day = day;
 		else
-			throw new IllegalArgumentException("The day must me between 1 and 31");
+			throw new IllegalArgumentException("The day must be between 1 and 31");
 	}
 	
 	//setMonth assigns its argument to the private member month.
@@ -23,6 +24,26 @@ class Date {
 		if (month >= 1 && month <= 12)
 			this.month = month;
 		else
-			 throw new IllegalArgumentException("The month must me between 1 and 12");
-	} 
+			 throw new IllegalArgumentException("The month must be between 1 and 12");
+	}
+	
+	public void setYear(int year)
+	{
+		if (year > 0)
+			this.year = year;
+		else
+			throw new IllegalArgumentException("The year must be greater than 0");
+	}
+
+	public int getDay() {
+		return day;
+	}
+
+	public int getMonth() {
+		return month;
+	}
+
+	public int getYear() {
+		return year;
+	}
 }
