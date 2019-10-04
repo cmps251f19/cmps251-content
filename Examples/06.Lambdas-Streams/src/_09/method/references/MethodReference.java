@@ -24,8 +24,9 @@ public class MethodReference
          .sorted(Double::compare)
          .forEach(System.out::println);
       
-      Stream<String> wordsStream = words.stream();
-      String[] array = wordsStream.toArray(String[]::new);
+      Stream<String> wordStream = words.stream();
+      //Convert a stream of words to an array of Strings
+      String[] array = wordStream.toArray(String[]::new);
       System.out.println(
          "Using toArray with an array constructor reference: "
          + Arrays.toString(array));
