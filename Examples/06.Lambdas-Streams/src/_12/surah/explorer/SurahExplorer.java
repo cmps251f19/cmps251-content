@@ -10,17 +10,25 @@ import java.util.stream.Stream;
 import com.google.gson.Gson;
 
 public class SurahExplorer {
-
 	public static void main(String[] args) {
 		Gson gson = new Gson();
-		String filePath = "data/surah.json";
+		
+		Surah surah = new Surah(1, "الفاتحة", "Al-Fatiha", 7, "Meccan");
+		//Transform an instance of Surah class to a JSON string:
+	    String surahJSON = gson.toJson(surah);
+		System.out.printf("surahJSON:%n %s %n%n", surahJSON);
+		
+		String filePath = "data/surahs.json";
 		try {
 			// Read file content
-			String content = Files.readString(Paths.get(filePath));
+			String fileContent = Files.readString(Paths.get(filePath));
 			// System.out.println(content);
 
 			// Convert json text to an array of Surah objects
-			Surah[] surahs = gson.fromJson(content, Surah[].class);
+			Surah[] surahs = gson.fromJson(fileContent, Surah[].class);
+
+			String surahsJSON = gson.toJson(surahs);
+			Files.writeString(Paths.get(filePath), surahsJSON);
 
 			// Get Surahs having more than 200 Ayas
 			System.out.println("*** Surahs having more than 200 Ayas ***");

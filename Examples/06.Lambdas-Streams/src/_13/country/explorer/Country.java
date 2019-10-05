@@ -8,6 +8,7 @@ public class Country {
     private String capital;
     private String continent;
     private long population;
+    
 	public Country(String code, String name, String capital, String continent, long population) {
 		super();
 		this.code = code;

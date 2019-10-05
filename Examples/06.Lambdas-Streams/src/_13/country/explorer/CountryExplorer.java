@@ -18,11 +18,11 @@ public class CountryExplorer {
 		String filePath = "data/countries.json";
 		try {
 			// Read file content
-			String content = Files.readString(Paths.get(filePath));
+			String fileContent = Files.readString(Paths.get(filePath));
 			// System.out.println(content);
 
 			// Convert json text to an array of Country objects
-			Country[] countries = gson.fromJson(content, Country[].class);
+			Country[] countries = gson.fromJson(fileContent, Country[].class);
 
 			// Get Countries having more than 200 Ayas
 			System.out.println("*** Countries by continent ***");
