@@ -32,6 +32,6 @@ public class Country
 
    public String toString()
    {
-      return name + "|" + continent + "|" + population;
+	   return String.format("%-20s | %-8s | %,14d", name , continent, population);
    }
 }

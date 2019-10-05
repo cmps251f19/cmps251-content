@@ -21,7 +21,7 @@ public class SortCountries
          List<Country> countries = fileLines
             .map(line -> Country.parse(line))
             .sorted(Comparator.comparing(Country::getContinent)
-            		.thenComparing(Country::getName))
+            				  .thenComparing(Country::getName))
             .collect(Collectors.toList());
          
          countries.forEach(System.out::println);

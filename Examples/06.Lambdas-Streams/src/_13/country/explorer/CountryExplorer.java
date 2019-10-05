@@ -2,66 +2,116 @@ package _13.country.explorer;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 import com.google.gson.Gson;
 
-import _12.surah.explorer.Surah;
-
 public class CountryExplorer {
-
-	public static void main(String[] args) {
+	private static List<Country> countries;
+	
+	private static void loadCountries() {
 		Gson gson = new Gson();
 		String filePath = "data/countries.json";
 		try {
 			// Read file content
 			String fileContent = Files.readString(Paths.get(filePath));
-			// System.out.println(content);
+			// System.out.println(fileContent);
 
 			// Convert json text to an array of Country objects
-			Country[] countries = gson.fromJson(fileContent, Country[].class);
-
-			// Get Countries having more than 200 Ayas
-			System.out.println("*** Countries by continent ***");
-			Stream.of(countries).filter(c -> c.getContinent().equalsIgnoreCase("Africa"))
-							 .limit(5)
-							 .forEach(System.out::println);
-
-			// Get Medinan Countries
-			System.out.println("\n*** Countries Having ***");
-			Stream.of(countries).filter(c -> c.getContinent().equalsIgnoreCase("Asia"))
-								.filter(c -> c.getPopulation() <= 3000000)
-								.forEach(System.out::println);
+			Country[] countriesArray = gson.fromJson(fileContent, Country[].class);
+			//countries = Arrays.asList(countriesArray);
+			countries = new ArrayList<>(List.of(countriesArray));
+			countries.removeIf(c -> c.getContinent().equals("") || c.getPopulation() == 0);
 			
-			// Get Country Count by continent
-			Map<String, Long> countryCountByContinent = Stream.of(countries)
-					.filter(c -> !c.getContinent().isEmpty())
-					.collect(Collectors.groupingBy(c -> c.getContinent(), Collectors.counting()));
-					//.collect(Collectors.groupingBy(Country::getType, Collectors.counting()));
-			System.out.println(countryCountByContinent);
-			
-			// Get People Counts by continent
-			Map<String, Long> peopleCountByContinent = Stream.of(countries)
-					.filter(c -> !c.getContinent().isEmpty())
-					.collect(Collectors.groupingBy(Country::getContinent, 
-							 Collectors.summingLong(c-> c.getPopulation())
-							));
-			System.out.println(peopleCountByContinent);
-			
-			// Get the country with the highest population
-			Country populousCountry = 
-					Stream.of(countries)
-					      .max(Comparator.comparing(Country::getPopulation))
-						  .get();
-			
-			System.out.println("\nCountry with the Highest Population in the World: ");
-			System.out.println(populousCountry);
-
 		} catch (Exception e) {
 			e.getMessage();
 		}
+	}
+	
+	public static List<Country> getCountriesAsc(String continent) {
+		// Get top 5 populous countries by continent
+		return countries.stream()
+						.filter(c -> c.getContinent().equalsIgnoreCase(continent))
+						.sorted( Comparator.comparing(Country::getPopulation) ) 
+						.collect(Collectors.toList());
+	}
+	
+	public static List<Country> getCountriesDesc(String continent) {
+		// Get top 5 populous countries by continent
+		return countries.stream()
+						.filter(c -> c.getContinent().equalsIgnoreCase(continent))
+						.sorted( Comparator.comparing(Country::getPopulation).reversed() ) 
+						.collect(Collectors.toList());
+	}
+	
+	public static Map<String, Long> getCountryCountByContinent() {
+		// Get Country Count by continent
+		 return countries.stream()
+				 	     .collect( Collectors.groupingBy(Country::getContinent, 
+				 			       Collectors.counting() 
+				 			     ));
+	}
+	
+	public static Map<String, Long> getPopulationByContinent() {
+		// Get population by continent
+		return countries.stream()
+			  .collect( Collectors.groupingBy(Country::getContinent, 
+				   	    Collectors.summingLong(c -> c.getPopulation())
+					  ));
+	}
+	
+	public static Country getPopulousCountry() {
+		Country populousCountry =  
+  			 countries.stream()
+				      .max(Comparator.comparing(Country::getPopulation))
+					  .get();
+		return populousCountry;
+	}
+	
+	public static Country getLeastPopulatedCountry() {
+		Country populousCountry =  
+  			 countries.stream()
+				      .min(Comparator.comparing(Country::getPopulation))
+					  .get();
+		return populousCountry;
+	}
+	
+	public static void main(String[] args) {
+		//Load countries from countries.json into countries list 
+		loadCountries();
+
+		System.out.println("*** Top 5 populated countries by continent ***");
+		getCountriesDesc("Asia").stream().limit(5).forEach(System.out::println);
+		
+		System.out.println("\n*** Top 10 least populated countries by continent ***");
+		getCountriesAsc("Asia").stream().limit(10).forEach(System.out::println);
+		
+		System.out.println("\n*** Country count by continent ***");
+		Map<String, Long> countryCountByContinent = getCountryCountByContinent();
+		System.out.println(countryCountByContinent);
+			
+		System.out.println("\n*** Population by continent ***");
+		Map<String, Long> populationByContinent = getPopulationByContinent();
+		populationByContinent.forEach(
+				(continent, population) -> 
+				   System.out.printf("%-8s = %,15d %n", continent, population));
+		
+		System.out.println("\n*** Population by continent sorted ***");
+		populationByContinent.entrySet().stream()
+					  .sorted(Comparator.comparing(Map.Entry::getValue))
+					  .forEach( entry -> 
+					  	  System.out.printf("%-8s = %,15d %n", entry.getKey(), entry.getValue()));
+
+		System.out.println("\n*** Country with the highest population ***");
+		Country populousCountry = getPopulousCountry();
+		System.out.println(populousCountry);
+
+		System.out.println("\n*** Least Populated Country ***");
+		Country lowestPopulation = getLeastPopulatedCountry();
+		System.out.println(lowestPopulation);
 	}
 }

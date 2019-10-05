@@ -10,7 +10,6 @@ public class Country {
     private long population;
     
 	public Country(String code, String name, String capital, String continent, long population) {
-		super();
 		this.code = code;
 		this.name = name;
 		this.capital = capital;
@@ -49,6 +48,7 @@ public class Country {
 	}
 	
 	public String toString() {
-		return JsonUtil.toJson(this);
+		//return JsonUtil.toJson(this);
+		return String.format("%-20s | %-8s | %,14d", name , continent, population);
 	}
 }
