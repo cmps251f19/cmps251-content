@@ -34,7 +34,7 @@ public class SurahExplorer {
 			surahs = Arrays.asList(surahsArray);
 			
 		} catch (Exception e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 	}
 	
@@ -48,7 +48,7 @@ public class SurahExplorer {
 		try {
 			Files.writeString(Paths.get(filePath), surahsJSON);
 		} catch (Exception e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 	}
 	

@@ -3,7 +3,6 @@ package _13.country.explorer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -26,25 +25,26 @@ public class CountryExplorer {
 			//countries = Arrays.asList(countriesArray);
 			countries = new ArrayList<>(List.of(countriesArray));
 			countries.removeIf(c -> c.getContinent().equals("") || c.getPopulation() == 0);
+			System.out.printf("%d countries loaded%n", countries.size());
 			
 		} catch (Exception e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 		}
 	}
 	
-	public static List<Country> getCountriesAsc(String continent) {
-		// Get top 5 populous countries by continent
+	public static List<Country> getCountriesByContinent(String continent) {
+		// Get countries by continent
 		return countries.stream()
 						.filter(c -> c.getContinent().equalsIgnoreCase(continent))
-						.sorted( Comparator.comparing(Country::getPopulation) ) 
+						.sorted( Comparator.comparing(Country::getPopulation).reversed()) 
 						.collect(Collectors.toList());
 	}
 	
-	public static List<Country> getCountriesDesc(String continent) {
-		// Get top 5 populous countries by continent
+	public static List<Country> getCountriesByRegion(String region) {
+		// Get countries by region
 		return countries.stream()
-						.filter(c -> c.getContinent().equalsIgnoreCase(continent))
-						.sorted( Comparator.comparing(Country::getPopulation).reversed() ) 
+						.filter(c -> c.getRegion().equalsIgnoreCase(region))
+						.sorted( Comparator.comparing(Country::getPopulation) ) 
 						.collect(Collectors.toList());
 	}
 	
@@ -85,10 +85,10 @@ public class CountryExplorer {
 		loadCountries();
 
 		System.out.println("*** Top 5 populated countries by continent ***");
-		getCountriesDesc("Asia").stream().limit(5).forEach(System.out::println);
+		getCountriesByContinent("Asia").stream().limit(5).forEach(System.out::println);
 		
-		System.out.println("\n*** Top 10 least populated countries by continent ***");
-		getCountriesAsc("Asia").stream().limit(10).forEach(System.out::println);
+		System.out.println("\n*** Top 5 least populated countries by region ***");
+		getCountriesByRegion("Western Asia").stream().limit(5).forEach(System.out::println);
 		
 		System.out.println("\n*** Country count by continent ***");
 		Map<String, Long> countryCountByContinent = getCountryCountByContinent();
@@ -110,7 +110,7 @@ public class CountryExplorer {
 		Country populousCountry = getPopulousCountry();
 		System.out.println(populousCountry);
 
-		System.out.println("\n*** Least Populated Country ***");
+		System.out.println("\n*** Country with least Population ***");
 		Country lowestPopulation = getLeastPopulatedCountry();
 		System.out.println(lowestPopulation);
 	}
