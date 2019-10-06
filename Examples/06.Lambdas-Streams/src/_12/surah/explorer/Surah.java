@@ -10,7 +10,6 @@ public class Surah {
     private String type;
     
 	public Surah(int id, String name, String englishName, int ayaCount, String type) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.englishName = englishName;
