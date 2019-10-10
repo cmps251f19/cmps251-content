@@ -7,8 +7,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 26023100,
-    "area": 652230,
-    "alpha3Code": "AFG"
+    "area": 652230
   },
   {
     "code": "AX",
@@ -18,8 +17,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 28875,
-    "area": 1580,
-    "alpha3Code": "ALA"
+    "area": 1580
   },
   {
     "code": "AL",
@@ -29,8 +27,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 2893005,
-    "area": 28748,
-    "alpha3Code": "ALB"
+    "area": 28748
   },
   {
     "code": "DZ",
@@ -40,8 +37,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 39500000,
-    "area": 2381741,
-    "alpha3Code": "DZA"
+    "area": 2381741
   },
   {
     "code": "AS",
@@ -51,8 +47,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 55519,
-    "area": 199,
-    "alpha3Code": "ASM"
+    "area": 199
   },
   {
     "code": "AD",
@@ -62,8 +57,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 76949,
-    "area": 468,
-    "alpha3Code": "AND"
+    "area": 468
   },
   {
     "code": "AO",
@@ -73,8 +67,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 24383301,
-    "area": 1246700,
-    "alpha3Code": "AGO"
+    "area": 1246700
   },
   {
     "code": "AI",
@@ -84,8 +77,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 13452,
-    "area": 91,
-    "alpha3Code": "AIA"
+    "area": 91
   },
   {
     "code": "AG",
@@ -95,8 +87,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 86295,
-    "area": 442,
-    "alpha3Code": "ATG"
+    "area": 442
   },
   {
     "code": "AR",
@@ -106,8 +97,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 43131966,
-    "area": 2780400,
-    "alpha3Code": "ARG"
+    "area": 2780400
   },
   {
     "code": "AM",
@@ -117,8 +107,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 3006800,
-    "area": 29743,
-    "alpha3Code": "ARM"
+    "area": 29743
   },
   {
     "code": "AW",
@@ -128,8 +117,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 107394,
-    "area": 180,
-    "alpha3Code": "ABW"
+    "area": 180
   },
   {
     "code": "AU",
@@ -139,8 +127,7 @@
     "continent": "Oceania",
     "region": "Australia and New Zealand",
     "population": 23868800,
-    "area": 7692024,
-    "alpha3Code": "AUS"
+    "area": 7692024
   },
   {
     "code": "AT",
@@ -150,8 +137,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 8602112,
-    "area": 83871,
-    "alpha3Code": "AUT"
+    "area": 83871
   },
   {
     "code": "AZ",
@@ -161,8 +147,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 9636300,
-    "area": 86600,
-    "alpha3Code": "AZE"
+    "area": 86600
   },
   {
     "code": "BS",
@@ -172,8 +157,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 368390,
-    "area": 13943,
-    "alpha3Code": "BHS"
+    "area": 13943
   },
   {
     "code": "BH",
@@ -183,8 +167,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 1359800,
-    "area": 765,
-    "alpha3Code": "BHR"
+    "area": 765
   },
   {
     "code": "BD",
@@ -194,8 +177,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 158875000,
-    "area": 147570,
-    "alpha3Code": "BGD"
+    "area": 147570
   },
   {
     "code": "BB",
@@ -205,8 +187,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 285000,
-    "area": 430,
-    "alpha3Code": "BRB"
+    "area": 430
   },
   {
     "code": "BY",
@@ -216,8 +197,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 9485300,
-    "area": 207600,
-    "alpha3Code": "BLR"
+    "area": 207600
   },
   {
     "code": "BE",
@@ -227,8 +207,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 11248330,
-    "area": 30528,
-    "alpha3Code": "BEL"
+    "area": 30528
   },
   {
     "code": "BZ",
@@ -238,8 +217,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 368310,
-    "area": 22966,
-    "alpha3Code": "BLZ"
+    "area": 22966
   },
   {
     "code": "BJ",
@@ -249,8 +227,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 10315244,
-    "area": 112622,
-    "alpha3Code": "BEN"
+    "area": 112622
   },
   {
     "code": "BM",
@@ -260,8 +237,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 64237,
-    "area": 54,
-    "alpha3Code": "BMU"
+    "area": 54
   },
   {
     "code": "BT",
@@ -271,8 +247,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 763920,
-    "area": 38394,
-    "alpha3Code": "BTN"
+    "area": 38394
   },
   {
     "code": "BO",
@@ -282,8 +257,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 11410651,
-    "area": 1098581,
-    "alpha3Code": "BOL"
+    "area": 1098581
   },
   {
     "code": "BQ",
@@ -293,8 +267,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 17408,
-    "area": 294,
-    "alpha3Code": "BES"
+    "area": 294
   },
   {
     "code": "BA",
@@ -304,8 +277,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 3791622,
-    "area": 51209,
-    "alpha3Code": "BIH"
+    "area": 51209
   },
   {
     "code": "BW",
@@ -315,8 +287,7 @@
     "continent": "Africa",
     "region": "Southern Africa",
     "population": 2070984,
-    "area": 582000,
-    "alpha3Code": "BWA"
+    "area": 582000
   },
   {
     "code": "BV",
@@ -326,8 +297,7 @@
     "continent": "",
     "region": "",
     "population": 0,
-    "area": 49,
-    "alpha3Code": "BVT"
+    "area": 49
   },
   {
     "code": "BR",
@@ -337,8 +307,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 204772000,
-    "area": 8515767,
-    "alpha3Code": "BRA"
+    "area": 8515767
   },
   {
     "code": "IO",
@@ -348,8 +317,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 3000,
-    "area": 60,
-    "alpha3Code": "IOT"
+    "area": 60
   },
   {
     "code": "UM",
@@ -359,8 +327,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 300,
-    "area": -1,
-    "alpha3Code": "UMI"
+    "area": null
   },
   {
     "code": "VG",
@@ -370,8 +337,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 28054,
-    "area": 151,
-    "alpha3Code": "VGB"
+    "area": 151
   },
   {
     "code": "BN",
@@ -381,8 +347,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 393372,
-    "area": 5765,
-    "alpha3Code": "BRN"
+    "area": 5765
   },
   {
     "code": "BG",
@@ -392,8 +357,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 7202198,
-    "area": 110879,
-    "alpha3Code": "BGR"
+    "area": 110879
   },
   {
     "code": "BF",
@@ -403,8 +367,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 18450494,
-    "area": 272967,
-    "alpha3Code": "BFA"
+    "area": 272967
   },
   {
     "code": "BI",
@@ -414,8 +377,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 9823827,
-    "area": 27834,
-    "alpha3Code": "BDI"
+    "area": 27834
   },
   {
     "code": "KH",
@@ -425,8 +387,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 15405157,
-    "area": 181035,
-    "alpha3Code": "KHM"
+    "area": 181035
   },
   {
     "code": "CM",
@@ -436,8 +397,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 23344000,
-    "area": 475442,
-    "alpha3Code": "CMR"
+    "area": 475442
   },
   {
     "code": "CA",
@@ -447,8 +407,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 35749600,
-    "area": 9984670,
-    "alpha3Code": "CAN"
+    "area": 9984670
   },
   {
     "code": "CV",
@@ -458,8 +417,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 524833,
-    "area": 4033,
-    "alpha3Code": "CPV"
+    "area": 4033
   },
   {
     "code": "KY",
@@ -469,8 +427,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 58238,
-    "area": 264,
-    "alpha3Code": "CYM"
+    "area": 264
   },
   {
     "code": "CF",
@@ -480,8 +437,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 4900000,
-    "area": 622984,
-    "alpha3Code": "CAF"
+    "area": 622984
   },
   {
     "code": "TD",
@@ -491,8 +447,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 14037000,
-    "area": 1284000,
-    "alpha3Code": "TCD"
+    "area": 1284000
   },
   {
     "code": "CL",
@@ -502,8 +457,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 18006407,
-    "area": 756102,
-    "alpha3Code": "CHL"
+    "area": 756102
   },
   {
     "code": "CN",
@@ -513,8 +467,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 1371590000,
-    "area": 9640011,
-    "alpha3Code": "CHN"
+    "area": 9640011
   },
   {
     "code": "CX",
@@ -524,8 +477,7 @@
     "continent": "Oceania",
     "region": "Australia and New Zealand",
     "population": 2072,
-    "area": 135,
-    "alpha3Code": "CXR"
+    "area": 135
   },
   {
     "code": "CC",
@@ -535,8 +487,7 @@
     "continent": "Oceania",
     "region": "Australia and New Zealand",
     "population": 550,
-    "area": 14,
-    "alpha3Code": "CCK"
+    "area": 14
   },
   {
     "code": "CO",
@@ -546,8 +497,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 48266600,
-    "area": 1141748,
-    "alpha3Code": "COL"
+    "area": 1141748
   },
   {
     "code": "KM",
@@ -557,8 +507,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 784745,
-    "area": 1862,
-    "alpha3Code": "COM"
+    "area": 1862
   },
   {
     "code": "CG",
@@ -568,8 +517,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 4620000,
-    "area": 342000,
-    "alpha3Code": "COG"
+    "area": 342000
   },
   {
     "code": "CD",
@@ -579,8 +527,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 77267000,
-    "area": 2344858,
-    "alpha3Code": "COD"
+    "area": 2344858
   },
   {
     "code": "CK",
@@ -590,8 +537,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 14974,
-    "area": 236,
-    "alpha3Code": "COK"
+    "area": 236
   },
   {
     "code": "CR",
@@ -601,8 +547,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 4773130,
-    "area": 51100,
-    "alpha3Code": "CRI"
+    "area": 51100
   },
   {
     "code": "HR",
@@ -612,8 +557,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 4246800,
-    "area": 56594,
-    "alpha3Code": "HRV"
+    "area": 56594
   },
   {
     "code": "CU",
@@ -623,8 +567,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 11238317,
-    "area": 109884,
-    "alpha3Code": "CUB"
+    "area": 109884
   },
   {
     "code": "CW",
@@ -634,8 +577,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 154843,
-    "area": 444,
-    "alpha3Code": "CUW"
+    "area": 444
   },
   {
     "code": "CY",
@@ -645,8 +587,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 858000,
-    "area": 9251,
-    "alpha3Code": "CYP"
+    "area": 9251
   },
   {
     "code": "CZ",
@@ -656,8 +597,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 10537818,
-    "area": 78865,
-    "alpha3Code": "CZE"
+    "area": 78865
   },
   {
     "code": "DK",
@@ -667,8 +607,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 5678348,
-    "area": 43094,
-    "alpha3Code": "DNK"
+    "area": 43094
   },
   {
     "code": "DJ",
@@ -678,8 +617,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 888000,
-    "area": 23200,
-    "alpha3Code": "DJI"
+    "area": 23200
   },
   {
     "code": "DM",
@@ -689,8 +627,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 71293,
-    "area": 751,
-    "alpha3Code": "DMA"
+    "area": 751
   },
   {
     "code": "DO",
@@ -700,8 +637,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 10528000,
-    "area": 48671,
-    "alpha3Code": "DOM"
+    "area": 48671
   },
   {
     "code": "EC",
@@ -711,8 +647,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 16027500,
-    "area": 276841,
-    "alpha3Code": "ECU"
+    "area": 276841
   },
   {
     "code": "EG",
@@ -722,8 +657,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 89335600,
-    "area": 1002450,
-    "alpha3Code": "EGY"
+    "area": 1002450
   },
   {
     "code": "SV",
@@ -733,8 +667,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 6401240,
-    "area": 21041,
-    "alpha3Code": "SLV"
+    "area": 21041
   },
   {
     "code": "GQ",
@@ -744,8 +677,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 1430000,
-    "area": 28051,
-    "alpha3Code": "GNQ"
+    "area": 28051
   },
   {
     "code": "ER",
@@ -755,8 +687,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 5228000,
-    "area": 117600,
-    "alpha3Code": "ERI"
+    "area": 117600
   },
   {
     "code": "EE",
@@ -766,8 +697,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 1313271,
-    "area": 45227,
-    "alpha3Code": "EST"
+    "area": 45227
   },
   {
     "code": "ET",
@@ -777,8 +707,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 90076012,
-    "area": 1104300,
-    "alpha3Code": "ETH"
+    "area": 1104300
   },
   {
     "code": "FK",
@@ -788,8 +717,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 3000,
-    "area": 12173,
-    "alpha3Code": "FLK"
+    "area": 12173
   },
   {
     "code": "FO",
@@ -799,8 +727,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 48846,
-    "area": 1393,
-    "alpha3Code": "FRO"
+    "area": 1393
   },
   {
     "code": "FJ",
@@ -810,8 +737,7 @@
     "continent": "Oceania",
     "region": "Melanesia",
     "population": 859178,
-    "area": 18272,
-    "alpha3Code": "FJI"
+    "area": 18272
   },
   {
     "code": "FI",
@@ -821,8 +747,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 5485215,
-    "area": 338424,
-    "alpha3Code": "FIN"
+    "area": 338424
   },
   {
     "code": "FR",
@@ -832,8 +757,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 66186000,
-    "area": 640679,
-    "alpha3Code": "FRA"
+    "area": 640679
   },
   {
     "code": "GF",
@@ -843,8 +767,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 239648,
-    "area": -1,
-    "alpha3Code": "GUF"
+    "area": null
   },
   {
     "code": "PF",
@@ -854,8 +777,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 268270,
-    "area": 4167,
-    "alpha3Code": "PYF"
+    "area": 4167
   },
   {
     "code": "TF",
@@ -865,8 +787,7 @@
     "continent": "",
     "region": "",
     "population": 140,
-    "area": 7747,
-    "alpha3Code": "ATF"
+    "area": 7747
   },
   {
     "code": "GA",
@@ -876,8 +797,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 1725000,
-    "area": 267668,
-    "alpha3Code": "GAB"
+    "area": 267668
   },
   {
     "code": "GM",
@@ -887,8 +807,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 1882450,
-    "area": 11295,
-    "alpha3Code": "GMB"
+    "area": 11295
   },
   {
     "code": "GE",
@@ -898,8 +817,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 3729500,
-    "area": 69700,
-    "alpha3Code": "GEO"
+    "area": 69700
   },
   {
     "code": "DE",
@@ -909,8 +827,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 81083600,
-    "area": 357114,
-    "alpha3Code": "DEU"
+    "area": 357114
   },
   {
     "code": "GH",
@@ -920,8 +837,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 27043093,
-    "area": 238533,
-    "alpha3Code": "GHA"
+    "area": 238533
   },
   {
     "code": "GI",
@@ -931,8 +847,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 32734,
-    "area": 6,
-    "alpha3Code": "GIB"
+    "area": 6
   },
   {
     "code": "GR",
@@ -942,8 +857,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 10846979,
-    "area": 131990,
-    "alpha3Code": "GRC"
+    "area": 131990
   },
   {
     "code": "GL",
@@ -953,8 +867,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 56114,
-    "area": 2166086,
-    "alpha3Code": "GRL"
+    "area": 2166086
   },
   {
     "code": "GD",
@@ -964,8 +877,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 103328,
-    "area": 344,
-    "alpha3Code": "GRD"
+    "area": 344
   },
   {
     "code": "GP",
@@ -975,8 +887,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 403750,
-    "area": -1,
-    "alpha3Code": "GLP"
+    "area": null
   },
   {
     "code": "GU",
@@ -986,8 +897,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 159358,
-    "area": 549,
-    "alpha3Code": "GUM"
+    "area": 549
   },
   {
     "code": "GT",
@@ -997,8 +907,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 16176133,
-    "area": 108889,
-    "alpha3Code": "GTM"
+    "area": 108889
   },
   {
     "code": "GG",
@@ -1008,8 +917,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 65150,
-    "area": 78,
-    "alpha3Code": "GGY"
+    "area": 78
   },
   {
     "code": "GN",
@@ -1019,8 +927,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 10628972,
-    "area": 245857,
-    "alpha3Code": "GIN"
+    "area": 245857
   },
   {
     "code": "GW",
@@ -1030,8 +937,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 1844000,
-    "area": 36125,
-    "alpha3Code": "GNB"
+    "area": 36125
   },
   {
     "code": "GY",
@@ -1041,8 +947,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 746900,
-    "area": 214969,
-    "alpha3Code": "GUY"
+    "area": 214969
   },
   {
     "code": "HT",
@@ -1052,8 +957,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 10911819,
-    "area": 27750,
-    "alpha3Code": "HTI"
+    "area": 27750
   },
   {
     "code": "HM",
@@ -1063,8 +967,7 @@
     "continent": "",
     "region": "",
     "population": 0,
-    "area": 412,
-    "alpha3Code": "HMD"
+    "area": 412
   },
   {
     "code": "HN",
@@ -1074,8 +977,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 8725111,
-    "area": 112492,
-    "alpha3Code": "HND"
+    "area": 112492
   },
   {
     "code": "HK",
@@ -1085,8 +987,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 7298600,
-    "area": 1104,
-    "alpha3Code": "HKG"
+    "area": 1104
   },
   {
     "code": "HU",
@@ -1096,8 +997,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 9849000,
-    "area": 93028,
-    "alpha3Code": "HUN"
+    "area": 93028
   },
   {
     "code": "IS",
@@ -1107,8 +1007,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 330610,
-    "area": 103000,
-    "alpha3Code": "ISL"
+    "area": 103000
   },
   {
     "code": "IN",
@@ -1118,8 +1017,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 1275840000,
-    "area": 3287590,
-    "alpha3Code": "IND"
+    "area": 3287590
   },
   {
     "code": "ID",
@@ -1129,8 +1027,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 255461700,
-    "area": 1904569,
-    "alpha3Code": "IDN"
+    "area": 1904569
   },
   {
     "code": "CI",
@@ -1140,8 +1037,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 22671331,
-    "area": 322463,
-    "alpha3Code": "CIV"
+    "area": 322463
   },
   {
     "code": "IR",
@@ -1151,8 +1047,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 78572500,
-    "area": 1648195,
-    "alpha3Code": "IRN"
+    "area": 1648195
   },
   {
     "code": "IQ",
@@ -1162,8 +1057,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 36004552,
-    "area": 438317,
-    "alpha3Code": "IRQ"
+    "area": 438317
   },
   {
     "code": "IE",
@@ -1173,8 +1067,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 6378000,
-    "area": 70273,
-    "alpha3Code": "IRL"
+    "area": 70273
   },
   {
     "code": "IM",
@@ -1184,8 +1077,17 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 84497,
-    "area": 572,
-    "alpha3Code": "IMN"
+    "area": 572
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "nativeName": "יִשְׂרָאֵל",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "population": 8371600,
+    "area": 20770
   },
   {
     "code": "IT",
@@ -1195,8 +1097,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 60753794,
-    "area": 301336,
-    "alpha3Code": "ITA"
+    "area": 301336
   },
   {
     "code": "JM",
@@ -1206,8 +1107,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 2717991,
-    "area": 10991,
-    "alpha3Code": "JAM"
+    "area": 10991
   },
   {
     "code": "JP",
@@ -1217,8 +1117,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 126865000,
-    "area": 377930,
-    "alpha3Code": "JPN"
+    "area": 377930
   },
   {
     "code": "JE",
@@ -1228,8 +1127,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 99000,
-    "area": 116,
-    "alpha3Code": "JEY"
+    "area": 116
   },
   {
     "code": "JO",
@@ -1239,8 +1137,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 6767600,
-    "area": 89342,
-    "alpha3Code": "JOR"
+    "area": 89342
   },
   {
     "code": "KZ",
@@ -1250,8 +1147,7 @@
     "continent": "Asia",
     "region": "Central Asia",
     "population": 17541200,
-    "area": 2724900,
-    "alpha3Code": "KAZ"
+    "area": 2724900
   },
   {
     "code": "KE",
@@ -1261,8 +1157,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 46050000,
-    "area": 580367,
-    "alpha3Code": "KEN"
+    "area": 580367
   },
   {
     "code": "KI",
@@ -1272,8 +1167,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 106461,
-    "area": 811,
-    "alpha3Code": "KIR"
+    "area": 811
   },
   {
     "code": "KW",
@@ -1283,8 +1177,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 3268431,
-    "area": 17818,
-    "alpha3Code": "KWT"
+    "area": 17818
   },
   {
     "code": "KG",
@@ -1294,8 +1187,7 @@
     "continent": "Asia",
     "region": "Central Asia",
     "population": 5944400,
-    "area": 199951,
-    "alpha3Code": "KGZ"
+    "area": 199951
   },
   {
     "code": "LA",
@@ -1305,8 +1197,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 6802000,
-    "area": 236800,
-    "alpha3Code": "LAO"
+    "area": 236800
   },
   {
     "code": "LV",
@@ -1316,8 +1207,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 1980700,
-    "area": 64559,
-    "alpha3Code": "LVA"
+    "area": 64559
   },
   {
     "code": "LB",
@@ -1327,8 +1217,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 4104000,
-    "area": 10452,
-    "alpha3Code": "LBN"
+    "area": 10452
   },
   {
     "code": "LS",
@@ -1338,8 +1227,7 @@
     "continent": "Africa",
     "region": "Southern Africa",
     "population": 2135000,
-    "area": 30355,
-    "alpha3Code": "LSO"
+    "area": 30355
   },
   {
     "code": "LR",
@@ -1349,8 +1237,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 4503000,
-    "area": 111369,
-    "alpha3Code": "LBR"
+    "area": 111369
   },
   {
     "code": "LY",
@@ -1360,8 +1247,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 6278000,
-    "area": 1759540,
-    "alpha3Code": "LBY"
+    "area": 1759540
   },
   {
     "code": "LI",
@@ -1371,8 +1257,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 37370,
-    "area": 160,
-    "alpha3Code": "LIE"
+    "area": 160
   },
   {
     "code": "LT",
@@ -1382,8 +1267,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 2900787,
-    "area": 65300,
-    "alpha3Code": "LTU"
+    "area": 65300
   },
   {
     "code": "LU",
@@ -1393,8 +1277,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 562958,
-    "area": 2586,
-    "alpha3Code": "LUX"
+    "area": 2586
   },
   {
     "code": "MO",
@@ -1404,8 +1287,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 642900,
-    "area": 30,
-    "alpha3Code": "MAC"
+    "area": 30
   },
   {
     "code": "MK",
@@ -1415,8 +1297,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 2058539,
-    "area": 25713,
-    "alpha3Code": "MKD"
+    "area": 25713
   },
   {
     "code": "MG",
@@ -1426,8 +1307,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 22434363,
-    "area": 587041,
-    "alpha3Code": "MDG"
+    "area": 587041
   },
   {
     "code": "MW",
@@ -1437,8 +1317,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 16310431,
-    "area": 118484,
-    "alpha3Code": "MWI"
+    "area": 118484
   },
   {
     "code": "MY",
@@ -1448,8 +1327,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 30678800,
-    "area": 330803,
-    "alpha3Code": "MYS"
+    "area": 330803
   },
   {
     "code": "MV",
@@ -1459,8 +1337,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 341256,
-    "area": 300,
-    "alpha3Code": "MDV"
+    "area": 300
   },
   {
     "code": "ML",
@@ -1470,8 +1347,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 17600000,
-    "area": 1240192,
-    "alpha3Code": "MLI"
+    "area": 1240192
   },
   {
     "code": "MT",
@@ -1481,8 +1357,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 445426,
-    "area": 316,
-    "alpha3Code": "MLT"
+    "area": 316
   },
   {
     "code": "MH",
@@ -1492,8 +1367,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 56086,
-    "area": 181,
-    "alpha3Code": "MHL"
+    "area": 181
   },
   {
     "code": "MQ",
@@ -1503,8 +1377,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 381326,
-    "area": -1,
-    "alpha3Code": "MTQ"
+    "area": null
   },
   {
     "code": "MR",
@@ -1514,8 +1387,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 3631775,
-    "area": 1030700,
-    "alpha3Code": "MRT"
+    "area": 1030700
   },
   {
     "code": "MU",
@@ -1525,8 +1397,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 1261208,
-    "area": 2040,
-    "alpha3Code": "MUS"
+    "area": 2040
   },
   {
     "code": "YT",
@@ -1536,8 +1407,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 212645,
-    "area": -1,
-    "alpha3Code": "MYT"
+    "area": null
   },
   {
     "code": "MX",
@@ -1547,8 +1417,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 121740000,
-    "area": 1964375,
-    "alpha3Code": "MEX"
+    "area": 1964375
   },
   {
     "code": "FM",
@@ -1558,8 +1427,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 101351,
-    "area": 702,
-    "alpha3Code": "FSM"
+    "area": 702
   },
   {
     "code": "MD",
@@ -1569,8 +1437,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 3555200,
-    "area": 33846,
-    "alpha3Code": "MDA"
+    "area": 33846
   },
   {
     "code": "MC",
@@ -1580,8 +1447,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 37800,
-    "area": 2.02,
-    "alpha3Code": "MCO"
+    "area": 2.02
   },
   {
     "code": "MN",
@@ -1591,8 +1457,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 3031099,
-    "area": 1564110,
-    "alpha3Code": "MNG"
+    "area": 1564110
   },
   {
     "code": "ME",
@@ -1602,8 +1467,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 621207,
-    "area": 13812,
-    "alpha3Code": "MNE"
+    "area": 13812
   },
   {
     "code": "MS",
@@ -1613,8 +1477,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 4922,
-    "area": 102,
-    "alpha3Code": "MSR"
+    "area": 102
   },
   {
     "code": "MA",
@@ -1624,8 +1487,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 33337529,
-    "area": 446550,
-    "alpha3Code": "MAR"
+    "area": 446550
   },
   {
     "code": "MZ",
@@ -1635,8 +1497,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 25727911,
-    "area": 801590,
-    "alpha3Code": "MOZ"
+    "area": 801590
   },
   {
     "code": "MM",
@@ -1646,8 +1507,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 53897000,
-    "area": 676578,
-    "alpha3Code": "MMR"
+    "area": 676578
   },
   {
     "code": "NA",
@@ -1657,8 +1517,7 @@
     "continent": "Africa",
     "region": "Southern Africa",
     "population": 2280700,
-    "area": 825615,
-    "alpha3Code": "NAM"
+    "area": 825615
   },
   {
     "code": "NR",
@@ -1668,8 +1527,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 10084,
-    "area": 21,
-    "alpha3Code": "NRU"
+    "area": 21
   },
   {
     "code": "NP",
@@ -1679,8 +1537,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 28037904,
-    "area": 147181,
-    "alpha3Code": "NPL"
+    "area": 147181
   },
   {
     "code": "NL",
@@ -1690,8 +1547,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 16916000,
-    "area": 41850,
-    "alpha3Code": "NLD"
+    "area": 41850
   },
   {
     "code": "NC",
@@ -1701,8 +1557,7 @@
     "continent": "Oceania",
     "region": "Melanesia",
     "population": 268767,
-    "area": 18575,
-    "alpha3Code": "NCL"
+    "area": 18575
   },
   {
     "code": "NZ",
@@ -1712,8 +1567,7 @@
     "continent": "Oceania",
     "region": "Australia and New Zealand",
     "population": 4609440,
-    "area": 270467,
-    "alpha3Code": "NZL"
+    "area": 270467
   },
   {
     "code": "NI",
@@ -1723,8 +1577,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 6198154,
-    "area": 130373,
-    "alpha3Code": "NIC"
+    "area": 130373
   },
   {
     "code": "NE",
@@ -1734,8 +1587,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 19899000,
-    "area": 1267000,
-    "alpha3Code": "NER"
+    "area": 1267000
   },
   {
     "code": "NG",
@@ -1745,8 +1597,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 182202000,
-    "area": 923768,
-    "alpha3Code": "NGA"
+    "area": 923768
   },
   {
     "code": "NU",
@@ -1756,8 +1607,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 1613,
-    "area": 260,
-    "alpha3Code": "NIU"
+    "area": 260
   },
   {
     "code": "NF",
@@ -1767,8 +1617,7 @@
     "continent": "Oceania",
     "region": "Australia and New Zealand",
     "population": 2302,
-    "area": 36,
-    "alpha3Code": "NFK"
+    "area": 36
   },
   {
     "code": "KP",
@@ -1778,8 +1627,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 25155000,
-    "area": 120538,
-    "alpha3Code": "PRK"
+    "area": 120538
   },
   {
     "code": "MP",
@@ -1789,8 +1637,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 53883,
-    "area": 464,
-    "alpha3Code": "MNP"
+    "area": 464
   },
   {
     "code": "NO",
@@ -1800,8 +1647,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 5176998,
-    "area": 323802,
-    "alpha3Code": "NOR"
+    "area": 323802
   },
   {
     "code": "OM",
@@ -1811,8 +1657,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 4185440,
-    "area": 309500,
-    "alpha3Code": "OMN"
+    "area": 309500
   },
   {
     "code": "PK",
@@ -1822,8 +1667,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 190668000,
-    "area": 881912,
-    "alpha3Code": "PAK"
+    "area": 881912
   },
   {
     "code": "PW",
@@ -1833,8 +1677,7 @@
     "continent": "Oceania",
     "region": "Micronesia",
     "population": 20901,
-    "area": 459,
-    "alpha3Code": "PLW"
+    "area": 459
   },
   {
     "code": "PS",
@@ -1844,8 +1687,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 4682467,
-    "area": -1,
-    "alpha3Code": "PSE"
+    "area": null
   },
   {
     "code": "PA",
@@ -1855,8 +1697,7 @@
     "continent": "Americas",
     "region": "Central America",
     "population": 3764166,
-    "area": 75417,
-    "alpha3Code": "PAN"
+    "area": 75417
   },
   {
     "code": "PG",
@@ -1866,8 +1707,7 @@
     "continent": "Oceania",
     "region": "Melanesia",
     "population": 7398500,
-    "area": 462840,
-    "alpha3Code": "PNG"
+    "area": 462840
   },
   {
     "code": "PY",
@@ -1877,8 +1717,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 7003406,
-    "area": 406752,
-    "alpha3Code": "PRY"
+    "area": 406752
   },
   {
     "code": "PE",
@@ -1888,8 +1727,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 31151643,
-    "area": 1285216,
-    "alpha3Code": "PER"
+    "area": 1285216
   },
   {
     "code": "PH",
@@ -1899,8 +1737,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 101920000,
-    "area": 342353,
-    "alpha3Code": "PHL"
+    "area": 342353
   },
   {
     "code": "PN",
@@ -1910,8 +1747,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 56,
-    "area": 47,
-    "alpha3Code": "PCN"
+    "area": 47
   },
   {
     "code": "PL",
@@ -1921,8 +1757,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 38484000,
-    "area": 312679,
-    "alpha3Code": "POL"
+    "area": 312679
   },
   {
     "code": "PT",
@@ -1932,8 +1767,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 10374822,
-    "area": 92090,
-    "alpha3Code": "PRT"
+    "area": 92090
   },
   {
     "code": "PR",
@@ -1943,8 +1777,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 3548397,
-    "area": 8870,
-    "alpha3Code": "PRI"
+    "area": 8870
   },
   {
     "code": "QA",
@@ -1954,8 +1787,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 2120129,
-    "area": 11586,
-    "alpha3Code": "QAT"
+    "area": 11586
   },
   {
     "code": "XK",
@@ -1965,8 +1797,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 1733842,
-    "area": 10908,
-    "alpha3Code": "KOS"
+    "area": 10908
   },
   {
     "code": "RE",
@@ -1976,8 +1807,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 840974,
-    "area": -1,
-    "alpha3Code": "REU"
+    "area": null
   },
   {
     "code": "RO",
@@ -1987,8 +1817,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 19942642,
-    "area": 238391,
-    "alpha3Code": "ROU"
+    "area": 238391
   },
   {
     "code": "RU",
@@ -1998,8 +1827,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 146556330,
-    "area": 17124442,
-    "alpha3Code": "RUS"
+    "area": 17124442
   },
   {
     "code": "RW",
@@ -2009,8 +1837,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 11262564,
-    "area": 26338,
-    "alpha3Code": "RWA"
+    "area": 26338
   },
   {
     "code": "BL",
@@ -2020,8 +1847,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 9269,
-    "area": 21,
-    "alpha3Code": "BLM"
+    "area": 21
   },
   {
     "code": "SH",
@@ -2031,8 +1857,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 4255,
-    "area": -1,
-    "alpha3Code": "SHN"
+    "area": null
   },
   {
     "code": "KN",
@@ -2042,8 +1867,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 56000,
-    "area": 261,
-    "alpha3Code": "KNA"
+    "area": 261
   },
   {
     "code": "LC",
@@ -2053,8 +1877,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 185000,
-    "area": 616,
-    "alpha3Code": "LCA"
+    "area": 616
   },
   {
     "code": "MF",
@@ -2064,8 +1887,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 36979,
-    "area": 53,
-    "alpha3Code": "MAF"
+    "area": 53
   },
   {
     "code": "PM",
@@ -2075,8 +1897,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 6069,
-    "area": 242,
-    "alpha3Code": "SPM"
+    "area": 242
   },
   {
     "code": "VC",
@@ -2086,8 +1907,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 109991,
-    "area": 389,
-    "alpha3Code": "VCT"
+    "area": 389
   },
   {
     "code": "WS",
@@ -2097,8 +1917,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 187820,
-    "area": 2842,
-    "alpha3Code": "WSM"
+    "area": 2842
   },
   {
     "code": "SM",
@@ -2108,8 +1927,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 32831,
-    "area": 61,
-    "alpha3Code": "SMR"
+    "area": 61
   },
   {
     "code": "ST",
@@ -2119,8 +1937,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 187356,
-    "area": 964,
-    "alpha3Code": "STP"
+    "area": 964
   },
   {
     "code": "SA",
@@ -2130,8 +1947,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 31521418,
-    "area": 2149690,
-    "alpha3Code": "SAU"
+    "area": 2149690
   },
   {
     "code": "SN",
@@ -2141,8 +1957,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 13508715,
-    "area": 196722,
-    "alpha3Code": "SEN"
+    "area": 196722
   },
   {
     "code": "RS",
@@ -2152,8 +1967,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 7114393,
-    "area": 88361,
-    "alpha3Code": "SRB"
+    "area": 88361
   },
   {
     "code": "SC",
@@ -2163,8 +1977,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 89949,
-    "area": 452,
-    "alpha3Code": "SYC"
+    "area": 452
   },
   {
     "code": "SL",
@@ -2174,8 +1987,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 6453000,
-    "area": 71740,
-    "alpha3Code": "SLE"
+    "area": 71740
   },
   {
     "code": "SG",
@@ -2185,8 +1997,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 5469700,
-    "area": 710,
-    "alpha3Code": "SGP"
+    "area": 710
   },
   {
     "code": "SX",
@@ -2196,8 +2007,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 37429,
-    "area": 34,
-    "alpha3Code": "SXM"
+    "area": 34
   },
   {
     "code": "SK",
@@ -2207,8 +2017,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 5421349,
-    "area": 49037,
-    "alpha3Code": "SVK"
+    "area": 49037
   },
   {
     "code": "SI",
@@ -2218,8 +2027,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 2067683,
-    "area": 20273,
-    "alpha3Code": "SVN"
+    "area": 20273
   },
   {
     "code": "SB",
@@ -2229,8 +2037,7 @@
     "continent": "Oceania",
     "region": "Melanesia",
     "population": 581344,
-    "area": 28896,
-    "alpha3Code": "SLB"
+    "area": 28896
   },
   {
     "code": "SO",
@@ -2240,8 +2047,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 10787000,
-    "area": 637657,
-    "alpha3Code": "SOM"
+    "area": 637657
   },
   {
     "code": "ZA",
@@ -2251,8 +2057,7 @@
     "continent": "Africa",
     "region": "Southern Africa",
     "population": 54956900,
-    "area": 1221037,
-    "alpha3Code": "ZAF"
+    "area": 1221037
   },
   {
     "code": "GS",
@@ -2262,8 +2067,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 30,
-    "area": -1,
-    "alpha3Code": "SGS"
+    "area": null
   },
   {
     "code": "KR",
@@ -2273,8 +2077,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 51448183,
-    "area": 100210,
-    "alpha3Code": "KOR"
+    "area": 100210
   },
   {
     "code": "SS",
@@ -2284,8 +2087,7 @@
     "continent": "Africa",
     "region": "Middle Africa",
     "population": 11892934,
-    "area": 619745,
-    "alpha3Code": "SSD"
+    "area": 619745
   },
   {
     "code": "ES",
@@ -2295,8 +2097,7 @@
     "continent": "Europe",
     "region": "Southern Europe",
     "population": 46439864,
-    "area": 505992,
-    "alpha3Code": "ESP"
+    "area": 505992
   },
   {
     "code": "LK",
@@ -2306,8 +2107,7 @@
     "continent": "Asia",
     "region": "Southern Asia",
     "population": 20675000,
-    "area": 65610,
-    "alpha3Code": "LKA"
+    "area": 65610
   },
   {
     "code": "SD",
@@ -2317,8 +2117,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 38435252,
-    "area": 1886068,
-    "alpha3Code": "SDN"
+    "area": 1886068
   },
   {
     "code": "SR",
@@ -2328,8 +2127,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 534189,
-    "area": 163820,
-    "alpha3Code": "SUR"
+    "area": 163820
   },
   {
     "code": "SJ",
@@ -2339,8 +2137,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 2562,
-    "area": -1,
-    "alpha3Code": "SJM"
+    "area": null
   },
   {
     "code": "SZ",
@@ -2350,8 +2147,7 @@
     "continent": "Africa",
     "region": "Southern Africa",
     "population": 1119375,
-    "area": 17364,
-    "alpha3Code": "SWZ"
+    "area": 17364
   },
   {
     "code": "SE",
@@ -2361,8 +2157,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 9793172,
-    "area": 450295,
-    "alpha3Code": "SWE"
+    "area": 450295
   },
   {
     "code": "CH",
@@ -2372,8 +2167,7 @@
     "continent": "Europe",
     "region": "Western Europe",
     "population": 8256000,
-    "area": 41284,
-    "alpha3Code": "CHE"
+    "area": 41284
   },
   {
     "code": "SY",
@@ -2383,8 +2177,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 23339517,
-    "area": 185180,
-    "alpha3Code": "SYR"
+    "area": 185180
   },
   {
     "code": "TW",
@@ -2394,8 +2187,7 @@
     "continent": "Asia",
     "region": "Eastern Asia",
     "population": 23461708,
-    "area": 36193,
-    "alpha3Code": "TWN"
+    "area": 36193
   },
   {
     "code": "TJ",
@@ -2405,8 +2197,7 @@
     "continent": "Asia",
     "region": "Central Asia",
     "population": 8354000,
-    "area": 143100,
-    "alpha3Code": "TJK"
+    "area": 143100
   },
   {
     "code": "TZ",
@@ -2416,8 +2207,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 53470000,
-    "area": 945087,
-    "alpha3Code": "TZA"
+    "area": 945087
   },
   {
     "code": "TH",
@@ -2427,8 +2217,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 65104000,
-    "area": 513120,
-    "alpha3Code": "THA"
+    "area": 513120
   },
   {
     "code": "TL",
@@ -2438,8 +2227,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 1212107,
-    "area": 14874,
-    "alpha3Code": "TLS"
+    "area": 14874
   },
   {
     "code": "TG",
@@ -2449,8 +2237,7 @@
     "continent": "Africa",
     "region": "Western Africa",
     "population": 7305000,
-    "area": 56785,
-    "alpha3Code": "TGO"
+    "area": 56785
   },
   {
     "code": "TK",
@@ -2460,8 +2247,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 1411,
-    "area": 12,
-    "alpha3Code": "TKL"
+    "area": 12
   },
   {
     "code": "TO",
@@ -2471,8 +2257,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 103252,
-    "area": 747,
-    "alpha3Code": "TON"
+    "area": 747
   },
   {
     "code": "TT",
@@ -2482,8 +2267,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 1340557,
-    "area": 5130,
-    "alpha3Code": "TTO"
+    "area": 5130
   },
   {
     "code": "TN",
@@ -2493,8 +2277,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 10982754,
-    "area": 163610,
-    "alpha3Code": "TUN"
+    "area": 163610
   },
   {
     "code": "TR",
@@ -2504,8 +2287,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 77695904,
-    "area": 783562,
-    "alpha3Code": "TUR"
+    "area": 783562
   },
   {
     "code": "TM",
@@ -2515,8 +2297,7 @@
     "continent": "Asia",
     "region": "Central Asia",
     "population": 4751120,
-    "area": 488100,
-    "alpha3Code": "TKM"
+    "area": 488100
   },
   {
     "code": "TC",
@@ -2526,8 +2307,7 @@
     "continent": "Americas",
     "region": "Caribbean",
     "population": 31458,
-    "area": 948,
-    "alpha3Code": "TCA"
+    "area": 948
   },
   {
     "code": "TV",
@@ -2537,8 +2317,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 10640,
-    "area": 26,
-    "alpha3Code": "TUV"
+    "area": 26
   },
   {
     "code": "UG",
@@ -2548,8 +2327,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 34856813,
-    "area": 241550,
-    "alpha3Code": "UGA"
+    "area": 241550
   },
   {
     "code": "UA",
@@ -2559,8 +2337,7 @@
     "continent": "Europe",
     "region": "Eastern Europe",
     "population": 42836922,
-    "area": 603700,
-    "alpha3Code": "UKR"
+    "area": 603700
   },
   {
     "code": "AE",
@@ -2570,8 +2347,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 9157000,
-    "area": 83600,
-    "alpha3Code": "ARE"
+    "area": 83600
   },
   {
     "code": "GB",
@@ -2581,8 +2357,7 @@
     "continent": "Europe",
     "region": "Northern Europe",
     "population": 64800000,
-    "area": 242900,
-    "alpha3Code": "GBR"
+    "area": 242900
   },
   {
     "code": "US",
@@ -2592,8 +2367,7 @@
     "continent": "Americas",
     "region": "Northern America",
     "population": 321645000,
-    "area": 9629091,
-    "alpha3Code": "USA"
+    "area": 9629091
   },
   {
     "code": "UY",
@@ -2603,8 +2377,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 3415866,
-    "area": 181034,
-    "alpha3Code": "URY"
+    "area": 181034
   },
   {
     "code": "UZ",
@@ -2614,8 +2387,7 @@
     "continent": "Asia",
     "region": "Central Asia",
     "population": 31022500,
-    "area": 447400,
-    "alpha3Code": "UZB"
+    "area": 447400
   },
   {
     "code": "VU",
@@ -2625,8 +2397,7 @@
     "continent": "Oceania",
     "region": "Melanesia",
     "population": 264652,
-    "area": 12189,
-    "alpha3Code": "VUT"
+    "area": 12189
   },
   {
     "code": "VE",
@@ -2636,8 +2407,7 @@
     "continent": "Americas",
     "region": "South America",
     "population": 30620404,
-    "area": 916445,
-    "alpha3Code": "VEN"
+    "area": 916445
   },
   {
     "code": "VN",
@@ -2647,8 +2417,7 @@
     "continent": "Asia",
     "region": "South-Eastern Asia",
     "population": 91812000,
-    "area": 331212,
-    "alpha3Code": "VNM"
+    "area": 331212
   },
   {
     "code": "WF",
@@ -2658,8 +2427,7 @@
     "continent": "Oceania",
     "region": "Polynesia",
     "population": 13135,
-    "area": 142,
-    "alpha3Code": "WLF"
+    "area": 142
   },
   {
     "code": "EH",
@@ -2669,8 +2437,7 @@
     "continent": "Africa",
     "region": "Northern Africa",
     "population": 510713,
-    "area": 266000,
-    "alpha3Code": "ESH"
+    "area": 266000
   },
   {
     "code": "YE",
@@ -2680,8 +2447,7 @@
     "continent": "Asia",
     "region": "Western Asia",
     "population": 25956000,
-    "area": 527968,
-    "alpha3Code": "YEM"
+    "area": 527968
   },
   {
     "code": "ZM",
@@ -2691,8 +2457,7 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 15473905,
-    "area": 752612,
-    "alpha3Code": "ZMB"
+    "area": 752612
   },
   {
     "code": "ZW",
@@ -2702,7 +2467,6 @@
     "continent": "Africa",
     "region": "Eastern Africa",
     "population": 13061239,
-    "area": 390757,
-    "alpha3Code": "ZWE"
+    "area": 390757
   }
 ]
