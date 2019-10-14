@@ -20,9 +20,11 @@ public class PrimitiveStreams
       System.out.println("The sum of a range: " + stream.sum());
 
       Random generator = new Random();
-      IntStream dieTosses = generator.ints(1, 7);
+      IntStream dieTosses = generator.ints(1, 7).map(n -> n * 2);
+      //dieTosses.forEach(System.out::println);
+      int[] nums = dieTosses.limit(20).toArray();
       System.out.println("Twenty random die tosses: "
-         + Arrays.toString(dieTosses.limit(20).toArray()));
+         + Arrays.toString(nums));
 
       Stream<String> words = Stream.of("Hello", "World");
       stream = words.mapToInt(w -> w.length());

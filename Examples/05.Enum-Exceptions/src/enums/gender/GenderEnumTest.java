@@ -3,7 +3,8 @@ package enums.gender;
 public class GenderEnumTest {
 	public static void main(String[] args) {
 		Gender gender = Gender.FEMALE;
-		System.out.println("Gender Value:" + gender + " - Gender ToString:" + gender.toString());
+		System.out.println("Gender Value:" 
+				+ gender + " - Gender ToString:" + gender.toString());
 		
 		for(var enumValue : Gender.values()) {
 			System.out.println(enumValue + " abbreviated as " + enumValue.getAbbreviation());

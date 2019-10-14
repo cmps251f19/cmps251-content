@@ -8,27 +8,27 @@ public class Example1FilterMap {
   public static void main(String[] args) {
     List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-    //Given the values, double the even numbers and total.
+    //Given numbers list, square the even ones and sum them.
     int result = 0;
     
-    for(int e : numbers) {
-      if(e % 2 == 0) {
-        result += e * 2;
+    for(int n : numbers) {
+      if(n % 2 == 0) {
+        result += n * 2;
       }
     }
 
     System.out.printf("Total of doubled even numbers: %d %n", result);
     
     result = numbers.stream()
-    				 .filter(e -> e % 2 == 0)
-    				 .map(e -> e * 2)
+    				 .filter(n -> n % 2 == 0)
+    				 .map(n -> n * 2)
     				 .reduce(0, (sum, e) -> sum + e);
     
     System.out.printf("Total of doubled even numbers: %d %n", result);
     
     result = numbers.stream()
-				    .filter(e -> e % 2 == 0)
-				    .mapToInt(e -> e * 2)
+				    .filter(n -> n % 2 == 0)
+				    .mapToInt(n -> n * 2)
 				    .sum();
     System.out.printf("Total of doubled even numbers: %d %n", result);
     

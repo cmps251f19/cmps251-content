@@ -80,6 +80,18 @@ public class CountryExplorer {
 		return populousCountry;
 	}
 	
+	public static Country getLagestCountry() {
+		return countries.stream()
+					    .max(Comparator.comparing(Country::getArea))
+						.get();
+	}
+	
+	public static Country getSmallestCountry() {
+		return countries.stream()
+						.filter(c -> c.getArea() > 0)
+					    .min(Comparator.comparing(Country::getArea))
+						.get();
+	}
 	public static void main(String[] args) {
 		//Load countries from countries.json into countries list 
 		loadCountries();
@@ -113,5 +125,13 @@ public class CountryExplorer {
 		System.out.println("\n*** Country with least Population ***");
 		Country lowestPopulation = getLeastPopulatedCountry();
 		System.out.println(lowestPopulation);
+		
+		System.out.println("\n*** Lagest country (with biggest area) ***");
+		Country largestCountry = getLagestCountry();
+		System.out.println(largestCountry);
+
+		System.out.println("\n*** Smallest country (with smallest area) ***");
+		Country smallestCountry = getSmallestCountry();
+		System.out.println(smallestCountry);
 	}
 }

@@ -1,7 +1,5 @@
 package _13.country.explorer;
 
-import utils.JsonUtil;
-
 public class Country {
     private String code;
     private String name;
@@ -80,6 +78,6 @@ public class Country {
 
 	public String toString() {
 		//return JsonUtil.toJson(this);
-		return String.format("%-20s | %-8s |%-18s | %,14d", name , continent, region, population);
+		return String.format("%-20s | %-8s |%-18s | People: %,14d | Area: %,10.2f", name, continent, region, population, area);
 	}
 }
