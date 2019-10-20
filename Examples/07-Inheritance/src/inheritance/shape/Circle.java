@@ -35,7 +35,7 @@ public class Circle extends Shape {
 	
 	@Override
 	public String toString() {
-		return String.format("Circle: Color = %s & its area = %.2f", 
-				 getColor(), getArea());
+		return String.format("%s: Color: %s Area: %.2f", 
+				 getClass().getSimpleName(), getColor(), getArea());
 	}
 }

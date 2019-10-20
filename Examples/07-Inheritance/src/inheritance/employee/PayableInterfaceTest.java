@@ -4,7 +4,7 @@ public class PayableInterfaceTest
 {
    public static void main( String args[] )
    {
-      // create six-element Payable array
+      // create payable array
       Payable payableObjects[] = new Payable[ 5 ];
       
       // populate array with objects that implement Payable

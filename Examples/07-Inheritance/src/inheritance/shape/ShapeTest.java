@@ -6,8 +6,8 @@ import java.util.List;
 public class ShapeTest {
 
 	public static void main(String[] args) {
-		Shape shape2 = new Circle(5, "Blue");
-		Shape shape3 = new Cylinder(5, 4);
+		/*Shape shape2 = new Circle(5, "Blue");
+		Shape shape3 = new Cylinder(5.0, 4.0, "Red");
 		Calculator calc = new Calculator();
 		System.out.println( calc.getClass().getSimpleName() );
 		System.out.println( calc );
@@ -24,24 +24,30 @@ public class ShapeTest {
 		System.out.println(hello.toString());
 		
 		System.exit(0);
+		*/
 		List<Shape> shapes = new ArrayList<>();
 		
 		Circle circle1 = new Circle(3, "White");
-		System.out.println(circle1);
+		//System.out.println(circle1);
 
 		Cylinder cylinder1 = new Cylinder();
-		System.out.println(cylinder1);
+		//System.out.println(cylinder1);
 
-		Cylinder cylinder2 = new Cylinder(5.0, 2.0);
-		System.out.println(cylinder2);
+		Cylinder cylinder2 = new Cylinder(3.0, 9.0, "Blue");
+		//System.out.println(cylinder2);
 		
 		shapes.add(circle1);
 		shapes.add(cylinder1);
 		shapes.add(cylinder2);
 		
+		Rectangle rectangle = new Rectangle("Yellow", 7.5, 5.8);
+		shapes.add(rectangle);
+		
 		System.out.println("\nProcessing shapes polymorphically");
-		for(Shape shape : shapes)
-			System.out.println(shape.getArea());
+		for(Shape shape : shapes) {
+			System.out.println( shape.getClass().getSimpleName() );
+			System.out.println( shape.toString() );
+		}
 	}
 
 }

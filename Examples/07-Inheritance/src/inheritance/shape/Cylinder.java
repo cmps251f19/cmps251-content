@@ -10,8 +10,8 @@ public class Cylinder extends Circle {
 		height = 1.0;
 	}
 
-	public Cylinder(double radius, double height) { // Constructor 2
-		super(radius, "white"); // invoke superclass' constructor Circle(radius)
+	public Cylinder(double radius, double height, String color) {
+		super(radius, color); // invoke superclass' constructor Circle(radius)
 		this.height = height;
 	}
 
@@ -28,9 +28,9 @@ public class Cylinder extends Circle {
 	}
 	
 	public String toString() {
-		String format = "Cylinder: Radius = %.2f   Height = %.2f  Color = %-6s   Base area = %.2f\t Volume is: %.2f";
+		String format = "%s  Height: %.2f  Volume: %.2f";
 		return String.format(format, 
-				getRadius(), getHeight(), getColor(),
-				getArea(), getVolume());
+				super.toString(),
+				getHeight(), getVolume());
 	}
 }

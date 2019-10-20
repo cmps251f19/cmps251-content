@@ -19,5 +19,13 @@ public abstract class Shape {
 	}
 	
 	public abstract double getArea();
+	
+	@Override
+	public String toString() {
+		return String.format("%s Area: %.2f", 
+				getClass().getSimpleName(),
+				getArea());
+	}
+	
 
 }

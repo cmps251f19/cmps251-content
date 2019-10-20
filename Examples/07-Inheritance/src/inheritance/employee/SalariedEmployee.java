@@ -4,27 +4,24 @@ public class SalariedEmployee extends Employee
 {
    private double monthlySalary;
 
-   // four-argument constructor
    public SalariedEmployee( String first, String last, String ssn, 
       double salary )
    {
-      super( first, last, ssn ); // pass to Employee constructor
-      setSalary( salary ); // validate and store salary
-   } // end four-argument SalariedEmployee constructor
+      super( first, last, ssn ); 
+      setSalary( salary );
+   } 
 
-   // set salary
    public void setSalary( double salary )
    {
       monthlySalary = salary < 0.0 ? 0.0 : salary;
-   } // end method setWeeklySalary
+   } 
 
-   // return salary
    public double getSalary()
    {
       return monthlySalary;
-   } // end method getWeeklySalary
+   } 
 
-   // calculate earnings; implement interface Payable method that was
+   // Implement interface Payable method that was
    // abstract in superclass Employee
    public double getPaymentAmount()
    {
