@@ -1,6 +1,6 @@
 package inheritance.shape;
 
-public class Circle extends Shape{ 
+public class Circle extends Shape { 
 	// private instance variable, not accessible from outside this class
 	private double radius;
 
@@ -14,6 +14,7 @@ public class Circle extends Shape{
 
 	// 2nd constructor with given radius and color
 	public Circle(double radius, String color) {
+		//this.setColor(color);
 		super(color);
 		this.radius = radius;
 	}
@@ -27,10 +28,12 @@ public class Circle extends Shape{
 	}
 
 	// Computes the area of circle
+	@Override
 	public double getArea() {
 		return radius * radius * Math.PI;
 	}
 	
+	@Override
 	public String toString() {
 		return String.format("Circle: Color = %s & its area = %.2f", 
 				 getColor(), getArea());
