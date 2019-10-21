@@ -10,6 +10,10 @@ public class EmployeeTest
 {
    public static void main( String args[] )
    {
+	   Hello hello = new Hello();
+	   System.out.println(hello.getClass());
+	   System.out.println(hello.toString());
+		
 	  //2pts for the list
       List<Employee> employees = new ArrayList<>();
       

@@ -5,15 +5,15 @@ public class Invoice implements Payable
    private String partNumber; 
    private String partDescription;
    private int quantity;
-   private double pricePerItem;
+   private double unitPrice;
 
-   public Invoice( String part, String description, int count, 
-      double price )
+   public Invoice( String partNumber, String partDescription, int quantity, 
+      double unitPrice )
    {
-      partNumber = part;
-      partDescription = description;
-      setQuantity( count );
-      setPricePerItem( price );
+      this.partNumber = partNumber;
+      this.partDescription = partDescription;
+      setQuantity( quantity );
+      setUnitPrice( unitPrice );
    }
 
    public void setPartNumber( String part )
@@ -36,9 +36,9 @@ public class Invoice implements Payable
       return partDescription;
    }
    
-   public void setQuantity( int count )
+   public void setQuantity( int quantity )
    {
-      quantity = ( count < 0 ) ? 0 : count; // quantity cannot be negative
+      this.quantity = ( quantity < 0 ) ? 0 : quantity; // quantity cannot be negative
    }
    
    public int getQuantity()
@@ -46,26 +46,26 @@ public class Invoice implements Payable
       return quantity;
    } 
    
-   public void setPricePerItem( double price )
+   public void setUnitPrice( double unitPrice )
    {
-      pricePerItem = ( price < 0.0 ) ? 0.0 : price; 
+      this.unitPrice = ( unitPrice < 0.0 ) ? 0.0 : unitPrice; 
    }
 
-   public double getPricePerItem()
+   public double getUnitPrice()
    {
-      return pricePerItem;
+      return unitPrice;
    } 
    
    // Implements the Payable interface
    public double getPaymentAmount() 
    {
-      return getQuantity() * getPricePerItem(); // calculate total cost
+      return getQuantity() * getUnitPrice(); // calculate total cost
    }
    
    public String toString()
    {
       return String.format( "%s: \n%s: %s (%s) \n%s: %d \n%s: $%,.2f", 
          "invoice", "part number", getPartNumber(), getPartDescription(), 
-         "quantity", getQuantity(), "price per item", getPricePerItem() );
+         "quantity", getQuantity(), "price per item", getUnitPrice() );
    }
 }

@@ -7,11 +7,11 @@ public abstract class Employee implements Payable
    private String qid;
 
    // three-argument constructor
-   public Employee( String firstName, String lastName, String ssn )
+   public Employee( String firstName, String lastName, String qid )
    {
-      firstName = this.firstName;
-      lastName = this.lastName;
-      qid = ssn;
+	  this.firstName = firstName;
+	  this.lastName = lastName;
+      this.qid = qid;
    }
    
    public void setFirstName( String firstName )
@@ -47,7 +47,7 @@ public abstract class Employee implements Payable
    // return String representation of Employee object
    public String toString()
    {
-      return String.format( "%s %s\nsocial security number: %s", 
+      return String.format( "%s %s\nQatari Id: %s", 
          getFirstName(), getLastName(), getQid() );
    }
 

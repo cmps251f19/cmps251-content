@@ -1,10 +1,7 @@
 package inheritance.shape;
 
 public abstract class Shape {
-
 	private String color;
-	public Shape() {
-	}
 	
 	public Shape(String color) {
 		this.setColor(color);
@@ -22,10 +19,9 @@ public abstract class Shape {
 	
 	@Override
 	public String toString() {
-		return String.format("%s Area: %.2f", 
+		return String.format("%-6s %-9s - Area: %6.2f",
+				getColor(),
 				getClass().getSimpleName(),
 				getArea());
 	}
-	
-
 }

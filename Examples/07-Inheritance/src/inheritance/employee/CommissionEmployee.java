@@ -5,14 +5,13 @@ public class CommissionEmployee extends Employee
    private double grossSales;
    private double commissionRate; 
 
-   public CommissionEmployee( String first, String last, String ssn, 
+   public CommissionEmployee( String first, String last, String qid, 
       double sales, double rate )
    {
-      super( first, last, ssn );
+      super( first, last, qid );
       setGrossSales( sales );
       setCommissionRate( rate );
    } 
-
 
    public void setCommissionRate( double rate )
    {

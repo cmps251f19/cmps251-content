@@ -2,16 +2,10 @@ package inheritance.shape;
 
 //Define Cylinder class, which is a subclass of Circle
 public class Cylinder extends Circle {
-	private double height; // Private member variable
+	private double height;
 
-	public Cylinder() { // constructor 1
-		//No need to do so. The default  superclass' constructor Circle() will be called
-		super(); 
-		height = 1.0;
-	}
-
-	public Cylinder(double radius, double height, String color) {
-		super(radius, color); // invoke superclass' constructor Circle(radius)
+	public Cylinder(String color, double radius, double height) {
+		super(color, radius);
 		this.height = height;
 	}
 
@@ -27,9 +21,16 @@ public class Cylinder extends Circle {
 		return getArea() * height; // Use Circle's getArea()
 	}
 	
+	@Override
+	public double getArea() {
+		//Area = 2πrh+2πr*r
+		return 2 * Math.PI * getRadius() * getHeight() +
+			   2 * Math.PI * getRadius() * getRadius();
+	}
+	
+	@Override
 	public String toString() {
-		String format = "%s  Height: %.2f  Volume: %.2f";
-		return String.format(format, 
+		return String.format("%s - Height: %.2f - Volume: %.2f", 
 				super.toString(),
 				getHeight(), getVolume());
 	}

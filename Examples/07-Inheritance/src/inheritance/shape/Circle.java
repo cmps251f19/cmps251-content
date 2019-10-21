@@ -4,17 +4,7 @@ public class Circle extends Shape {
 	// private instance variable, not accessible from outside this class
 	private double radius;
 
-
-	// 1st constructor, which sets both radius and color to default
-	public Circle() {
-		//default values
-		super("red");
-		radius = 2.0;
-	}
-
-	// 2nd constructor with given radius and color
-	public Circle(double radius, String color) {
-		//this.setColor(color);
+	public Circle(String color, double radius) {
 		super(color);
 		this.radius = radius;
 	}
@@ -35,7 +25,8 @@ public class Circle extends Shape {
 	
 	@Override
 	public String toString() {
-		return String.format("%s: Color: %s Area: %.2f", 
-				 getClass().getSimpleName(), getColor(), getArea());
+		return String.format("%s - Radius: %.2f", 
+				super.toString(),
+				getRadius());
 	}
 }

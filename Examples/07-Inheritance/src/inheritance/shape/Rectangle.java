@@ -4,10 +4,6 @@ public class Rectangle extends Shape {
 	private double length;
 	private double width;
 
-	public Rectangle() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	public Rectangle(String color, double length, double width) {
 		super(color);
 		setLength(length);
@@ -30,5 +26,12 @@ public class Rectangle extends Shape {
 	@Override
 	public double getArea() {
 		return length * width;
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("%s - Length: %.2f - Width: %.2f", 
+				super.toString(),
+				getLength(), getWidth());
 	}
 }

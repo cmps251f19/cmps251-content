@@ -1,4 +1,4 @@
-package inheritance.shape;
+package simple.employee;
 
 public class Hello {
 	@Override

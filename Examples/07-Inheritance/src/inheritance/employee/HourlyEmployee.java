@@ -6,10 +6,10 @@ public class HourlyEmployee extends Employee
    private double hours; // hours worked for week
 
    // five-argument constructor
-   public HourlyEmployee( String first, String last, String ssn, 
+   public HourlyEmployee( String first, String last, String qid, 
       double hourlyWage, double hoursWorked )
    {
-      super( first, last, ssn );
+      super( first, last, qid );
       setWage( hourlyWage );
       setHours( hoursWorked );
    }

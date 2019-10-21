@@ -4,10 +4,10 @@ public class SalariedEmployee extends Employee
 {
    private double monthlySalary;
 
-   public SalariedEmployee( String first, String last, String ssn, 
+   public SalariedEmployee( String first, String last, String qid, 
       double salary )
    {
-      super( first, last, ssn ); 
+      super( first, last, qid ); 
       setSalary( salary );
    } 
 

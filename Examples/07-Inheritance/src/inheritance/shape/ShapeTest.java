@@ -6,48 +6,23 @@ import java.util.List;
 public class ShapeTest {
 
 	public static void main(String[] args) {
-		/*Shape shape2 = new Circle(5, "Blue");
-		Shape shape3 = new Cylinder(5.0, 4.0, "Red");
-		Calculator calc = new Calculator();
-		System.out.println( calc.getClass().getSimpleName() );
-		System.out.println( calc );
-		System.out.println( shape2.getArea() );
-		System.out.println( shape3.getArea() );
-		
-		System.exit(0);
-		
-		Shape shape1 = new Circle();
-		System.out.println(shape1.getArea());
-		
-		Hello hello = new Hello();
-		System.out.println(hello.getClass());
-		System.out.println(hello.toString());
-		
-		System.exit(0);
-		*/
 		List<Shape> shapes = new ArrayList<>();
 		
-		Circle circle1 = new Circle(3, "White");
-		//System.out.println(circle1);
-
-		Cylinder cylinder1 = new Cylinder();
-		//System.out.println(cylinder1);
-
-		Cylinder cylinder2 = new Cylinder(3.0, 9.0, "Blue");
-		//System.out.println(cylinder2);
+		Circle circle1 = new Circle("White", 3);
+		Cylinder cylinder1 = new Cylinder("Red", 5, 4);
+		Cylinder cylinder2 = new Cylinder("Blue", 3, 9);
+		Rectangle rectangle = new Rectangle("Yellow", 7.5, 5.8);
+		Triangle triangle = new Triangle("Brown", 10, 20);
 		
 		shapes.add(circle1);
 		shapes.add(cylinder1);
 		shapes.add(cylinder2);
-		
-		Rectangle rectangle = new Rectangle("Yellow", 7.5, 5.8);
 		shapes.add(rectangle);
+		shapes.add(triangle);
 		
 		System.out.println("\nProcessing shapes polymorphically");
 		for(Shape shape : shapes) {
-			System.out.println( shape.getClass().getSimpleName() );
 			System.out.println( shape.toString() );
 		}
 	}
-
 }
