@@ -1,6 +1,20 @@
 package inheritance.employee;
 
 public interface Payable 
-{    
-   double getPaymentAmount(); // calculate payment; no implementation
+{
+   // By default methods are public abstract 
+   double getPaymentAmount();
+	   
+   public static final double SALE_TAX = 5;
+   // By default attributes are public static final 
+   double INCOME_TAX = 15.5;
+   
+   //By default all methods are public
+   default String amountToCurrency() {
+	   return String.format("QR %.2f", getPaymentAmount());
+   }
+   
+   public static String toCurrency(double amount) {
+	   return String.format("QR %.2f", amount);
+   }
 }

@@ -20,9 +20,10 @@ public class PayableTest
       for ( Payable payable : payables )
       {
          // output currentPayable and its appropriate payment amount
-         System.out.printf( "ObjectType: %s - PaymentAmount = QR %.2f\n", 
+         System.out.printf( "ObjectType: %s - PaymentAmount = %s\n", 
         		 payable.getClass().getSimpleName(),
-        		 payable.getPaymentAmount() );
+        		 payable.amountToCurrency() ); 
+         // or use Payable.toCurrency(payable.getPaymentAmount()) instead of payable.amountToCurrency()
          
          //If SalariedEmployee then increase the salary by 10%
          if ( payable instanceof SalariedEmployee)

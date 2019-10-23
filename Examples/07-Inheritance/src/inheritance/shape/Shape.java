@@ -3,6 +3,11 @@ package inheritance.shape;
 public abstract class Shape {
 	private String color;
 	
+	public static double getPaintCost (Shape shape) {
+		int PRICE = 5;
+		return PRICE * shape.getArea();
+	}
+	
 	public Shape(String color) {
 		this.setColor(color);
 	}
