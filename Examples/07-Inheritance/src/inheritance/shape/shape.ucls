@@ -29,12 +29,12 @@
     </display>  
   </class>  
   <generalization id="4">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="5">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

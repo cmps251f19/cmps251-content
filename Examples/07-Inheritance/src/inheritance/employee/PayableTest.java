@@ -4,6 +4,8 @@ public class PayableTest
 {
    public static void main( String args[] )
    {
+	  // Payable payable2 = new SalariedEmployee("", "", "", 33);
+	   
       // create payable array
       Payable payables[] = new Payable[ 5 ];
       
@@ -23,6 +25,7 @@ public class PayableTest
          System.out.printf( "ObjectType: %s - PaymentAmount = %s\n", 
         		 payable.getClass().getSimpleName(),
         		 payable.amountToCurrency() ); 
+         
          // or use Payable.toCurrency(payable.getPaymentAmount()) instead of payable.amountToCurrency()
          
          //If SalariedEmployee then increase the salary by 10%

@@ -57,9 +57,10 @@ public class Invoice implements Payable
    } 
    
    // Implements the Payable interface
+   @Override
    public double getPaymentAmount() 
    {
-      return getQuantity() * getUnitPrice() * (1 + Payable.INCOME_TAX / 100); // calculate total cost
+      return getQuantity() * getUnitPrice() * (1 + Payable.SALE_TAX / 100); // calculate total cost
    }
    
    public String toString()
