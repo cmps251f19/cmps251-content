@@ -1,4 +1,4 @@
-package game;
+package _3.guessgame;
 
 import javax.swing.JOptionPane;
 
@@ -43,9 +43,9 @@ public class GameController {
 	@FXML
 	TextField inputField; // user input field
 	@FXML
-	Button button1;       // usually the submit button
+	Button submitButton;       // usually the submit button
 	@FXML
-	Button button2;       // clear, quit, or cancel button
+	Button clearButton;       // clear, quit, or cancel button
 	
 	public GameController( ) {
 		// Its bad design for Controller to create Model objects, but
@@ -66,8 +66,8 @@ public class GameController {
 		// print on console, for testing (remove this for deployment)
 		System.out.println("GameController initializing");
 		promptMessage.setText("Your guess?");
-		button1.setText("Submit");
-		button2.setText("Give Up");
+		submitButton.setText("Submit");
+		clearButton.setText("Give Up");
 		topMessage.setText("Guess the Secret Number");
 		inputField.setText("");
 		// display a hint from the model
@@ -75,11 +75,11 @@ public class GameController {
 	}
 	
 	/**
-	 * Handle event triggered by button1 press.
+	 * Handle event triggered by submitButton press.
 	 * @param event a javafx.event.ActionEvent containing info about the event source
 	 *     and type of event.
 	 */
-	public void button1Press(ActionEvent event) {
+	public void submitButtonPress(ActionEvent event) {
 		// for testing
 		//System.out.println("Button1 pressed");
 		Button b = (Button)event.getSource();
@@ -120,13 +120,13 @@ public class GameController {
 	}
 	
 	/**
-	 * Handle event triggered by button2 press.
+	 * Handle event triggered by clearButton press.
 	 * @param event a javafx.event.ActionEvent containing info about the event source
 	 *     and type of event.
 	 */
-	public void button2Press(ActionEvent event) {
+	public void clearButtonPress(ActionEvent event) {
 		// for testing
-		System.out.println("Button2 event handler not implemented");
+		System.out.println("clearButtom event handler not implemented");
 	}
 	
 }

@@ -1,4 +1,4 @@
-package game;
+package _3.guessgame;
 
 import java.util.Random;
 
@@ -6,8 +6,6 @@ import java.util.Random;
  * A model class for a guessing game.
  * Change this to be suitable for your game.
  * You need to modify the GameController to match.
- * 
- * @author Jim
  */
 public class GameModel {
 	// the secret number to guess
@@ -33,7 +31,7 @@ public class GameModel {
 		final long seed = System.currentTimeMillis();
 		Random rand = new Random(seed);
 		this.secret = rand.nextInt(upperBound) + 1;
-		this.message = "I'm thinking of a number between 1 and "+upperBound;
+		this.message = "I'm thinking of a number between 1 and " + upperBound;
 	}
 	
 	public String getTitle() {
