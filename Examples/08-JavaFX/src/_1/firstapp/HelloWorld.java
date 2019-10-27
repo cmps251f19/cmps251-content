@@ -16,16 +16,13 @@ public class HelloWorld extends Application {
          
         //Create a Scene by passing the label object, height and width   
         Scene scene = new Scene(label ,600, 300); 
-        
-        //Set the color to the scene 
-        scene.setFill(Color.LIGHTYELLOW);  
 
-        //Set the title of the Stage. 
-        stage.setTitle("Hello World App");
-        
         //Add the scene to Stage 
         stage.setScene(scene);
         
+        //Set the title of the Stage. 
+        stage.setTitle("Hello World App");
+  
         //Display the stage 
         stage.show();
     }
