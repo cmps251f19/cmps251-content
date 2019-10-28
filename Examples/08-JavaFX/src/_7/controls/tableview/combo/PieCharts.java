@@ -1,4 +1,4 @@
-package _7.Properties;
+package _7.controls.tableview.combo;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -15,14 +15,15 @@ public class PieCharts extends Application {
 	public void start(Stage stage) throws Exception
 	{
 		PieChart pieChart = new PieChart();
-		pieChart.setData(createChartData());
+		pieChart.setData(getChartData());
+		pieChart.setTitle("Progamming Languages usage in Qatar");
 		VBox root = new VBox();
 		root.getChildren().add(pieChart);
 		stage.setScene(new Scene(root));
 		stage.setTitle("Pie Chart Example");
 		stage.show();
 	}
-	private ObservableList<Data> createChartData() {
+	private ObservableList<Data> getChartData() {
 		ObservableList<Data> data =FXCollections.observableArrayList();
 		data.add(new Data("Java", 70.5));
 		data.add(new Data("C#", 20.5));

@@ -22,7 +22,7 @@ public class ColorChanger extends Application {
 		Button button = new Button("Random Color");
 		button.setTextFill(Color.BLUE);
 		root.getChildren().addAll(label, button);
-		root.setSpacing(20);
+		root.setSpacing(10);
 		root.setAlignment(Pos.CENTER);
 		
 		//Handle the click event or you can use button.setOnMouseClicked

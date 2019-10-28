@@ -1,4 +1,4 @@
-package _7.Properties;
+package _7.controls.tableview.combo;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;

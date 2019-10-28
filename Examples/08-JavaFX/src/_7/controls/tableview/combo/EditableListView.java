@@ -1,4 +1,4 @@
-package _7.Properties;
+package _7.controls.tableview.combo;
 
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;
@@ -35,9 +35,8 @@ public class EditableListView extends Application {
 		final ObservableList<String> entries = FXCollections.observableArrayList(names);
 		final ListView<String> listView = new ListView<>(entries);
 		
-		final SelectionModel<String> selectionModel = listView.getSelectionModel();
 		deleteBtn.disableProperty().bind(Bindings.isNull(
-						selectionModel.selectedItemProperty()));
+				listView.getSelectionModel().selectedItemProperty()));
 		
 		addNameBtn.setOnAction(event -> {
 			String name = nameTextField.getText();
@@ -48,7 +47,7 @@ public class EditableListView extends Application {
 		});
 		
 		deleteBtn.setOnAction(event -> {
-			final int selectedIdx = listView.getSelectionModel().getSelectedIndex();
+			int selectedIdx = listView.getSelectionModel().getSelectedIndex();
 			entries.remove(selectedIdx);
 		});
 

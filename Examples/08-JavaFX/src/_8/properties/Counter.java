@@ -1,4 +1,4 @@
-package _7.Properties;
+package _8.properties;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;

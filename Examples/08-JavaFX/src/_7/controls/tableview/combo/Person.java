@@ -1,4 +1,4 @@
-package _7.Properties;
+package _7.controls.tableview.combo;
 
 public class Person {
 	private String firstName, lastName, email;
