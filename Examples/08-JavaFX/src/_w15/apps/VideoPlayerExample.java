@@ -16,7 +16,7 @@ public class VideoPlayerExample extends Application {
 		root.setSpacing(10);
 		root.setAlignment(Pos.CENTER);
 		
-		Media media = new Media("http://www.w3schools.com/html/movie.mp4");
+		Media media = new Media("https://www.w3schools.com/html/movie.mp4");
     	MediaPlayer player = new MediaPlayer(media);
     	MediaView mediaView = new MediaView(player);
     	root.getChildren().add(mediaView);
