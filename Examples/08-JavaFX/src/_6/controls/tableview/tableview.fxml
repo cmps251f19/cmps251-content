@@ -22,7 +22,7 @@
     <center>
         <VBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
          <children>
-            <TableView fx:id="studentsTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+            <TableView fx:id="studentsTable" prefHeight="200.0" VBox.vgrow="ALWAYS">
               <columns>
                 <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
                 <TableColumn fx:id="firstNameCol" prefWidth="116.99999237060547" text="First name" />

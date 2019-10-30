@@ -16,7 +16,7 @@
         <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
          <TextField fx:id="collegeTextField" />
          <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAdd" text="➕ Add" />
-         <HBox alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="278.0" HBox.hgrow="ALWAYS">
+         <HBox alignment="TOP_RIGHT" prefHeight="25.0" HBox.hgrow="ALWAYS">
             <children>
                <Separator orientation="VERTICAL" prefHeight="200.0" />
                   <Button fx:id="deleteButton" onAction="#handleDelete" text="🗑 Delete">

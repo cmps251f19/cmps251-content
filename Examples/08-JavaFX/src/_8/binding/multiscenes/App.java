@@ -6,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+// App based on the example available @ https://github.com/JaretWright/GUIDemo
 public class App extends Application {
     
     @Override

@@ -1,7 +1,5 @@
 package _6.controls.tableview;
 
-import javax.swing.text.TabExpander;
-
 import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -52,6 +50,8 @@ public class TableViewController {
     	studentsTable.setItems(students);
     	
     	//Link table columns to student attributes
+    	/*A TableColumn must have a cell value factory to extracts from 
+    	the object the value to be displayed in each cell (on each row) in the column. */
         idCol.setCellValueFactory(new PropertyValueFactory("id"));
         firstNameCol.setCellValueFactory(new PropertyValueFactory("firstName"));
         lastNameCol.setCellValueFactory(new PropertyValueFactory("lastName"));

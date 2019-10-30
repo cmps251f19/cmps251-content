@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+// App based of examples from Java How to Program, 11/e - Deitel.com
 public class ColorChooserApp extends Application {
    @Override
    public void start(Stage stage) throws Exception {

@@ -23,7 +23,7 @@ public class ComboBoxController {
     
     //Auto called when the view is created
     public void initialize() {
-		final ObservableList<String> colleges = FXCollections.observableArrayList(CollegeRespository.getColleges());
+		ObservableList<String> colleges = FXCollections.observableArrayList(CollegeRespository.getColleges());
 		collegesCombo.setItems(colleges);
     }
 

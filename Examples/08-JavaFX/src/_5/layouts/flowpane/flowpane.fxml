@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.FlowPane?>
+
+
+<FlowPane hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="292.0" prefWidth="392.0" vgap="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Label" />
+      <TextField />
+      <Button mnemonicParsing="false" text="Button" />
+      <Label text="Label" />
+      <TextArea prefHeight="200.0" prefWidth="200.0" />
+      <RadioButton mnemonicParsing="false" text="RadioButton">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton mnemonicParsing="false" text="RadioButton" toggleGroup="$gender" />
+      <CheckBox mnemonicParsing="false" text="CheckBox" />
+      <CheckBox mnemonicParsing="false" text="CheckBox" />
+   </children>
+</FlowPane>

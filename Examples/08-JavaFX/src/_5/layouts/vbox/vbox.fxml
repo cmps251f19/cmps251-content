@@ -1,11 +1,11 @@
-<?import javafx.scene.layout.VBox?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<VBox xmlns:fx="http://javafx.com/fxml"
-      alignment="center" spacing="10">
-    <Button>Item 1</Button>
-    <Button>Item 2</Button>
-    <Button>Item 3</Button>
-    <Button>Item 4</Button>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="170.0" prefWidth="80.0" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+    <Button>Button 1</Button>
+    <Button>Button 2</Button>
+    <Button>Button 3</Button>
+    <Button>Button 4</Button>
 </VBox>
