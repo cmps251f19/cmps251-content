@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane hgap="10.0" prefHeight="72.0" prefWidth="394.0" vgap="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.combobox.ComboBoxController">
+   <children>
+      <ComboBox fx:id="collegesCombo" onAction="#handleCollegeSelected" prefWidth="250.0" GridPane.columnIndex="1" />
+      <Label prefHeight="17.0" text="Select a College to transfer to">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin></Label>
+      <Label fx:id="messageLabel" text="." GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

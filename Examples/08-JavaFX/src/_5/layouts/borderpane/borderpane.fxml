@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="202.0" prefWidth="689.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <top>
+        <ToolBar prefHeight="31.0" prefWidth="689.0" styleClass="toolbar">
+            <Button text="🏠 Home">
+            </Button>
+            <Separator />
+            <Button text="📰 Blog">
+            </Button>
+            <Separator />
+            <Button text="📇 Contact">
+            </Button>
+            <Separator prefHeight="0.0" prefWidth="0.0" />
+         <!-- HBox.hgrow="ALWAYS" make the HBox take-up all remaining space-->
+         <HBox alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="200.0" HBox.hgrow="ALWAYS" >
+            <children>
+                  <Button text="Logout">
+                  <graphic>
+                     <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@logout.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+            </children>
+         </HBox>
+        </ToolBar>
+    </top>
+    <center>
+        <VBox alignment="CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
+            <Label style="-fx-wrap-text: true;">
+                <text>
+                    BorderPane allows you to place nodes at top, left, bottom, right and center of the application window. 
+                    The toolbar above is placed in BorderPane's top position. 
+                    This content is at center. We also have a footer at the bottom.
+                </text>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <padding>
+               <Insets left="10.0" right="10.0" />
+            </padding>
+            </Label>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox style="-fx-background-color: gray;" styleClass="footer">
+            <Label text="JavaFX BorderPane is cool!" textFill="WHITE">
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         </Label>
+        </HBox>
+    </bottom>
+</BorderPane>

@@ -10,6 +10,7 @@ public class Controller {
     public void initialize() {
         String javaVersion = System.getProperty("java.version");
         String javafxVersion = System.getProperty("javafx.version");
-        versionLabel.setText(String.format("JavaFX %s Running on Java %s", javafxVersion, javaVersion));
+        String labelText = String.format("JavaFX %s Running on Java %s", javafxVersion, javaVersion);
+        versionLabel.setText(labelText);
     }
 }

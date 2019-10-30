@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.listview.ListViewController">
+    <top>
+        <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+         <TextField fx:id="collegeTextField" />
+         <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAdd" text="➕ Add" />
+         <HBox alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="278.0" HBox.hgrow="ALWAYS">
+            <children>
+               <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <Button fx:id="deleteButton" onAction="#handleDelete" text="🗑 Delete">
+            </Button>
+            </children>
+         </HBox>
+        </ToolBar>
+    </top>
+    <center>
+    	<!-- VBox.vgrow="ALWAYS" makes the VBox takes the whole remaining vertical space-->
+        <VBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
+         <children>
+            <ListView fx:id="collegesList" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+         </children>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="TOP_RIGHT" style="-fx-background-color: gray;" styleClass="footer">
+            <Label fx:id="messageLabel" text="..." textFill="WHITE">
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         </Label>
+        </HBox>
+    </bottom>
+</BorderPane>
