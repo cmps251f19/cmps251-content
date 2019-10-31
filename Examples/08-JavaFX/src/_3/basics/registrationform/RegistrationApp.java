@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class RegistrationApp extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("registration.fxml"));
-        primaryStage.setTitle("Registration Form");
-        primaryStage.setScene(new Scene(root, 800, 500));
-        primaryStage.show();
+    public void start(Stage stage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("Registration.fxml"));
+        stage.setScene(new Scene(root, 800, 500));
+        stage.setTitle("Registration Form");
+        stage.show();
     }
 
     public static void main(String[] args) {

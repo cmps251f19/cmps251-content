@@ -6,12 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class App extends Application {
-
+public class TimeApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view.fxml"));
-        stage.setTitle("Get Time");
+    	String viewFileName = "TimeView.fxml";
+    	String windowTite = "Time App";
+        Parent root = FXMLLoader.load(getClass().getResource(viewFileName));
+        stage.setTitle(windowTite);
         stage.setScene(new Scene(root, 400, 300));
         stage.show();
     }

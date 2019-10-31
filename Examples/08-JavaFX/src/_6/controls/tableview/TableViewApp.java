@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class TableViewApp extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("tableview.fxml"));
-        primaryStage.setTitle("TableView App");
-        primaryStage.setScene(new Scene(root, 800, 500));
-        primaryStage.show();
+        stage.setScene(new Scene(root, 800, 500));
+        stage.setTitle("TableView App");
+        stage.show();
     }
 
 

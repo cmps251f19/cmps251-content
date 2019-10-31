@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="149.0" prefWidth="286.0" spacing="15.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_3.basics.gettime.Controller">
+<VBox alignment="CENTER" prefHeight="149.0" prefWidth="286.0" spacing="15.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_3.basics.gettime.TimeController">
    <children>
       <Label fx:id="timeLabel" text="?" />
       <Button mnemonicParsing="false" onAction="#handleGetTime" text="What time is it?" />

@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class DialogsApp extends Application {
    @Override
    public void start(Stage stage) throws Exception {
-      Parent root = FXMLLoader.load(getClass().getResource("dialogs.fxml"));
+      Parent root = FXMLLoader.load(getClass().getResource("Dialogs.fxml"));
 
       Scene scene = new Scene(root);
-      stage.setTitle("JavaFX Dialogs");
       stage.setScene(scene);
+      stage.setTitle("JavaFX Dialogs");
       stage.show();
    }
 
