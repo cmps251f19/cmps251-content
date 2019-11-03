@@ -1,11 +1,14 @@
 package inheritance.member;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MemberTest {
 
 	public static void main(String[] args) {
 		Department department = new Department();
 
-		Student student1 = new Student(123, "Fatima", "Ali", "fatima@test.edu", 90);
+		Student student1 = new Student(123, "Fatima", "Ali", "fatima@test.edu", 60, 3.5);
 
 		department.addMember(student1);
 
@@ -28,6 +31,25 @@ public class MemberTest {
 			if (member instanceof Student)
 				System.out.println("GPA: " + ((Student) member).getGpa());
 		}
-
+		
+		/*
+		List<Student> students = new ArrayList<>();
+		students.add(new Student("Fatima", "Ali", 3.6));
+		students.add(new Student("Saleh", "Ahmed", 2.5));
+		
+		List<Instructor> instructors = new ArrayList<>();
+		instructors.add(new Instructor("Karim", "Samir", "C07-130"));
+		instructors.add(new Instructor("Karima", "Samira", "C08-120"));
+		
+		students.forEach(s -> {
+			System.out.println(s.toString());
+			System.out.println(s.getGpa());
+		});
+		
+		instructors.forEach(i -> {
+			System.out.println(i.toString());
+			System.out.println(i.getOffice());
+		});
+		*/
 	}
 }

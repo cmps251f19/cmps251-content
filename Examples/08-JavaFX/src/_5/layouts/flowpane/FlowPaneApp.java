@@ -8,11 +8,11 @@ import javafx.stage.Stage;
 
 public class FlowPaneApp extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage stage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("flowpane.fxml"));
-        primaryStage.setTitle("FlowPane Demo App");
-        primaryStage.setScene(new Scene(root, 800, 500));
-        primaryStage.show();
+        stage.setTitle("FlowPane Demo App");
+        stage.setScene(new Scene(root, 800, 500));
+        stage.show();
     }
 
 

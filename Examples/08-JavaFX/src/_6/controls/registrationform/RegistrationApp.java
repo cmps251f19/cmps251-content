@@ -1,4 +1,4 @@
-package _3.basics.registrationform;
+package _6.controls.registrationform;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

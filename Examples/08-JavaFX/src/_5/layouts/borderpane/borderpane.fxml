@@ -24,7 +24,7 @@
             </Button>
             <Separator prefHeight="0.0" prefWidth="0.0" />
          <!-- HBox.hgrow="ALWAYS" make the HBox take-up all remaining space-->
-         <HBox alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="200.0" HBox.hgrow="ALWAYS" >
+         <HBox alignment="TOP_RIGHT" prefHeight="25.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
             <children>
                   <Button text="Logout">
                   <graphic>
@@ -40,7 +40,7 @@
         </ToolBar>
     </top>
     <center>
-        <VBox alignment="CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
+        <VBox prefHeight="51.0" prefWidth="443.0" styleClass="content">
             <Label style="-fx-wrap-text: true;">
                 <text>
                     BorderPane allows you to place nodes at top, left, bottom, right and center of the application window. 
@@ -65,4 +65,14 @@
          </Label>
         </HBox>
     </bottom>
+   <left>
+      <VBox spacing="10.0">
+         <children>
+            <Label text="Left Menu" />
+            <Button mnemonicParsing="false" text="Print" />
+            <Button mnemonicParsing="false" text="Copy" />
+            <Button mnemonicParsing="false" text="Send" />
+         </children>
+      </VBox>
+   </left>
 </BorderPane>

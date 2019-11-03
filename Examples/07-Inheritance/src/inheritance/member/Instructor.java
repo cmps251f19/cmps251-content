@@ -33,6 +33,11 @@ public class Instructor extends Member {
 		//The superclass default constructor will be implicitly called 
 	}
 	
+	public Instructor(String firstName, String lastName, String office) {
+		super(firstName, lastName); 
+		this.office = office;
+	}
+	
 	public Instructor(int id, String firstName, String lastName, 
 					String email, String office, int yearsExperience) {
 		//Explicit call to superclass constructor

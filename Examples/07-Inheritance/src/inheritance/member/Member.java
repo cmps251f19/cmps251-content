@@ -13,12 +13,17 @@ public abstract class Member {
 	public abstract boolean isSenior();
 	
 	public Member(int id, String firstName, String lastName, String email) {
-		super();
 		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 	}
+	
+	public Member(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
 
 	public String toString() {
 		return "Name: " + firstName + " " + lastName + " - Email:" + email;
