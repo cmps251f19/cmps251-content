@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="277.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea prefHeight="272.0" prefWidth="270.0" text="- VBox - displays UI elements in a vertical line&#10;- HBox - displays UI elements in a horizontal line&#10;- BorderPane - provides five areas: top, left, right, bottom,  and center.&#10;- FlowPane - lays out its child components either vertically or horizontally. Can wrap the components onto the next row or column if there is not enough space in a row/column.&#10;- GridPane - displays its child components in a grid (e.g., a grid of 2 rows by 2 columns)&#10;- AnchorPane - Places its child components relative to the pane’s boundaries.&#10;" wrapText="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+   </children>
+</AnchorPane>
