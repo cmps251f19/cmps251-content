@@ -12,7 +12,7 @@ public class StudentApp extends Application {
     public void start(Stage stage) throws Exception{
         Pane root = FXMLLoader.load(getClass().getResource("StudentTableView.fxml"));
         stage.setScene(new Scene(root, 800, 500));
-        stage.setTitle("TableView App");
+        stage.setTitle("Student App");
         stage.show();
     }
 

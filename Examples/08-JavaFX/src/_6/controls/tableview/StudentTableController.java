@@ -72,16 +72,17 @@ public class StudentTableController {
     @FXML
     void handleUpdate(ActionEvent event) {
     	Student student = null;
+    	String dialogTitle = "";
     	DialogMode mode;
     	
     	if (event.getSource().equals(updateButton)) {
     		mode = DialogMode.UPDATE;
+    		dialogTitle = "Update Student";
     		student = studentsTable.getSelectionModel().getSelectedItem();
-    		//System.out.println("updateButton was clicked"); 
     	} else if (event.getSource().equals(addButton)) {
     		mode = DialogMode.ADD;
+    		dialogTitle = "Add Student";
     		student = new Student();
-    		//System.out.println("addButton was clicked"); 
     	} else {
     		return;
     	}
@@ -100,9 +101,10 @@ public class StudentTableController {
             
     		Dialog<ButtonType> dialog = new Dialog<>();
     		dialog.setDialogPane(studentDialogPane);
-    		dialog.setTitle("Add new student");
+    		dialog.setTitle(dialogTitle);
             
     		Optional<ButtonType> isOk = dialog.showAndWait();
+    		//ToDo: push the changes to the model then to a file
     		if (isOk.get() == ButtonType.OK){
     			System.out.println("User selected ok"); 
     			if (mode == DialogMode.ADD) {
