@@ -9,12 +9,25 @@ public class Student {
     private final SimpleStringProperty lastName;
     private final SimpleStringProperty email;
 
+    public Student() {
+    	 this(0, "", "", "");
+    }
+    
     public Student(int id, String firstName, String lastName, String email) {
         this.id = new SimpleIntegerProperty(id);
         this.firstName = new SimpleStringProperty(firstName);
         this.lastName = new SimpleStringProperty(lastName);
         this.email = new SimpleStringProperty(email);
     }
+    
+    /*
+     * Property getter method consists of the property name followed 
+     * by the word “Property”
+    */
+    public SimpleIntegerProperty idProperty() { return id; }
+    public SimpleStringProperty firstNameProperty() { return firstName; }
+    public SimpleStringProperty lastNameProperty() { return lastName; }
+    public SimpleStringProperty emailProperty() { return email; }
 
     public int getId() {
         return this.id.get();

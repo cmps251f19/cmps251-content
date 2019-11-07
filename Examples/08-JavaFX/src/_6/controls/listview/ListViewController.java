@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TextField;
 
 public class ListViewController {
@@ -21,7 +22,7 @@ public class ListViewController {
     private Button deleteButton;
 
     @FXML
-    private ListView<String> collegesList;
+    private ListView<String> collegesListView;
 
     @FXML
     private Label messageLabel;
@@ -39,24 +40,25 @@ public class ListViewController {
     
     @FXML
     void handleDelete(ActionEvent event) {
-		int selectedIdx = collegesList.getSelectionModel().getSelectedIndex();
+		int selectedIdx = collegesListView.getSelectionModel().getSelectedIndex();
 		colleges.remove(selectedIdx);
     }
     
     //Auto called when the view is created
     public void initialize() {
+    	collegesListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 		//Initialize the list of students and pass it to collegesList to display it
 		//Must convert a list to an ObservableList to be able to use it with the TableView component
 		colleges = FXCollections.observableArrayList(CollegeRespository.getColleges());
-    	collegesList.setItems(colleges);
+    	collegesListView.setItems(colleges);
     	
         //If no student selected then disable to delete button
 		deleteButton.disableProperty().bind(Bindings.isNull(
-				collegesList.getSelectionModel().selectedItemProperty()));
+				collegesListView.getSelectionModel().selectedItemProperty()));
 		
 		//Bind message label to the index of the selected table row
 		messageLabel.textProperty().bind(
-				collegesList.getSelectionModel().selectedIndexProperty().asString());
+				collegesListView.getSelectionModel().selectedIndexProperty().asString());
 		
         //If no collegeTextField is empty then disable to add button
 		addButton.disableProperty().bind( Bindings.isEmpty(

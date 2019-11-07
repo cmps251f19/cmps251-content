@@ -1,5 +1,7 @@
 package _6.controls.combobox;
 
+import java.util.List;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -22,8 +24,10 @@ public class ComboBoxController {
     }
     
     //Auto called when the view is created
+    @FXML
     public void initialize() {
-		ObservableList<String> colleges = FXCollections.observableArrayList(CollegeRespository.getColleges());
+    	List<String> collegesList = CollegeRespository.getColleges();
+		ObservableList<String> colleges = FXCollections.observableArrayList(collegesList);
 		collegesCombo.setItems(colleges);
     }
 

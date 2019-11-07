@@ -7,6 +7,7 @@ public class Controller {
     @FXML
     private Label versionLabel;
 
+    @FXML
     public void initialize() {
         String javaVersion = System.getProperty("java.version");
         String javafxVersion = System.getProperty("javafx.version");

@@ -2,7 +2,6 @@ package _6.controls.registrationform;
 
 public class User {
 	String firstName, lastName, email;
-	
 	public User(String firstName, String lastName, String email) {
 		this.firstName = firstName;
 		this.lastName = lastName;

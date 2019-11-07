@@ -131,7 +131,7 @@
                            <ListView fx:id="degreesList" prefHeight="80.0" prefWidth="236.0" GridPane.columnIndex="1" />
                            <Label text="University" GridPane.rowIndex="1" />
                            <ComboBox fx:id="universitiesComboBox" prefHeight="25.0" prefWidth="229.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                           <Slider prefHeight="26.0" prefWidth="236.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                           <Slider blockIncrement="2.0" majorTickUnit="2.0" max="20.0" minorTickCount="1" prefHeight="26.0" prefWidth="236.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                            <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                            <rowConstraints>
                               <RowConstraints />

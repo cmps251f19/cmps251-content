@@ -16,6 +16,7 @@ public class Counter {
 	public final IntegerProperty valueProperty() {
 		return value;
 	}
+	
 	public final int getValue() { return value.get(); }
 	public final void setValue(int i) { value.set(i); }
 }

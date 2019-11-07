@@ -29,7 +29,7 @@
     	<!-- VBox.vgrow="ALWAYS" makes the VBox takes the whole remaining vertical space-->
         <VBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
          <children>
-            <ListView fx:id="collegesList" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+            <ListView fx:id="collegesListView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
          </children>
         </VBox>
     </center>

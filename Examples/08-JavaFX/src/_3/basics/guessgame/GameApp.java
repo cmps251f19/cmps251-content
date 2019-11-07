@@ -2,7 +2,7 @@ package _3.basics.guessgame;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
+import javafx.scene.layout.Pane;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
@@ -22,7 +22,7 @@ public class GameApp extends Application {
 	 */
 	@Override
 	public void start(Stage stage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("GameView.fxml"));
+		Pane root = FXMLLoader.load(getClass().getResource("GameView.fxml"));
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.setTitle("Guessing Game");

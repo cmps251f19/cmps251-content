@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane prefHeight="201.0" prefWidth="503.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_8.binding.slider.Controller">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="145.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="300.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <HBox prefHeight="71.0" prefWidth="319.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <ProgressIndicator fx:id="progressIndicator" prefHeight="57.0" prefWidth="41.0" progress="0.0" />
+            <Label fx:id="progressLabel" text="Progress %" />
+         </children>
+      </HBox>
+      <Slider fx:id="progressSlider" blockIncrement="20.0" majorTickUnit="10.0" minorTickCount="1" prefHeight="38.0" prefWidth="277.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" GridPane.columnIndex="1" />
+      <TextField fx:id="progressTextField" maxWidth="100.0" prefHeight="25.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label prefHeight="17.0" prefWidth="141.0" text="Project Completion Slider" textFill="#0080ff" />
+      <Label text="Project Completion TextField" textFill="#0080ff" GridPane.rowIndex="1" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</GridPane>

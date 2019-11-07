@@ -11,12 +11,15 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.tableview.TableViewController">
+<BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.tableview.StudentTableController">
     <top>
         <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+         <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAdd" text="➕ Add" />
+         <Separator layoutX="140.0" layoutY="10.0" />
+         <Button fx:id="updateButton" mnemonicParsing="false" onAction="#handleUpdate" text="🖆 Update" />
+            <Separator />
             <Button fx:id="deleteButton" onAction="#handleDelete" text="🗑 Delete">
             </Button>
-            <Separator />
         </ToolBar>
     </top>
     <center>
