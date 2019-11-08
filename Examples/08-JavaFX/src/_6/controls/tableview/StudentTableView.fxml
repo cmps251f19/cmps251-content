@@ -7,9 +7,9 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 
 <BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.tableview.StudentTableController">
     <top>
@@ -23,9 +23,9 @@
         </ToolBar>
     </top>
     <center>
-        <VBox alignment="TOP_CENTER" prefHeight="51.0" prefWidth="443.0" styleClass="content">
+      <AnchorPane>
          <children>
-            <TableView fx:id="studentsTable" prefHeight="200.0" VBox.vgrow="ALWAYS">
+            <TableView fx:id="studentsTable" prefHeight="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
               <columns>
                 <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
                 <TableColumn fx:id="firstNameCol" prefWidth="116.99999237060547" text="First name" />
@@ -34,7 +34,7 @@
               </columns>
             </TableView>
          </children>
-        </VBox>
+      </AnchorPane>
     </center>
     <bottom>
         <HBox alignment="TOP_RIGHT" style="-fx-background-color: gray;" styleClass="footer">

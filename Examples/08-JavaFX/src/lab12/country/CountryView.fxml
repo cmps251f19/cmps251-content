@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="202.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab12.country.CountryController">
+    <top>
+        <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+         <Label text="Continent" />
+         <ComboBox fx:id="continentCombo" onAction="#handleContinentChanged" prefHeight="25.0" prefWidth="180.0" />
+         <Separator layoutX="140.0" layoutY="10.0" />
+         <Label text="Region" />
+         <ComboBox fx:id="regionCombo" onAction="#handleRegionChanged" prefWidth="150.0" />
+        </ToolBar>
+    </top>
+    <center>
+      <AnchorPane>
+         <children>
+            <TableView fx:id="countryTable" prefHeight="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columns>
+                <TableColumn fx:id="codeCol" prefWidth="46.0" text="Code" />
+                <TableColumn fx:id="nameCol" prefWidth="165.33331298828125" text="Name" />
+                  <TableColumn fx:id="capitalCol" prefWidth="118.0" text="Capital" />
+                  <TableColumn fx:id="continentCol" prefWidth="125.0" text="Continent" />
+                  <TableColumn fx:id="regionCol" prefWidth="113.99996948242188" text="Region" />
+                  <TableColumn fx:id="populationCol" prefWidth="76.0" text="Population" />
+                  <TableColumn fx:id="areaCol" prefWidth="84.0" text="Area" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    </center>
+</BorderPane>
