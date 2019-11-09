@@ -23,7 +23,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 enum DialogMode {ADD, UPDATE}
 
-public class StudentTableController {
+public class StudentsController {
     @FXML
     private Button addButton;
     
@@ -90,7 +90,7 @@ public class StudentTableController {
         try {
             // Load the fxml file and create a new popup dialog.
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("StudentView.fxml"));
+            fxmlLoader.setLocation(getClass().getResource("StudentEditor.fxml"));
             DialogPane studentDialogPane = fxmlLoader.load();
             
             //Get the student controller associated with the view            
@@ -103,29 +103,23 @@ public class StudentTableController {
     		dialog.setDialogPane(studentDialogPane);
     		dialog.setTitle(dialogTitle);
             
-    		Optional<ButtonType> isOk = dialog.showAndWait();
+    		Optional<ButtonType> clickedButton = dialog.showAndWait();
     		//ToDo: push the changes to the model then to a file
-    		if (isOk.get() == ButtonType.OK){
+    		if (clickedButton.get() == ButtonType.OK){
     			System.out.println("User selected ok"); 
     			if (mode == DialogMode.ADD) {
     				studentsOL.add(student);
     			}
-    		} else {
-    			System.out.println("User selected cancel"); 
     		}
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
     
-	private Optional<ButtonType> showConfirmationDialog(String title, String headerTex, String contentText) {
-		Alert alert = new Alert(AlertType.CONFIRMATION);
-		alert.setTitle(title);
-		alert.setHeaderText(headerTex);
-		alert.setContentText(contentText);
+    @FXML
+    void handleSave(ActionEvent event) {
 
-		return alert.showAndWait();
-	}
+    }
 
     //Auto called when the view is created
     public void initialize() {
@@ -154,4 +148,13 @@ public class StudentTableController {
 		messageLabel.textProperty().bind(
 				studentsTable.getSelectionModel().selectedIndexProperty().asString());
     }
+    
+	private Optional<ButtonType> showConfirmationDialog(String title, String headerTex, String contentText) {
+		Alert alert = new Alert(AlertType.CONFIRMATION);
+		alert.setTitle(title);
+		alert.setHeaderText(headerTex);
+		alert.setContentText(contentText);
+
+		return alert.showAndWait();
+	}
 }

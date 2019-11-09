@@ -10,7 +10,7 @@ public class StudentApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Pane root = FXMLLoader.load(getClass().getResource("StudentTableView.fxml"));
+        Pane root = FXMLLoader.load(getClass().getResource("StudentsView.fxml"));
         stage.setScene(new Scene(root, 800, 500));
         stage.setTitle("Student App");
         stage.show();
