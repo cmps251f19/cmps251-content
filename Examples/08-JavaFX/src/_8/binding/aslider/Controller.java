@@ -48,7 +48,7 @@ public class Controller {
     public void initialize() {
         progressTextField.textProperty().bindBidirectional(progressSlider.valueProperty(),
                 NumberFormat.getNumberInstance());
-        progressLabel.textProperty().bind(progressTextField.textProperty().concat(" % done"));
+        progressLabel.textProperty().bind(progressSlider.valueProperty().asString("%.0f %% done"));
         progressIndicator.progressProperty().bind(progressSlider.valueProperty().divide(100));
     }
 }

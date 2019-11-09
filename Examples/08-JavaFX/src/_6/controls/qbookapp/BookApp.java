@@ -1,4 +1,4 @@
-package _8.binding.bookapp;
+package _6.controls.qbookapp;
 
 // Main application class that loads and displays the CoverViewer's GUI.
 import javafx.application.Application;

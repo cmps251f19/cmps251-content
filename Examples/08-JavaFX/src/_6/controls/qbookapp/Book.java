@@ -1,4 +1,4 @@
-package _8.binding.bookapp;
+package _6.controls.qbookapp;
 
 public class Book {
    private String title; // book title
