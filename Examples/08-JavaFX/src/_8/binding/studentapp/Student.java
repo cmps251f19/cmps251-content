@@ -14,7 +14,7 @@ public class Student {
     }
     
     public Student(int id, String firstName, String lastName, String email) {
-        this.id = new SimpleIntegerProperty(id);
+  		this.id = new SimpleIntegerProperty();
         this.firstName = new SimpleStringProperty(firstName);
         this.lastName = new SimpleStringProperty(lastName);
         this.email = new SimpleStringProperty(email);

@@ -15,7 +15,7 @@ public class BookApp extends Application {
       
       Scene scene = new Scene(root);
       stage.setScene(scene);
-      stage.setTitle("Cover Viewer");
+      stage.setTitle("Book Cover Viewer");
       stage.show();
    }
 

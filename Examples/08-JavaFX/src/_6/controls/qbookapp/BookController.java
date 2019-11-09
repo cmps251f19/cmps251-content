@@ -2,7 +2,9 @@ package _6.controls.qbookapp;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
@@ -13,6 +15,7 @@ public class BookController {
    // instance variables for interacting with GUI
    @FXML private ListView<Book> booksListView;
    @FXML private ImageView coverImageView;
+   @FXML private CheckBox showBookIconCheckbox;
 
    // stores the list of Book Objects
    private ObservableList<Book> booksOL = null;
@@ -30,8 +33,15 @@ public class BookController {
                      new Image(newValue.getLargeImage()));
             }
       );
-      
-      // Optional - Set custom ListView cell factory that displays an Image and text
-      //booksListView.setCellFactory( c -> new ImageTextCell() );
-   }     
+   } 
+   
+   @FXML
+   void handleShowBookIcon(ActionEvent event) {
+	   if (showBookIconCheckbox.isSelected()) {
+		   // Set custom ListView cell factory that displays an Image and text
+		   booksListView.setCellFactory( c -> new ImageTextCell() );
+	   } else {
+		   booksListView.setCellFactory(null);	
+	   }
+   }
 }

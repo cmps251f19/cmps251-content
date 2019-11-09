@@ -2,6 +2,7 @@ package _6.controls.listview;
 
 import javafx.beans.binding.Bindings;
 import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -51,6 +52,11 @@ public class ListViewController {
 		//Must convert a list to an ObservableList to be able to use it with the TableView component
 		collegesOL = FXCollections.observableArrayList(CollegeRespository.getColleges());
     	collegesListView.setItems(collegesOL);
+    	
+    	//You can listen to the ObservableList changes
+    	collegesOL.addListener( (ListChangeListener.Change<? extends String> change) -> {
+    		System.out.println(change);
+    	});
     	
     	//If no college selected then disable the delete button
 		deleteButton.disableProperty().bind(Bindings.isNull(

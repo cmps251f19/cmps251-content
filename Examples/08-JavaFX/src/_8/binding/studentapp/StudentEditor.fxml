@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<DialogPane expanded="true" prefHeight="240.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_8.binding.studentapp.StudentController">
+<DialogPane fx:id="dialogPane" expanded="true" prefHeight="240.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_8.binding.studentapp.StudentController">
    <graphic>
       <GridPane hgap="5.0" prefHeight="175.0" prefWidth="293.0" vgap="5.0">
          <rowConstraints>

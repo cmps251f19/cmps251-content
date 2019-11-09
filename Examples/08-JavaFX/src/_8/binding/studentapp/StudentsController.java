@@ -158,7 +158,7 @@ public class StudentsController {
 
 		return alert.showAndWait();
 	}
-	
+
 	private void showInformationDialog(String title, String headerText, String contentText)
 	{
 		Alert alert = new Alert(AlertType.INFORMATION);

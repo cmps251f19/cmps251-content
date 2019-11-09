@@ -10,7 +10,7 @@ import org.hildan.fxgson.FxGson;
 import com.google.gson.Gson;
 
 public class StudentRepository {
-	
+
     public static List<Student> getStudents() {
     	List<Student> students = null;
 		//Use FxGson as it supports classes with properties
