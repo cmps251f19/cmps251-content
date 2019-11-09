@@ -1,22 +1,21 @@
-package _8.binding.CoverViewer;
+package _8.binding.bookapp;
 
 // Main application class that loads and displays the CoverViewer's GUI.
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 //App based of examples from Java How to Program, 11/e - Deitel.com
-public class CoverViewerApp extends Application {   
+public class BookApp extends Application {   
    @Override
    public void start(Stage stage) throws Exception {
-      Parent root = 
-         FXMLLoader.load(getClass().getResource("CoverViewer.fxml"));
+      Pane root = FXMLLoader.load(getClass().getResource("BookView.fxml"));
       
       Scene scene = new Scene(root);
-      stage.setTitle("Cover Viewer");
       stage.setScene(scene);
+      stage.setTitle("Cover Viewer");
       stage.show();
    }
 

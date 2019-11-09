@@ -1,4 +1,4 @@
-package _8.binding.CoverViewerCustomListView;
+package _8.binding.bookapp;
 // Custom ListView cell factory that displays an Image and text
 import javafx.geometry.Pos;
 import javafx.scene.control.Label;

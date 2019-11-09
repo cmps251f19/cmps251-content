@@ -26,15 +26,15 @@ public class Controller {
     //Version 1 using property change listeners
     @FXML
     public void initializeV1() {
-    	progressSlider.valueProperty().addListener((prop, oldVal, newVal) -> {
-    		System.out.println(prop);
+    	progressSlider.valueProperty().addListener((observable, oldVal, newVal) -> {
+    		System.out.println(observable);
     		double progressValue = newVal.doubleValue();
     		progressTextField.setText( String.valueOf(newVal.intValue()) );
     		progressLabel.setText( String.format("%3.0f %% done", progressValue) );
     		progressIndicator.setProgress(progressValue / 100);
     	});
     	
-    	progressTextField.textProperty().addListener((prop, oldVal, newVal) -> {
+    	progressTextField.textProperty().addListener((observable, oldVal, newVal) -> {
     		double progressValue = 0;
     		if (!newVal.isEmpty())
     			progressValue = Double.valueOf(newVal.toString());

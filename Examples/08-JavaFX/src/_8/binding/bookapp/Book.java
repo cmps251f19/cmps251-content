@@ -1,4 +1,4 @@
-package _8.binding.CoverViewer;
+package _8.binding.bookapp;
 
 public class Book {
    private String title; // book title

@@ -1,4 +1,4 @@
-package _8.binding.ColorChooser;
+package _8.binding.colorapp;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Slider;
@@ -36,25 +36,25 @@ public class ColorChooserController {
          alphaSlider.valueProperty().asString("%.2f"));
       
       // listeners that set Rectangle's fill based on Slider changes
-      redSlider.valueProperty().addListener((prop, oldValue, newValue) -> {    
+      redSlider.valueProperty().addListener((observable, oldValue, newValue) -> {    
                red = newValue.intValue();                                 
                colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
           }
       );
       
-      greenSlider.valueProperty().addListener((prop, oldValue, newValue) -> {                         
+      greenSlider.valueProperty().addListener((observable, oldValue, newValue) -> {                         
                green = newValue.intValue();
                colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
             }
       );
       
-      blueSlider.valueProperty().addListener((prop, oldValue, newValue) -> {                       
+      blueSlider.valueProperty().addListener((observable, oldValue, newValue) -> {                       
                blue = newValue.intValue();
                colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
             }
       );
       
-      alphaSlider.valueProperty().addListener((prop, oldValue, newValue) -> {                       
+      alphaSlider.valueProperty().addListener((observable, oldValue, newValue) -> {                       
                alpha = newValue.doubleValue();
                colorRectangle.setFill(Color.rgb(red, green, blue, alpha));
             }

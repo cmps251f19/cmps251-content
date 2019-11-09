@@ -27,13 +27,13 @@ public class ListViewController {
     @FXML
     private Label messageLabel;
 
-	private ObservableList<String> colleges = null;
+	private ObservableList<String> collegesOL = null;
 
     @FXML
     void handleAdd(ActionEvent event) {
 		String college = collegeTextField.getText();
-		if (!college.isEmpty() && !colleges.contains(college)) {
-			colleges.add(college);
+		if (!college.isEmpty() && !collegesOL.contains(college)) {
+			collegesOL.add(college);
 			collegeTextField.clear();
 		}
     }
@@ -41,7 +41,7 @@ public class ListViewController {
     @FXML
     void handleDelete(ActionEvent event) {
 		int selectedIdx = collegesListView.getSelectionModel().getSelectedIndex();
-		colleges.remove(selectedIdx);
+		collegesOL.remove(selectedIdx);
     }
     
     //Auto called when the view is created
@@ -49,10 +49,10 @@ public class ListViewController {
     	collegesListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
 		//Initialize the list of students and pass it to collegesList to display it
 		//Must convert a list to an ObservableList to be able to use it with the TableView component
-		colleges = FXCollections.observableArrayList(CollegeRespository.getColleges());
-    	collegesListView.setItems(colleges);
+		collegesOL = FXCollections.observableArrayList(CollegeRespository.getColleges());
+    	collegesListView.setItems(collegesOL);
     	
-        //If no student selected then disable to delete button
+    	//If no college selected then disable the delete button
 		deleteButton.disableProperty().bind(Bindings.isNull(
 				collegesListView.getSelectionModel().selectedItemProperty()));
 		
@@ -60,7 +60,7 @@ public class ListViewController {
 		messageLabel.textProperty().bind(
 				collegesListView.getSelectionModel().selectedIndexProperty().asString());
 		
-        //If no collegeTextField is empty then disable to add button
+        //If the collegeTextField is empty then disable the add button
 		addButton.disableProperty().bind( Bindings.isEmpty(
 				collegeTextField.textProperty()) );
     }

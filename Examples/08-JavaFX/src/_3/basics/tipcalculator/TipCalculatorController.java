@@ -55,7 +55,7 @@ public class TipCalculatorController {
    // called by FXMLLoader to initialize the controller
    public void initialize() {
       // listener for changes to tipPercentageSlider's value
-      tipPercentageSlider.valueProperty().addListener((prop, oldValue, newValue) -> {
+      tipPercentageSlider.valueProperty().addListener((observable, oldValue, newValue) -> {
                tipPercentage = Double.valueOf(newValue.intValue() / 100.0);
                tipPercentageLabel.setText(percent.format(tipPercentage));
                handleCalculateTip(null);
