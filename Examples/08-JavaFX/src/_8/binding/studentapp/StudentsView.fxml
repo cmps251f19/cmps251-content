@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 
-<BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_6.controls.tableview.StudentsController">
+<BorderPane prefHeight="202.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_8.binding.studentapp.StudentsController">
     <top>
         <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
          <Button fx:id="addButton" mnemonicParsing="false" onAction="#handleAdd" text="➕ Add" />

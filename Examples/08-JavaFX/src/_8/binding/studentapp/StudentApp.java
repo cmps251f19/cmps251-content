@@ -1,4 +1,4 @@
-package _6.controls.tableview;
+package _8.binding.studentapp;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

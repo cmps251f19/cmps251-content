@@ -1,4 +1,4 @@
-package _6.controls.tableview;
+package _8.binding.studentapp;
 
 import java.io.IOException;
 import java.util.List;
@@ -118,7 +118,8 @@ public class StudentsController {
     
     @FXML
     void handleSave(ActionEvent event) {
-
+    	StudentRepository.saveStudents(studentsOL.toArray(new Student[studentsOL.size()]));
+    	showInformationDialog("Confirmation", "", "Students saved successfuly.");
     }
 
     //Auto called when the view is created
@@ -149,12 +150,21 @@ public class StudentsController {
 				studentsTable.getSelectionModel().selectedIndexProperty().asString());
     }
     
-	private Optional<ButtonType> showConfirmationDialog(String title, String headerTex, String contentText) {
+	private Optional<ButtonType> showConfirmationDialog(String title, String headerText, String contentText) {
 		Alert alert = new Alert(AlertType.CONFIRMATION);
 		alert.setTitle(title);
-		alert.setHeaderText(headerTex);
+		alert.setHeaderText(headerText);
 		alert.setContentText(contentText);
 
 		return alert.showAndWait();
+	}
+	
+	private void showInformationDialog(String title, String headerText, String contentText)
+	{
+		Alert alert = new Alert(AlertType.INFORMATION);
+		alert.setTitle(title);
+		alert.setHeaderText(headerText);
+		alert.setContentText(contentText);
+		alert.showAndWait();
 	}
 }

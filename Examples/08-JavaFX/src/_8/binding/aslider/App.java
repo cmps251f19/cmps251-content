@@ -1,4 +1,4 @@
-package _8.binding.slider;
+package _8.binding.aslider;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
