@@ -17,7 +17,7 @@ public class SimpleProperties {
 		//Changes in num1 are reflected in num2
         num1.bindBidirectional(num2);
         
-        num1.addListener((valueInt, oldVal, newVal) -> 
+        num1.addListener((observable, oldVal, newVal) -> 
         	System.out.printf(String.format("** num1 changed from %d to %d %n", oldVal, newVal))
         );
 
@@ -34,25 +34,18 @@ public class SimpleProperties {
         System.out.println("num1 is " + num1.getValue()
 					+ " and num2 is " + num2.getValue());
         
-		final StringProperty textProp = new SimpleStringProperty("Salam");
-		System.out.println("textProp: " + textProp);
-		System.out.println("getValue(): " + textProp.getValue());
+		final StringProperty stringProp = new SimpleStringProperty("Salam");
+		System.out.println("\nstringProp: " + stringProp);
+		System.out.println("get(): " + stringProp.get());
 
 		final IntegerProperty intProp1 = new SimpleIntegerProperty(10);
 		final IntegerProperty intProp2 = new SimpleIntegerProperty(2);
-		System.out.println("subtract(): " + intProp1.add(40).subtract(intProp2));
-		System.out.println("multiply(): " + intProp1.multiply(intProp2).getValue());
+		final IntegerProperty sum = new SimpleIntegerProperty(0);
+		sum.bind(intProp1.add(intProp2));
+		
+		System.out.printf("%n%d + %d = %d %n", intProp1.get(), intProp2.get(), sum.get());
+		intProp1.set(intProp1.get() + 10);
+		System.out.printf("Auto-updated sum %d + %d = %d %n", intProp1.get(), intProp2.get(), sum.get());
+		
 	}
 }
-
-/*
-public class Conference {
- private StringProperty name = new SimpleStringProperty();
- Conference(String name) { setName(name); }
- public StringProperty nameProperty() { return this.name; } 
- public String getName() { return this.name.get( ); } 
- public void setName(String name) { this.name.set(name); }
-}
-final Conference conf = new Conference();
-nameTf.textProperty().bindBidirectional(conf.nameProperty());
-*/

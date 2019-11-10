@@ -1,13 +1,15 @@
 package _8.binding.studentapp;
 
+import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 public class Student {
-    private final SimpleIntegerProperty id;
-    private final SimpleStringProperty firstName;
-    private final SimpleStringProperty lastName;
-    private final SimpleStringProperty email;
+    private final IntegerProperty id;
+    private final StringProperty firstName;
+    private final StringProperty lastName;
+    private final StringProperty email;
 
     public Student() {
     	 this(0, "", "", "");
@@ -24,10 +26,10 @@ public class Student {
      * Property getter method consists of the property name followed 
      * by the word “Property”
     */
-    public SimpleIntegerProperty idProperty() { return id; }
-    public SimpleStringProperty firstNameProperty() { return firstName; }
-    public SimpleStringProperty lastNameProperty() { return lastName; }
-    public SimpleStringProperty emailProperty() { return email; }
+    public IntegerProperty idProperty() { return id; }
+    public StringProperty firstNameProperty() { return firstName; }
+    public StringProperty lastNameProperty() { return lastName; }
+    public StringProperty emailProperty() { return email; }
 
     public int getId() {
         return this.id.get();

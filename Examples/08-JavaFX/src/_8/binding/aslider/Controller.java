@@ -25,9 +25,9 @@ public class Controller {
     
     //Version 1 using property change listeners
     @FXML
-    public void initializeV1() {
+    public void initializev1() {
     	progressSlider.valueProperty().addListener((observable, oldVal, newVal) -> {
-    		System.out.println(observable);
+    		//System.out.printf("oldValue: %d new value: %d%n", oldVal.intValue(), newVal.intValue());
     		double progressValue = newVal.doubleValue();
     		progressTextField.setText( String.valueOf(newVal.intValue()) );
     		progressLabel.setText( String.format("%3.0f %% done", progressValue) );
@@ -35,6 +35,7 @@ public class Controller {
     	});
     	
     	progressTextField.textProperty().addListener((observable, oldVal, newVal) -> {
+    		System.out.printf("oldValue: %s new value: %s %n", oldVal, newVal);
     		double progressValue = 0;
     		if (!newVal.isEmpty())
     			progressValue = Double.valueOf(newVal.toString());
@@ -44,11 +45,10 @@ public class Controller {
     }
     
     //Better version using property bindings
-    @FXML
     public void initialize() {
-        progressTextField.textProperty().bindBidirectional(progressSlider.valueProperty(),
-                NumberFormat.getNumberInstance());
         progressLabel.textProperty().bind(progressSlider.valueProperty().asString("%.0f %% done"));
         progressIndicator.progressProperty().bind(progressSlider.valueProperty().divide(100));
+        progressTextField.textProperty().bindBidirectional(progressSlider.valueProperty(),
+                NumberFormat.getNumberInstance());
     }
 }
