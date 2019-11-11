@@ -1,5 +1,6 @@
 package _7.properties;
 
+import javafx.beans.binding.Bindings;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -34,10 +35,14 @@ public class SimpleProperties {
         System.out.println("num1 is " + num1.getValue()
 					+ " and num2 is " + num2.getValue());
         
-		final StringProperty stringProp = new SimpleStringProperty("Salam");
-		System.out.println("\nstringProp: " + stringProp);
-		System.out.println("get(): " + stringProp.get());
+		final StringProperty nameProp = new SimpleStringProperty("Fatima");
+		final StringProperty welcomeProp = new SimpleStringProperty("");
+		welcomeProp.bind(Bindings.concat("Welcome ", nameProp));
+		System.out.println("\nWelcome message: " + welcomeProp.get());
 
+		nameProp.set("Sarah");
+		System.out.println("Aut-updated Welcome message: " + welcomeProp.get());
+		
 		final IntegerProperty intProp1 = new SimpleIntegerProperty(10);
 		final IntegerProperty intProp2 = new SimpleIntegerProperty(2);
 		final IntegerProperty sum = new SimpleIntegerProperty(0);
@@ -45,7 +50,7 @@ public class SimpleProperties {
 		
 		System.out.printf("%n%d + %d = %d %n", intProp1.get(), intProp2.get(), sum.get());
 		intProp1.set(intProp1.get() + 10);
-		System.out.printf("Auto-updated sum %d + %d = %d %n", intProp1.get(), intProp2.get(), sum.get());
+		System.out.printf("Auto-updated sum: %d + %d = %d %n", intProp1.get(), intProp2.get(), sum.get());
 		
 	}
 }
