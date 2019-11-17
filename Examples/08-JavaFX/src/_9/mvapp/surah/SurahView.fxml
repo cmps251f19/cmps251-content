@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="202.0" prefWidth="597.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_9.mvapp.surah.SurahController">
+    <top>
+        <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+         <Label text="Surah Type" />
+         <ComboBox fx:id="surahTypeCombo" onAction="#handleAyaTypeChanged" prefHeight="25.0" prefWidth="180.0" />
+        </ToolBar>
+    </top>
+    <center>
+      <AnchorPane>
+         <children>
+            <TableView fx:id="surahTable" prefHeight="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="46.0" text="Id" />
+                <TableColumn fx:id="nameCol" prefWidth="180.33337020874023" text="Name" />
+                  <TableColumn fx:id="englishNameCol" prefWidth="143.33338928222656" text="English Name" />
+                  <TableColumn fx:id="ayaCountCol" prefWidth="85.0" text="AyaCount" />
+                  <TableColumn fx:id="typeCol" prefWidth="113.99996948242188" text="Type" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    </center>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="18.0" prefWidth="597.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="messageLabel" alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="113.0" text=".">
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </bottom>
+</BorderPane>

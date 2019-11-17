@@ -1,6 +1,6 @@
 package inheritance.employee;
 
-public class PayableTest 
+public class PayableApp 
 {
    public static void main( String args[] )
    {

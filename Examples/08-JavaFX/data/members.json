@@ -1,0 +1,29 @@
+[ {
+  "@type" : "Student",
+  "id" : 1,
+  "firstName" : "Ali",
+  "lastName" : "Faleh",
+  "email" : "ali@example.com",
+  "gpa" : 2.5
+}, {
+  "@type" : "Student",
+  "id" : 5,
+  "firstName" : "Khadija",
+  "lastName" : "Saleh",
+  "email" : "khadija@example.com",
+  "gpa" : 3.8
+}, {
+  "@type" : "Student",
+  "id" : 10,
+  "firstName" : "Mariam",
+  "lastName" : "Salem",
+  "email" : "mariam@example.com",
+  "gpa" : 3.6
+}, {
+  "@type" : "Faculty",
+  "id" : 20,
+  "firstName" : "Abbes",
+  "lastName" : "Ibn Firnas",
+  "email" : "abbes@example.com",
+  "office" : "C07-Fun Room"
+} ]

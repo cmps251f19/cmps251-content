@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" prefHeight="202.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="_9.mvapp.MainController">
+    <top>
+        <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+            <Button onAction="#handleMembersRegister" text="👨‍👩‍👧‍👦 Members Register">
+            </Button>
+            <Separator />
+         <Button mnemonicParsing="false" onAction="#handleSurahExplorer" text="🕮 Surah Explorer" />
+        </ToolBar>
+    </top>
+</BorderPane>

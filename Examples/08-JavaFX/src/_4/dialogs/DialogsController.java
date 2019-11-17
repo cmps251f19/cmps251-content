@@ -98,9 +98,8 @@ public class DialogsController {
         Book python = new Book(3, "P01", "Python for Beginners");
  
         List<Book> books = List.of(java, csharp, python);
-        Book defaultBook = csharp;
- 
-        ChoiceDialog<Book> dialog = new ChoiceDialog<Book>(defaultBook, books);
+
+        ChoiceDialog<Book> dialog = new ChoiceDialog<Book>(null, books);
  
         dialog.setTitle("Book Selection");
         dialog.setHeaderText("Select a Book:");
