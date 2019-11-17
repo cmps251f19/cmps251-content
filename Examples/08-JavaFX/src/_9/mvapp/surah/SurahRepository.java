@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class SurahRepository {
@@ -15,7 +16,7 @@ public class SurahRepository {
 		String filePath = "data/surahs.json";
 		try {
 			Surah[] surahsArray = jsonMapper.readValue(new File(filePath), Surah[].class);
-			List<Surah> surahs = Arrays.asList(surahsArray);
+			surahs = Arrays.asList(surahsArray);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -33,5 +34,12 @@ public class SurahRepository {
 		// Get Surahs by surahType
 		return surahs.stream().filter(s -> surahType.equals("All") || s.getType().equalsIgnoreCase(surahType))
 						      .collect(Collectors.toList());
+	}
+	
+	public String surahToJson() throws JsonProcessingException {
+		ObjectMapper jsonMapper = new ObjectMapper();
+		Surah surah = new Surah(1, "الفاتحة" ,"Al-Fatiha", 7, "Meccan");
+		String surahJSON = jsonMapper.writeValueAsString(surah);
+		return surahJSON;
 	}
 }

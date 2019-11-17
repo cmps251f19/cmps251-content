@@ -40,7 +40,7 @@ public class MembersController {
     private Button updateButton;
     
     @FXML
-    private TableView<Member> studentsTable;
+    private TableView<Member> membersTable;
 
     @FXML
     private TableColumn<Member, Integer> idCol;
@@ -63,16 +63,16 @@ public class MembersController {
     @FXML
     private Label messageLabel;
 
-	private ObservableList<Member> studentsOL = null;
+	private ObservableList<Member> membersOL = null;
 	
     @FXML
     void handleDelete(ActionEvent event) {
     	
 		Optional<ButtonType> isConfirmed = showConfirmationDialog("Confim Delete", 
-				"Delete Confirmation", "Are you sure you would like to delete the selected student?");
+				"Delete Confirmation", "Are you sure you would like to delete the selected member?");
 		if (isConfirmed.get() == ButtonType.OK) {
-			int selectedIdx = studentsTable.getSelectionModel().getSelectedIndex();
-			studentsOL.remove(selectedIdx);
+			int selectedIdx = membersTable.getSelectionModel().getSelectedIndex();
+			membersOL.remove(selectedIdx);
 		}
     }
     
@@ -89,7 +89,7 @@ public class MembersController {
     	
     	if (event.getSource().equals(updateButton)) {
     		mode = DialogMode.UPDATE;
-    		member = studentsTable.getSelectionModel().getSelectedItem();
+    		member = membersTable.getSelectionModel().getSelectedItem();
     		dialogTitle = String.format("Update %s", member.getClass().getSimpleName() );
     	} else if (event.getSource().equals(addStudentMenuItem)) {
     		mode = DialogMode.ADD;
@@ -107,16 +107,16 @@ public class MembersController {
             // Load the fxml file and create a new popup dialog.
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("MemberEditor.fxml"));
-            DialogPane studentDialogPane = fxmlLoader.load();
+            DialogPane memberDialogPane = fxmlLoader.load();
             
-            //Get the student controller associated with the view            
-            MemberController studentController = fxmlLoader.getController();
-            //Pass the new student / student to the update the controller associated
-            //with the studentDialogPane
-            studentController.setMember(member);
+            //Get the member controller associated with the view            
+            MemberController memberController = fxmlLoader.getController();
+            //Pass the new member / member to the update the controller associated
+            //with the memberDialogPane
+            memberController.setMember(member);
             
     		Dialog<ButtonType> dialog = new Dialog<>();
-    		dialog.setDialogPane(studentDialogPane);
+    		dialog.setDialogPane(memberDialogPane);
     		dialog.setTitle(dialogTitle);
             
     		Optional<ButtonType> clickedButton = dialog.showAndWait();
@@ -124,7 +124,7 @@ public class MembersController {
     		if (clickedButton.get() == ButtonType.OK){
     			System.out.println("User selected ok"); 
     			if (mode == DialogMode.ADD) {
-    				studentsOL.add(member);
+    				membersOL.add(member);
     			}
     		}
         } catch (IOException e) {
@@ -134,19 +134,19 @@ public class MembersController {
     
     @FXML
     void handleSave(ActionEvent event) {
-    	MemberRepository.saveMembers(studentsOL.toArray(new Member[studentsOL.size()]));
+    	MemberRepository.saveMembers(membersOL.toArray(new Member[membersOL.size()]));
     	showInformationDialog("Confirmation", "", "Students saved successfuly.");
     }
 
     //Auto called when the view is created
     public void initialize() {
-		//Initialize the list of students and pass it to studentsTable to display it
+		//Initialize the list of members and pass it to membersTable to display it
 		//Must convert a list to an ObservableList to be able to use it with the TableView component
-    	List<Member> students = MemberRepository.getStudents();
-		studentsOL = FXCollections.observableArrayList( students );
-    	studentsTable.setItems(studentsOL);
+    	List<Member> members = MemberRepository.getMembers();
+		membersOL = FXCollections.observableArrayList( members );
+    	membersTable.setItems(membersOL);
     	
-    	//Link table columns to student attributes
+    	//Link table columns to member attributes
     	/*A TableColumn must have a cell value factory to extracts from 
     	the object the value to be displayed in each cell (on each row) in the column. */
     	idCol.setCellValueFactory(new PropertyValueFactory("id"));
@@ -171,16 +171,16 @@ public class MembersController {
         		return new SimpleStringProperty();
         });
         
-        //If no student selected then disable to delete button
+        //If no member selected then disable to delete button
 		deleteButton.disableProperty().bind( Bindings.isNull(
-				studentsTable.getSelectionModel().selectedItemProperty()) );
+				membersTable.getSelectionModel().selectedItemProperty()) );
 		
 		updateButton.disableProperty().bind( Bindings.isNull(
-				studentsTable.getSelectionModel().selectedItemProperty()) );
+				membersTable.getSelectionModel().selectedItemProperty()) );
 		
 		//Bind message label to the index of the selected table row
 		messageLabel.textProperty().bind(
-				studentsTable.getSelectionModel().selectedIndexProperty().asString());
+				membersTable.getSelectionModel().selectedIndexProperty().asString());
     }
     
 	private Optional<ButtonType> showConfirmationDialog(String title, String headerText, String contentText) {

@@ -30,7 +30,7 @@ public class StudentRepository {
 	public static void saveStudents(Student[] students) {
 		ObjectMapper jsonMapper = new ObjectMapper();
 		String filePath = "data/students.json";
-		// Write json to a file
+		// Write students array to a json file
 		try {
 			jsonMapper.writeValue(new File(filePath), students);
 		} catch (IOException e) {

@@ -1,8 +1,5 @@
 package inheritance.member;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MemberTest {
 
 	public static void main(String[] args) {

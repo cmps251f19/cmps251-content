@@ -11,17 +11,17 @@ public class MemberRepository {
 
 	private static final ObjectMapper jsonMapper = new ObjectMapper();
 	  
-    public static List<Member> getStudents() {
-    	List<Member> students = null;
-		String filePath = "data/students.json";
+    public static List<Member> getMembers() {
+    	List<Member> members = null;
+		String filePath = "data/members.json";
 		try {
-			Member[] studentsArray = jsonMapper.readValue(new File(filePath), Member[].class);
-			students = Arrays.asList(studentsArray);
+			Member[] membersArray = jsonMapper.readValue(new File(filePath), Member[].class);
+			members = Arrays.asList(membersArray);
 			
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-        return students;
+        return members;
     }
     
 	public static void saveMembers(Member[] members) {
@@ -31,7 +31,7 @@ public class MemberRepository {
 				new Student(10, "Mariam", "Salem", "mariam@example.com", 3.6),
 				new Faculty(20, "Abbes", "Ibn Firnas", "abbes@example.com", "C07-Fun Room")
 		};*/
-		String filePath = "data/students.json";
+		String filePath = "data/members.json";
 		try {
 			jsonMapper.writerWithDefaultPrettyPrinter().writeValue(new File(filePath), members);
 		} catch (IOException e) {
