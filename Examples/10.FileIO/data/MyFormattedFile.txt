@@ -1,4 +1,4 @@
-Hi there, this is being written to a file.
+This is being written to a file.
 0
 1
 2

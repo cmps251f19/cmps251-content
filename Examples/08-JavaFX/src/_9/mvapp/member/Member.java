@@ -9,12 +9,13 @@ import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+//Instructing the json library to add @type to each object when saving
 @JsonTypeInfo(use=JsonTypeInfo.Id.NAME, 
 	include=JsonTypeInfo.As.PROPERTY, property="@type")
 @JsonSubTypes({ 
 	  @Type(value = Student.class, name = "Student"),
 	  @Type(value = Faculty.class, name = "Faculty")
-})
+}) 
 
 public abstract class Member {
     private final IntegerProperty id;

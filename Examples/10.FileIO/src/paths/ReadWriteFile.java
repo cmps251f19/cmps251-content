@@ -2,13 +2,17 @@ package paths;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.OpenOption;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class ReadAll {
+import static java.nio.file.StandardOpenOption.CREATE;
+import static java.nio.file.StandardOpenOption.APPEND;
+
+public class ReadWriteFile {
 
 	public static void main(String[] args) {
 		String inputFileName = "data/countries.txt";
@@ -22,18 +26,16 @@ public class ReadAll {
 							 .collect(Collectors.toList());
 
 			System.out.println(countries);
-			Files.write(Paths.get(outputFileName), countries);
+			//In case we want to append to the file instead of overwrite we can pass these option
+			OpenOption[] options = new OpenOption[] { CREATE, APPEND };
+			
+			Files.write(Paths.get(outputFileName), countries, options);
 			
 			System.out.printf("%nThere are %d letters in %s", 
 						countFileLetters(inputFileName),
 						inputFileName);
 			
 			createTestFile();
-			
-			System.out.println("\n\n.json Files in data folder:");
-			printPathsInFolder("data", 
-						f -> f.getFileName().toString().endsWith(".json") 
-					);
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -52,28 +54,4 @@ public class ReadAll {
 					List.of("Line One", "Line Two", "Final Line");
 			Files.write(path, lines);
 	}
-	
-	public static void printPathsInFolder(String path, Predicate<Path> filter) {
-		try {
-			Files.list(Paths.get(path))
-				 .filter(filter)
-				 .map(f -> f.getFileName())
-				 .forEach(System.out::println);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	/*public static void printWalkPathsInFolders(String folder, String extension) throws IOException {
-		Files.list(Paths.get(folder))
-			 .filter(f -> f.getFileName().toString().endsWith(extension) || extension.isEmpty())
-			 .forEach(path -> {
-				 System.out.println(path);
-				 System.out.println(Files.isDirectory(path));
-				if (Files.isDirectory(path))
-					printPathsInFolder(path, extension);
-				else
-					System.out.println(path);
-			 });
-	}*/
 }
