@@ -1,4 +1,4 @@
-package paths;
+package fileio;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import static java.nio.file.StandardOpenOption.CREATE;
 import static java.nio.file.StandardOpenOption.APPEND;
 
-public class ReadWriteFile {
+public class ReadWriteJsonFile {
 
 	public static void main(String[] args) {
 		String inputFileName = "data/countries.txt";
@@ -26,16 +26,20 @@ public class ReadWriteFile {
 							 .collect(Collectors.toList());
 
 			System.out.println(countries);
+			
+			Files.write(Paths.get(outputFileName), countries);
+			
 			//In case we want to append to the file instead of overwrite we can pass these option
 			OpenOption[] options = new OpenOption[] { CREATE, APPEND };
 			
-			Files.write(Paths.get(outputFileName), countries, options);
+			List<String> lines =
+					List.of("Line One", "Line Two", "Final Line");
 			
-			System.out.printf("%nThere are %d letters in %s", 
+			Files.write(Paths.get(outputFileName), lines, options); 
+			
+			System.out.printf("%nThere are %d characters in %s", 
 						countFileLetters(inputFileName),
 						inputFileName);
-			
-			createTestFile();
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -46,12 +50,5 @@ public class ReadWriteFile {
 		return Files.lines(Paths.get(inputFileName))
 					.mapToInt(String::length)
 					.sum();
-	}
-	
-	private static void createTestFile() throws IOException {
-			Path path = Paths.get("data/testFile.txt");
-			List<String> lines =
-					List.of("Line One", "Line Two", "Final Line");
-			Files.write(path, lines);
 	}
 }

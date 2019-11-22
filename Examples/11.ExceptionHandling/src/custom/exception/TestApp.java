@@ -1,7 +1,6 @@
 package custom.exception;
 
-
-public class ThrowCatchApp {
+public class TestApp {
 	public static void main(String[] args) {
 		int grades[] = { 14, 19, 20, 17, 10, 16 };
 		try {

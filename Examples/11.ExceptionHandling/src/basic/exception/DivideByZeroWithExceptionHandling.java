@@ -1,9 +1,6 @@
-package exceptions;
-// Fig. 11.2: DivideByZeroWithExceptionHandling.java
-// Handling ArithmeticExceptions and InputMismatchExceptions.
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
+package basic.exception;
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class DivideByZeroWithExceptionHandling {
@@ -14,28 +11,13 @@ public class DivideByZeroWithExceptionHandling {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * You may use the System.err (standard error stream) object to output error messages. 
-			- By default, displays data to the command prompt. 
-			- Can be redirected to a log file.
-		 */
-		//Optional - redirect output written to System.err to a file
-		PrintStream printStream;
-		try {
-			printStream = new PrintStream("errors.txt");
-			System.setErr(printStream);
-			//You can undo it by reassigning the “standard” output stream.
-			//System.setOut(System.err); 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
-	
-		Scanner scanner = new Scanner(System.in); // scanner for input
+		 // scanner for input
 		boolean continueLoop = true; // determines if more input is needed
 		
+		Scanner scanner =new Scanner(System.in);
 		do {
-			try // read two numbers and calculate quotient
-			{
+			try {
+			// read two numbers and calculate quotient
 				System.out.print("Please enter an integer numerator: ");
 				int numerator = scanner.nextInt();
 				System.out.print("Please enter an integer denominator: ");
@@ -46,8 +28,8 @@ public class DivideByZeroWithExceptionHandling {
 						denominator, result);
 				continueLoop = false; // input successful; end looping
 			} 
-			catch (InputMismatchException inputMismatchException) {
-				System.err.printf("\nException: %s\n", inputMismatchException);
+			catch (NoSuchElementException noSuchElementException) {
+				System.err.printf("\nException: %s\n", noSuchElementException);
 				scanner.nextLine(); // discard input so user can try again
 				System.out.println("You must enter integers. Please try again.\n");
 			} 
