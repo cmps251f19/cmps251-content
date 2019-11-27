@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane prefHeight="202.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memberapp.MembersController">
+    <top>
+        <ToolBar prefHeight="27.0" prefWidth="650.0" styleClass="toolbar">
+         <MenuButton mnemonicParsing="false" text="➕ Add">
+           <items>
+             <MenuItem fx:id="addStudentMenuItem" mnemonicParsing="false" onAction="#handleAdd" text="Student" />
+             <MenuItem fx:id="addFacultyMenuItem" mnemonicParsing="false" onAction="#handleAdd" text="Faculty" />
+           </items>
+         </MenuButton>
+         <Separator layoutX="140.0" layoutY="10.0" />
+         <Button fx:id="updateButton" mnemonicParsing="false" onAction="#handleUpdate" text="🖆 Update" />
+            <Button fx:id="deleteButton" onAction="#handleDelete" text="🗑 Delete">
+            </Button>
+            <Separator />
+         <Button mnemonicParsing="false" onAction="#handleSave" text="🗄 Save" />
+        </ToolBar>
+    </top>
+    <center>
+      <AnchorPane>
+         <children>
+            <TableView fx:id="membersTable" prefHeight="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="75.0" text="Id" />
+                <TableColumn fx:id="firstNameCol" prefWidth="116.99999237060547" text="First name" />
+                  <TableColumn fx:id="lastNameCol" prefWidth="116.33332824707031" text="Last name" />
+                  <TableColumn fx:id="emailCol" prefWidth="216.33334350585938" text="Email" />
+                  <TableColumn fx:id="gpaCol" prefWidth="75.0" text="GPA" />
+                  <TableColumn fx:id="officeCol" prefWidth="122.666748046875" text="Office" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+    </center>
+    <bottom>
+        <HBox alignment="TOP_RIGHT" style="-fx-background-color: gray;" styleClass="footer">
+            <Label fx:id="messageLabel" text="..." textFill="WHITE">
+            <padding>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+         </Label>
+        </HBox>
+    </bottom>
+</BorderPane>

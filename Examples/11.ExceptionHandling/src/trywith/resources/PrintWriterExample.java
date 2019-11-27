@@ -1,4 +1,4 @@
-package fileio;
+package trywith.resources;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -6,8 +6,8 @@ import java.io.PrintWriter;
 public class PrintWriterExample {
 
 	public static void main(String[] args) {
-		String path = "data/MyFormattedFile.txt";
-		// printWriter will be auto-closed once the try block completes execution
+		String path = "MyFormattedFile.txt";
+		// printWriter will be auto-closed one the try block completes execution
 		try (PrintWriter printWriter = new PrintWriter(path);) {
 			printWriter.println("This is being written to a file.");
 
