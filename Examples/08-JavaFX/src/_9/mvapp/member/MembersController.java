@@ -140,6 +140,8 @@ public class MembersController {
 
     //Auto called when the view is created
     public void initialize() {
+    	//Only run the line below to insert some test data
+    	//MemberRepository.saveMembers(null);
 		//Initialize the list of members and pass it to membersTable to display it
 		//Must convert a list to an ObservableList to be able to use it with the TableView component
     	List<Member> members = MemberRepository.getMembers();

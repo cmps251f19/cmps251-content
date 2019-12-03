@@ -4,21 +4,24 @@
   "firstName" : "Ali",
   "lastName" : "Faleh",
   "email" : "ali@example.com",
-  "gpa" : 2.5
+  "gpa" : 3.5,
+  "dob" : "2000-01-20"
 }, {
   "@type" : "Student",
   "id" : 5,
   "firstName" : "Khadija",
   "lastName" : "Saleh",
   "email" : "khadija@example.com",
-  "gpa" : 3.8
+  "gpa" : 3.8,
+  "dob" : "2000-01-21"
 }, {
   "@type" : "Student",
   "id" : 10,
   "firstName" : "Mariam",
   "lastName" : "Salem",
   "email" : "mariam@example.com",
-  "gpa" : 3.6
+  "gpa" : 3.6,
+  "dob" : "2000-01-22"
 }, {
   "@type" : "Faculty",
   "id" : 20,
