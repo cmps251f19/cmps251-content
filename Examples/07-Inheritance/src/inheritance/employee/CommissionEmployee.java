@@ -35,7 +35,7 @@ public class CommissionEmployee extends Employee
 
    // Implement interface Payable method not 
    // implemented by superclass Employee
-   public double getPaymentAmount()
+   public double getAmount()
    {
       return getCommissionRate() * getGrossSales();
    }

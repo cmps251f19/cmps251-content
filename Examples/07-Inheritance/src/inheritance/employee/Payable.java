@@ -3,7 +3,7 @@ package inheritance.employee;
 public interface Payable 
 {
    // By default methods are public abstract 
-   double getPaymentAmount();
+   double getAmount();
 
    public static final double SALE_TAX = 5;
    // By default attributes are public static final 
@@ -11,7 +11,7 @@ public interface Payable
    
    //By default all methods are public
    public default String amountToCurrency() {
-	   return String.format("QR %.2f", getPaymentAmount());
+	   return String.format("QR %.2f", getAmount());
    }
    
    public static String toCurrency(double amount) {

@@ -7,6 +7,15 @@ public class Invoice implements Payable
    private int quantity;
    private double unitPrice;
 
+   public Invoice( String partNumber, String partDescription, 
+		      double unitPrice )
+		   {
+		      this.partNumber = partNumber;
+		      this.partDescription = partDescription;
+		      setQuantity( 1 );
+		      setUnitPrice( unitPrice );
+		   }
+   
    public Invoice( String partNumber, String partDescription, int quantity, 
       double unitPrice )
    {
@@ -21,7 +30,7 @@ public class Invoice implements Payable
       partNumber = part;  
    }
 
-   public String getPartNumber()
+   public String getInvoiceNo()
    {
       return partNumber;
    }
@@ -58,7 +67,7 @@ public class Invoice implements Payable
    
    // Implements the Payable interface
    @Override
-   public double getPaymentAmount() 
+   public double getAmount() 
    {
       return getQuantity() * getUnitPrice() * (1 + Payable.SALE_TAX / 100); // calculate total cost
    }
@@ -66,7 +75,7 @@ public class Invoice implements Payable
    public String toString()
    {
       return String.format( "%s: \n%s: %s (%s) \n%s: %d \n%s: $%,.2f", 
-         "invoice", "part number", getPartNumber(), getPartDescription(), 
+         "invoice", "part number", getInvoiceNo(), getPartDescription(), 
          "quantity", getQuantity(), "price per item", getUnitPrice() );
    }
 }

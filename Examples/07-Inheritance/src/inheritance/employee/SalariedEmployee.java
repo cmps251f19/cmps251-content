@@ -23,7 +23,7 @@ public class SalariedEmployee extends Employee
 
    // Implement interface Payable method that was
    // abstract in superclass Employee
-   public double getPaymentAmount()
+   public double getAmount()
    {
       return getSalary();
    }

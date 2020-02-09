@@ -4,14 +4,14 @@ public abstract class Employee implements Payable
 {
    private String firstName;
    private String lastName;
-   private String qid;
+   private String employeeId;
 
    // three-argument constructor
    public Employee( String firstName, String lastName, String qid )
    {
 	  this.firstName = firstName;
 	  this.lastName = lastName;
-      this.qid = qid;
+      this.employeeId = qid;
    }
    
    public void setFirstName( String firstName )
@@ -34,21 +34,21 @@ public abstract class Employee implements Payable
       return lastName;
    }
    
-   public void setQid( String qid )
+   public void setEmployeeId( String qid )
    {
-      this.qid = qid;
+      this.employeeId = qid;
    }
 
-   public String getQid()
+   public String getEmplyeeId()
    {
-      return qid;
+      return employeeId;
    }
 
    // return String representation of Employee object
    public String toString()
    {
       return String.format( "%s %s\nQatari Id: %s", 
-         getFirstName(), getLastName(), getQid() );
+         getFirstName(), getLastName(), getEmplyeeId() );
    }
 
    // Note: We do not implement Payable method getPaymentAmount here so  

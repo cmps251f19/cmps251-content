@@ -13,8 +13,8 @@ import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 
 public class Controller {
-    @FXML
-    private ProgressIndicator progressIndicator;
+    //@FXML
+    //private ProgressIndicator progressIndicator;
     @FXML
     private Slider progressSlider;
     @FXML
@@ -31,7 +31,7 @@ public class Controller {
     		double progressValue = newVal.doubleValue();
     		progressTextField.setText( String.valueOf(newVal.intValue()) );
     		progressLabel.setText( String.format("%3.0f %% done", progressValue) );
-    		progressIndicator.setProgress(progressValue / 100);
+    		//progressIndicator.setProgress(progressValue / 100);
     	});
     	
     	progressTextField.textProperty().addListener((observable, oldVal, newVal) -> {
@@ -47,7 +47,7 @@ public class Controller {
     //Better version using property bindings
     public void initialize() {
         progressLabel.textProperty().bind(progressSlider.valueProperty().asString("%.0f %% done"));
-        progressIndicator.progressProperty().bind(progressSlider.valueProperty().divide(100));
+        //progressIndicator.progressProperty().bind(progressSlider.valueProperty().divide(100));
         progressTextField.textProperty().bindBidirectional(progressSlider.valueProperty(),
                 NumberFormat.getNumberInstance());
     }
